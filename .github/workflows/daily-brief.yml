@@ -1,0 +1,63 @@
+name: Daily AI Brief
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 14 * * 1-5"
+    - cron: "30 15 * * 1-5"
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "tests/**"
+      - "creators.json"
+      - ".github/workflows/daily-brief.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest discover -s tests -v
+
+  publish:
+    if: github.event_name != 'push'
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check Pacific schedule
+        id: gate
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" || "$(TZ=America/Los_Angeles date +%H)" == "07" ]]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Generate brief
+        if: steps.gate.outputs.run == 'true'
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          NOTION_CONTENT_DATA_SOURCE: ${{ vars.NOTION_CONTENT_DATA_SOURCE }}
+          NOTION_BRIEF_DATA_SOURCE: ${{ vars.NOTION_BRIEF_DATA_SOURCE }}
+        run: python src/generate_brief.py --force
+      - name: Save brief history
+        if: steps.gate.outputs.run == 'true'
+        shell: bash
+        run: |
+          git config user.name "daily-ai-brief-bot"
+          git config user.email "daily-ai-brief-bot@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || git commit -m "Publish daily AI brief"
+          git push
