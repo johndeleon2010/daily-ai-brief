@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Daily AI Brief</title>
+  <meta name="description" content="A private weekday briefing from selected AI creators.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scroll-meter" aria-hidden="true"><span id="scrollMeter"></span></div>
+  <header class="masthead">
+    <a class="brand" href="#top" aria-label="Daily AI Brief home">
+      <span class="monogram">DA</span>
+      <span>Daily AI Brief</span>
+    </a>
+    <div class="edition" id="edition">Weekday edition</div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="kicker">Morning signal report</p>
+      <h1>What matters in AI today.</h1>
+      <p class="hero-copy" id="summary">Loading the latest source backed briefing.</p>
+      <div class="status-line">
+        <span class="pulse" aria-hidden="true"></span>
+        <span id="generated">Checking sources</span>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="Brief filters">
+      <div class="filter-group" id="filters" role="group" aria-label="Filter by topic">
+        <button class="filter active" data-topic="all" type="button">All signals</button>
+      </div>
+      <span class="result-count" id="resultCount"></span>
+    </section>
+
+    <section class="brief-grid" id="briefGrid" aria-live="polite"></section>
+
+    <section class="source-health" id="sourceHealth">
+      <div>
+        <p class="section-label">Source health</p>
+        <h2>Collection status</h2>
+      </div>
+      <div class="health-value" id="healthValue">Checking</div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Built for focused weekday review.</span>
+    <a href="https://app.notion.com/p/3db9c81e959c8158939bd1509176c93c" rel="noreferrer">Open Notion archive</a>
+  </footer>
+
+  <template id="emptyTemplate">
+    <article class="empty-card">
+      <span class="empty-index">00</span>
+      <div>
+        <h2>The first brief is waiting.</h2>
+        <p>Run the Daily AI Brief workflow from the Actions tab after adding the required repository secrets.</p>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

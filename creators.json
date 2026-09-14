@@ -1,0 +1,14 @@
+[
+  {"name":"Andrej Karpathy","focus":["AI engineering","AI education"],"priority":3,"youtube":"https://www.youtube.com/@AndrejKarpathy"},
+  {"name":"Paul Lipsky","focus":["Agent systems","AI business"],"priority":3,"youtube":"https://www.youtube.com/@PaulJLipsky"},
+  {"name":"René Remsik","focus":["AI education","Productivity"],"priority":2,"youtube":"https://www.youtube.com/channel/UCDI1QTPzFvB-mQhvC2-CRrQ"},
+  {"name":"Nate Herk","focus":["Agent systems","AI business"],"priority":3,"youtube":"https://www.youtube.com/@nateherk"},
+  {"name":"Ben AI","focus":["Agent systems","Automation"],"priority":2,"youtube":"https://www.youtube.com/@BenAI92"},
+  {"name":"Sabrina Ramonov","focus":["Agent systems","Product building"],"priority":3,"youtube":"https://www.youtube.com/@SabrinaRamonov"},
+  {"name":"Nick Saraev","focus":["Agent systems","AI business"],"priority":3,"youtube":"https://www.youtube.com/@nicksaraev"},
+  {"name":"Jeff Su","focus":["Productivity","AI education"],"priority":2,"youtube":"https://www.youtube.com/@JeffSu"},
+  {"name":"Liam Ottley","focus":["Agent systems","AI business"],"priority":3,"youtube":"https://www.youtube.com/@LiamOttley"},
+  {"name":"DeepLearning.AI","focus":["AI engineering","AI education"],"priority":3,"youtube":"https://www.youtube.com/@Deeplearningai"},
+  {"name":"Tech With Tim","focus":["AI engineering","Product building"],"priority":3,"youtube":"https://www.youtube.com/@TechWithTim"},
+  {"name":"AI Founders","focus":["AI business","Product building"],"priority":2,"youtube":"https://www.youtube.com/@AIFoundersHQ"}
+]
