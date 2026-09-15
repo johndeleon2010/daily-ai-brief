@@ -10,6 +10,7 @@ GitHub Actions checks at 7:30 AM in `America/Los_Angeles`, Monday through Friday
 
 * `docs/data/latest.json` for the unlisted dashboard
 * `docs/data/YYYY-MM-DD.json` for history
+* `docs/data/archive.json` for the searchable dashboard archive
 * Notion content and daily archive records when `NOTION_TOKEN` is configured
 
 ## Required repository secrets
@@ -33,4 +34,4 @@ In repository Settings, open Pages. Set the source to Deploy from a branch, choo
 
 ## Editorial controls
 
-Every card includes an original source URL. The selector limits each creator to two cards, removes duplicate video identifiers, favors recent content, and labels fallback summaries when no AI key exists.
+Every card includes an original source URL and a practical ELI10 action for SQL, automation, AI agents, or IT operations. The selector limits each creator to two cards, removes duplicate video identifiers, favors recent content, and labels fallback summaries when no AI key exists.

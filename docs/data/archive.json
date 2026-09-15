@@ -1,0 +1,529 @@
+{
+  "briefs": [
+    {
+      "date": "2026-09-15",
+      "editorial_summary": "10 high signal items from 9 creators.",
+      "item_count": 10
+    },
+    {
+      "date": "2026-09-14",
+      "editorial_summary": "9 high signal items from 7 creators.",
+      "item_count": 9
+    }
+  ],
+  "items": [
+    {
+      "brief_date": "2026-09-15",
+      "creator": "Jeff Su",
+      "title": "Write a Killer Résumé in the AI Era: 5 New Rules!",
+      "published": "2026-09-15T13:00:20+00:00",
+      "source": "https://www.youtube.com/watch?v=N1Fm4JYae1I",
+      "score": 84,
+      "summary": "Jeff Su shared a lesson called Write a Killer Résumé in the AI Era: 5 New Rules.",
+      "why_it_matters": "This lesson may help with IT operations work.",
+      "topics": [
+        "Productivity",
+        "AI education"
+      ],
+      "practical_action": {
+        "work_area": "IT operations",
+        "title": "Write proof of one IT skill",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Choose one SQL, automation, or IT skill you use at work.",
+          "Write the problem, your action, and the result.",
+          "Add one number that proves the result."
+        ],
+        "expected_result": "A short skill example backed by a real result.",
+        "test": "Another manager understands what you did and why it helped.",
+        "safety": "Remove staff names, account data, and private system details."
+      }
+    },
+    {
+      "brief_date": "2026-09-15",
+      "creator": "René Remsik",
+      "title": "How To Spot AI Content",
+      "published": "2026-09-15T13:11:00+00:00",
+      "source": "https://www.youtube.com/shorts/riD9x8H9G3Y",
+      "score": 79,
+      "summary": "René Remsik shared a lesson called How To Spot AI Content.",
+      "why_it_matters": "This lesson may help with IT operations work.",
+      "topics": [
+        "AI education",
+        "Productivity"
+      ],
+      "practical_action": {
+        "work_area": "IT operations",
+        "title": "Write an AI content check",
+        "time_needed": "10 minutes",
+        "steps": [
+          "Choose one sample AI answer about an IT topic.",
+          "Check its source, date, and main fact.",
+          "Write pass or fail beside each check."
+        ],
+        "expected_result": "A three point check for AI written IT content.",
+        "test": "Another technician gets the same pass or fail result.",
+        "safety": "Treat the AI answer as a draft until a person checks it."
+      }
+    },
+    {
+      "brief_date": "2026-09-15",
+      "creator": "Tech With Tim",
+      "title": "I Replaced Myself With 4 AI Agents... It Actually Worked",
+      "published": "2026-09-14T13:00:17+00:00",
+      "source": "https://www.youtube.com/watch?v=0nU4lQnnSz0",
+      "score": 70,
+      "summary": "Tech With Tim shared a lesson called I Replaced Myself With 4 AI Agents... It Actually Worked.",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Plan one safe IT automation",
+        "time_needed": "30 minutes",
+        "steps": [
+          "Choose one repeated IT task.",
+          "Write the trigger, input, steps, and output.",
+          "Mark where a person must approve the result."
+        ],
+        "expected_result": "A one page automation plan.",
+        "test": "Another technician understands the plan without help.",
+        "safety": "Use sample data. Do not connect production systems."
+      }
+    },
+    {
+      "brief_date": "2026-09-15",
+      "creator": "Liam Ottley",
+      "title": "Office Hours: Answering Your AI-for-Business Questions (Free Q&A)",
+      "published": "2026-09-14T15:42:51+00:00",
+      "source": "https://www.youtube.com/watch?v=GTkGn8drbl4",
+      "score": 68,
+      "summary": "Liam Ottley shared a lesson called Office Hours: Answering Your AI-for-Business Questions (Free Q&A).",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Plan one safe IT automation",
+        "time_needed": "30 minutes",
+        "steps": [
+          "Choose one repeated IT task.",
+          "Write the trigger, input, steps, and output.",
+          "Mark where a person must approve the result."
+        ],
+        "expected_result": "A one page automation plan.",
+        "test": "Another technician understands the plan without help.",
+        "safety": "Use sample data. Do not connect production systems."
+      }
+    },
+    {
+      "brief_date": "2026-09-15",
+      "creator": "Paul Lipsky",
+      "title": "GPT-6 Astra + ChatGPT Work Changes Everything",
+      "published": "2026-09-14T13:00:21+00:00",
+      "source": "https://www.youtube.com/watch?v=sQwp9GrkGi4",
+      "score": 67,
+      "summary": "Paul Lipsky shared a lesson called GPT-6 Astra + ChatGPT Work Changes Everything.",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Plan one safe IT automation",
+        "time_needed": "30 minutes",
+        "steps": [
+          "Choose one repeated IT task.",
+          "Write the trigger, input, steps, and output.",
+          "Mark where a person must approve the result."
+        ],
+        "expected_result": "A one page automation plan.",
+        "test": "Another technician understands the plan without help.",
+        "safety": "Use sample data. Do not connect production systems."
+      }
+    },
+    {
+      "brief_date": "2026-09-15",
+      "creator": "AI Founders",
+      "title": "Build Your Claude Command Center In 15 Minutes (No Code)",
+      "published": "2026-09-14T16:00:30+00:00",
+      "source": "https://www.youtube.com/watch?v=CBHUn7DFhkQ",
+      "score": 66,
+      "summary": "AI Founders shared a lesson called Build Your Claude Command Center In 15 Minutes (No Code).",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "AI business",
+        "Product building"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Plan one safe IT automation",
+        "time_needed": "30 minutes",
+        "steps": [
+          "Choose one repeated IT task.",
+          "Write the trigger, input, steps, and output.",
+          "Mark where a person must approve the result."
+        ],
+        "expected_result": "A one page automation plan.",
+        "test": "Another technician understands the plan without help.",
+        "safety": "Use sample data. Do not connect production systems."
+      }
+    },
+    {
+      "brief_date": "2026-09-15",
+      "creator": "Tech With Tim",
+      "title": "Don't Just Collect AI Certifications — Do This Instead",
+      "published": "2026-09-14T12:00:08+00:00",
+      "source": "https://www.youtube.com/shorts/3sqgtMXOUHE",
+      "score": 66,
+      "summary": "Tech With Tim shared a lesson called Don't Just Collect AI Certifications — Do This Instead.",
+      "why_it_matters": "This lesson may help with IT operations work.",
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "work_area": "IT operations",
+        "title": "Turn one lesson into an IT lab",
+        "time_needed": "30 minutes",
+        "steps": [
+          "Choose one skill from the source.",
+          "Build one small test using sample data or a test system.",
+          "Save the steps and the result as proof of the skill."
+        ],
+        "expected_result": "A small working lab with written proof.",
+        "test": "Another technician follows the steps and gets the same result.",
+        "safety": "Use a test system. Do not make a production change."
+      }
+    },
+    {
+      "brief_date": "2026-09-15",
+      "creator": "Ben AI",
+      "title": "Paste This Into Claude, Never Hit a Token Limit Again",
+      "published": "2026-09-14T12:19:02+00:00",
+      "source": "https://www.youtube.com/watch?v=Jr-jyTL2MYI",
+      "score": 57,
+      "summary": "Ben AI shared a lesson called Paste This Into Claude, Never Hit a Token Limit Again.",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "Agent systems",
+        "Automation"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Build a clean agent handoff",
+        "time_needed": "20 minutes",
+        "steps": [
+          "Choose one long IT task an agent handles.",
+          "Write the facts, work done, and next step the agent must save.",
+          "Start a new test chat with only the saved handoff."
+        ],
+        "expected_result": "A short handoff template for long agent tasks.",
+        "test": "The new chat continues the task without missing a key fact.",
+        "safety": "Use sample data. Remove names, passwords, and system secrets."
+      }
+    },
+    {
+      "brief_date": "2026-09-15",
+      "creator": "Nate Herk",
+      "title": "AI News in 10 mins: 10% chance AI kills all humans",
+      "published": "2026-09-13T21:48:03+00:00",
+      "source": "https://www.youtube.com/watch?v=68HH9HVFJDM",
+      "score": 55,
+      "summary": "Nate Herk shared a lesson called AI News in 10 mins: 10% chance AI kills all humans.",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Add one human approval stop",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Choose one planned AI or automation task.",
+          "Mark the step where a wrong result would cause harm.",
+          "Require a named person to approve the result at that step."
+        ],
+        "expected_result": "One safer workflow with a clear approval owner.",
+        "test": "The workflow stops before any system or data change.",
+        "safety": "Do not let an agent change a live system on its own."
+      }
+    },
+    {
+      "brief_date": "2026-09-15",
+      "creator": "Nick Saraev",
+      "title": "I Uploaded A Fruit Fly Brain To Reply To My Emails",
+      "published": "2026-09-13T12:30:24+00:00",
+      "source": "https://www.youtube.com/watch?v=GmCbzlb091A",
+      "score": 50,
+      "summary": "Nick Saraev shared a lesson called I Uploaded A Fruit Fly Brain To Reply To My Emails.",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Plan a safe email triage flow",
+        "time_needed": "20 minutes",
+        "steps": [
+          "Write three types of IT email using sample text.",
+          "Give each type one route and one reply draft.",
+          "Add a person to approve every reply before sending."
+        ],
+        "expected_result": "A small email routing plan with three sample cases.",
+        "test": "Each sample email reaches the correct route and reply draft.",
+        "safety": "Use sample email. Do not send a message or use private data."
+      }
+    },
+    {
+      "brief_date": "2026-09-14",
+      "creator": "Tech With Tim",
+      "title": "I Replaced Myself With 4 AI Agents... It Actually Worked",
+      "published": "2026-09-14T13:00:17+00:00",
+      "source": "https://www.youtube.com/watch?v=0nU4lQnnSz0",
+      "score": 86,
+      "summary": "Tech With Tim shared a lesson called I Replaced Myself With 4 AI Agents... It Actually Worked.",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Plan one safe IT automation",
+        "time_needed": "30 minutes",
+        "steps": [
+          "Choose one repeated IT task.",
+          "Write the trigger, input, steps, and output.",
+          "Mark where a person must approve the result."
+        ],
+        "expected_result": "A one page automation plan.",
+        "test": "Another technician understands the plan without help.",
+        "safety": "Use sample data. Do not connect production systems."
+      }
+    },
+    {
+      "brief_date": "2026-09-14",
+      "creator": "Liam Ottley",
+      "title": "Office Hours: Answering Your AI-for-Business Questions (Free Q&A)",
+      "published": "2026-09-14T15:42:51+00:00",
+      "source": "https://www.youtube.com/watch?v=GTkGn8drbl4",
+      "score": 84,
+      "summary": "Liam Ottley shared a lesson called Office Hours: Answering Your AI-for-Business Questions (Free Q&A).",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Plan one safe IT automation",
+        "time_needed": "30 minutes",
+        "steps": [
+          "Choose one repeated IT task.",
+          "Write the trigger, input, steps, and output.",
+          "Mark where a person must approve the result."
+        ],
+        "expected_result": "A one page automation plan.",
+        "test": "Another technician understands the plan without help.",
+        "safety": "Use sample data. Do not connect production systems."
+      }
+    },
+    {
+      "brief_date": "2026-09-14",
+      "creator": "Paul Lipsky",
+      "title": "GPT-6 Astra + ChatGPT Work Changes Everything",
+      "published": "2026-09-14T13:00:21+00:00",
+      "source": "https://www.youtube.com/watch?v=sQwp9GrkGi4",
+      "score": 83,
+      "summary": "Paul Lipsky shared a lesson called GPT-6 Astra + ChatGPT Work Changes Everything.",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Plan one safe IT automation",
+        "time_needed": "30 minutes",
+        "steps": [
+          "Choose one repeated IT task.",
+          "Write the trigger, input, steps, and output.",
+          "Mark where a person must approve the result."
+        ],
+        "expected_result": "A one page automation plan.",
+        "test": "Another technician understands the plan without help.",
+        "safety": "Use sample data. Do not connect production systems."
+      }
+    },
+    {
+      "brief_date": "2026-09-14",
+      "creator": "AI Founders",
+      "title": "Build Your Claude Command Center In 15 Minutes (No Code)",
+      "published": "2026-09-14T16:00:30+00:00",
+      "source": "https://www.youtube.com/watch?v=CBHUn7DFhkQ",
+      "score": 82,
+      "summary": "AI Founders shared a lesson called Build Your Claude Command Center In 15 Minutes (No Code).",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "AI business",
+        "Product building"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Plan one safe IT automation",
+        "time_needed": "30 minutes",
+        "steps": [
+          "Choose one repeated IT task.",
+          "Write the trigger, input, steps, and output.",
+          "Mark where a person must approve the result."
+        ],
+        "expected_result": "A one page automation plan.",
+        "test": "Another technician understands the plan without help.",
+        "safety": "Use sample data. Do not connect production systems."
+      }
+    },
+    {
+      "brief_date": "2026-09-14",
+      "creator": "Tech With Tim",
+      "title": "Don't Just Collect AI Certifications — Do This Instead",
+      "published": "2026-09-14T12:00:08+00:00",
+      "source": "https://www.youtube.com/shorts/3sqgtMXOUHE",
+      "score": 82,
+      "summary": "Tech With Tim shared a lesson called Don't Just Collect AI Certifications — Do This Instead.",
+      "why_it_matters": "This lesson may help with IT operations work.",
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "work_area": "IT operations",
+        "title": "Turn one lesson into an IT lab",
+        "time_needed": "30 minutes",
+        "steps": [
+          "Choose one skill from the source.",
+          "Build one small test using sample data or a test system.",
+          "Save the steps and the result as proof of the skill."
+        ],
+        "expected_result": "A small working lab with written proof.",
+        "test": "Another technician follows the steps and gets the same result.",
+        "safety": "Use a test system. Do not make a production change."
+      }
+    },
+    {
+      "brief_date": "2026-09-14",
+      "creator": "Ben AI",
+      "title": "6 Simple Fable 5.1 Hacks to Never Hit a Token Limit Again",
+      "published": "2026-09-14T12:19:02+00:00",
+      "source": "https://www.youtube.com/watch?v=Jr-jyTL2MYI",
+      "score": 73,
+      "summary": "Ben AI shared a lesson called 6 Simple Fable 5.1 Hacks to Never Hit a Token Limit Again.",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "Agent systems",
+        "Automation"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Build a clean agent handoff",
+        "time_needed": "20 minutes",
+        "steps": [
+          "Choose one long IT task an agent handles.",
+          "Write the facts, work done, and next step the agent must save.",
+          "Start a new test chat with only the saved handoff."
+        ],
+        "expected_result": "A short handoff template for long agent tasks.",
+        "test": "The new chat continues the task without missing a key fact.",
+        "safety": "Use sample data. Remove names, passwords, and system secrets."
+      }
+    },
+    {
+      "brief_date": "2026-09-14",
+      "creator": "Nate Herk",
+      "title": "AI News in 10 mins: 10% chance AI kills all humans",
+      "published": "2026-09-13T21:48:03+00:00",
+      "source": "https://www.youtube.com/watch?v=68HH9HVFJDM",
+      "score": 71,
+      "summary": "Nate Herk shared a lesson called AI News in 10 mins: 10% chance AI kills all humans.",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Add one human approval stop",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Choose one planned AI or automation task.",
+          "Mark the step where a wrong result would cause harm.",
+          "Require a named person to approve the result at that step."
+        ],
+        "expected_result": "One safer workflow with a clear approval owner.",
+        "test": "The workflow stops before any system or data change.",
+        "safety": "Do not let an agent change a live system on its own."
+      }
+    },
+    {
+      "brief_date": "2026-09-14",
+      "creator": "Nick Saraev",
+      "title": "I Uploaded A Fruit Fly Brain To Reply To My Emails",
+      "published": "2026-09-13T12:30:24+00:00",
+      "source": "https://www.youtube.com/watch?v=GmCbzlb091A",
+      "score": 66,
+      "summary": "Nick Saraev shared a lesson called I Uploaded A Fruit Fly Brain To Reply To My Emails.",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Plan a safe email triage flow",
+        "time_needed": "20 minutes",
+        "steps": [
+          "Write three types of IT email using sample text.",
+          "Give each type one route and one reply draft.",
+          "Add a person to approve every reply before sending."
+        ],
+        "expected_result": "A small email routing plan with three sample cases.",
+        "test": "Each sample email reaches the correct route and reply draft.",
+        "safety": "Use sample email. Do not send a message or use private data."
+      }
+    },
+    {
+      "brief_date": "2026-09-14",
+      "creator": "Nate Herk",
+      "title": "Anthropic Engineer Explains: What to Build Instead of AI Agents",
+      "published": "2026-09-13T13:55:05+00:00",
+      "source": "https://www.youtube.com/watch?v=HIRDzMtuWFk",
+      "score": 62,
+      "summary": "Nate Herk shared a lesson called Anthropic Engineer Explains: What to Build Instead of AI Agents.",
+      "why_it_matters": "This lesson may help with automation and AI agents work.",
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "work_area": "Automation and AI agents",
+        "title": "Choose a workflow or an agent",
+        "time_needed": "20 minutes",
+        "steps": [
+          "Choose one repeated IT task.",
+          "Mark each step as fixed or needing judgment.",
+          "Use a simple workflow when every step is fixed. Use an agent only for judgment steps."
+        ],
+        "expected_result": "A clear choice between a simple workflow and an AI agent.",
+        "test": "Another technician reaches the same choice from your step list.",
+        "safety": "Do not build or connect the tool until a person reviews the choice."
+      }
+    }
+  ]
+}
