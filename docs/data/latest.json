@@ -2,7 +2,7 @@
   "date": "2026-09-15",
   "generated_at": "2026-09-15T14:45:09.765772+00:00",
   "timezone": "America/Los_Angeles",
-  "editorial_summary": "10 high signal items from 9 creators.",
+  "editorial_summary": "10 source-backed items from 9 creators.",
   "items": [
     {
       "id": "N1Fm4JYae1I",
@@ -17,9 +17,9 @@
       "source": "https://www.youtube.com/watch?v=N1Fm4JYae1I",
       "description": "📨 Get 1% better at AI every week - https://www.jeffsu.org/newsletter/?utm_source=youtube&utm_medium=video&utm_campaign=v210 Finding reliable #résumé advice was already hard enough, and now employers use #AI to screen applications. I break down research covering more than 4,000 hiring managers and nearly 2 million applications to show which résumé tips matter when AI is involved on both sides of hiring. You'll learn how to make an #ATS-friendly résumé, tailor your experience to a job description without keyword stuffing, and use AI to turn rough notes into achievement bullets you can defend. We'll also cover what hiring managers actually want to see when you list AI skills. *TIMESTAMPS* 00:00 Résumé Guide for the AI Era 00:37 Top 5 Key Takeaways 02:17 Rule 1: Make Sure AI can Read your Résumé 03:44 Rule 2: Make Your Fit Obvious 06:09 Rule 3: Know Where AI Should Stop 08:37 Rule 4: Prove Your Impact with Numbers 10:34 Rule 5: Prove Your AI Skills 12:29 Your Résumé Checklist in the AI Era *RESOURCES MENTIONED* Written guide + prompts - https://www.jeffsu.org/resume-ai-era-guide/?utm_source=youtube&utm_medium=video&utm_campaign=v210 *BUILD A POWERFUL WORKFLOW* ✅ The Cowork Academy - https://coworkacademy.ai/?utm_source=youtube&utm_medium=video&utm_campaign=v**XXX** AI Memory guide - https://www.jeffsu.org/ai-memory-explained/? 📈 The Workspace Academy - https://academy.jeffsu.org/workspace-academy?utm_source=youtube&utm_medium=video&utm_campaign=v**XXX** ✍️ My Notion Command Center - https://www.pressplay.cc/link/s/DE1C4C50 *BE MY FRIEND:* 📧 Subscribe to my newsletter - https://www.jeffsu.org/newsletter/?utm_source=youtube&utm_medium=video&utm_campaign=description 📸 Instagram - https://instagram.com/j.sushie 🤝 LinkedIn - https://www.linkedin.com/in/jsu05/ *MY FAVORITE GEAR* 🎬 My YouTube Gear - https://www.jeffsu.org/yt-gear/ 🎒 Everyday Carry - https://www.jeffsu.org/my-edc/",
       "score": 84,
-      "summary": "Jeff Su shared a lesson called Write a Killer Résumé in the AI Era: 5 New Rules.",
-      "why_it_matters": "This lesson may help with IT operations work.",
-      "try_this": "Write proof of one IT skill Time: 15 minutes. Step 1: Choose one SQL, automation, or IT skill you use at work. Step 2: Write the problem, your action, and the result. Step 3: Add one number that proves the result. Result: A short skill example backed by a real result. Test: Another manager understands what you did and why it helped. Safety: Remove staff names, account data, and private system details.",
+      "summary": "Jeff Su explains Write a Killer Résumé in the AI Era: 5 New Rules. The source focuses on You'll learn how to make a résumé that hiring software can read, tailor your experience to a job description without repeating key words too often.",
+      "why_it_matters": "The main topic is Write a Killer Résumé in the AI Era: 5 New Rules.",
+      "try_this": "Hands on task. This task uses the method from \"Write a Killer Résumé in the AI Era: 5 New Rules\": You'll learn how to make a résumé that hiring software can read. Apply the source rules to one résumé entry Time: 20 minutes. Step 1: Choose one job listing and one matching résumé entry. Step 2: Rewrite the entry with one clear action and one measured result. Step 3: Check that the wording is true and easy for hiring software to read. Result: One clear résumé entry that matches the source rules. Test: The entry names your action, result, and a true number when one exists. Safety: Do not add a skill, result, or number you cannot prove.",
       "topics": [
         "Productivity",
         "AI education"
@@ -27,19 +27,25 @@
       "confidence": "Medium",
       "summary_mode": "source fallback",
       "practical_action": {
-        "work_area": "IT operations",
-        "title": "Write proof of one IT skill",
-        "time_needed": "15 minutes",
+        "action_type": "Hands on task",
+        "article_basis": "This task uses the method from \"Write a Killer Résumé in the AI Era: 5 New Rules\": You'll learn how to make a résumé that hiring software can read.",
+        "title": "Apply the source rules to one résumé entry",
+        "time_needed": "20 minutes",
         "steps": [
-          "Choose one SQL, automation, or IT skill you use at work.",
-          "Write the problem, your action, and the result.",
-          "Add one number that proves the result."
+          "Choose one job listing and one matching résumé entry.",
+          "Rewrite the entry with one clear action and one measured result.",
+          "Check that the wording is true and easy for hiring software to read."
         ],
-        "expected_result": "A short skill example backed by a real result.",
-        "test": "Another manager understands what you did and why it helped.",
-        "safety": "Remove staff names, account data, and private system details."
+        "expected_result": "One clear résumé entry that matches the source rules.",
+        "test": "The entry names your action, result, and a true number when one exists.",
+        "safety": "Do not add a skill, result, or number you cannot prove."
       },
-      "action_version": 2
+      "action_version": 12,
+      "key_takeaways": [
+        "The main topic is Write a Killer Résumé in the AI Era: 5 New Rules.",
+        "The source says: You'll learn how to make a résumé that hiring software can read.",
+        "The source says: I break down research covering more than 4,000 hiring managers and nearly 2 million applications to show which résumé tips matter when."
+      ]
     },
     {
       "id": "riD9x8H9G3Y",
@@ -54,9 +60,9 @@
       "source": "https://www.youtube.com/shorts/riD9x8H9G3Y",
       "description": "People are tired of seeing endless amounts of AI-generated content since 2023, but those times are almost gone. The AI video models have gotten so good that it’s almost impossible to tell AI from reality. This whole video was made with @RunwayML and Seedance 2.5. Use code MKTG50 for 50% off your first month on any paid plan. #RunwayPartner #MadeWithRunway #Runway #AIcontent #AIvideo",
       "score": 79,
-      "summary": "René Remsik shared a lesson called How To Spot AI Content.",
-      "why_it_matters": "This lesson may help with IT operations work.",
-      "try_this": "Write an AI content check Time: 10 minutes. Step 1: Choose one sample AI answer about an IT topic. Step 2: Check its source, date, and main fact. Step 3: Write pass or fail beside each check. Result: A three point check for AI written IT content. Test: Another technician gets the same pass or fail result. Safety: Treat the AI answer as a draft until a person checks it.",
+      "summary": "René Remsik explains How To Spot AI Content. The source focuses on People are tired of seeing endless amounts of AI-generated content since 2023, but those times are almost gone.",
+      "why_it_matters": "The main topic is How To Spot AI Content.",
+      "try_this": "Small experiment. This task uses the method from \"How To Spot AI Content\": People are tired of seeing endless amounts of AI-generated content since 2023, but those times are almost gone. Compare real and AI made content Time: 15 minutes. Step 1: Choose two real images and two AI made images. Step 2: Write the signs you used to judge each image. Step 3: Check each source. Count how many choices were right. Result: A short list of signs that helped and signs that failed. Test: You checked the real source for all four images. Safety: Use public sample images. Do not label a person or their work without proof.",
       "topics": [
         "AI education",
         "Productivity"
@@ -64,19 +70,25 @@
       "confidence": "Medium",
       "summary_mode": "source fallback",
       "practical_action": {
-        "work_area": "IT operations",
-        "title": "Write an AI content check",
-        "time_needed": "10 minutes",
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"How To Spot AI Content\": People are tired of seeing endless amounts of AI-generated content since 2023, but those times are almost gone.",
+        "title": "Compare real and AI made content",
+        "time_needed": "15 minutes",
         "steps": [
-          "Choose one sample AI answer about an IT topic.",
-          "Check its source, date, and main fact.",
-          "Write pass or fail beside each check."
+          "Choose two real images and two AI made images.",
+          "Write the signs you used to judge each image.",
+          "Check each source. Count how many choices were right."
         ],
-        "expected_result": "A three point check for AI written IT content.",
-        "test": "Another technician gets the same pass or fail result.",
-        "safety": "Treat the AI answer as a draft until a person checks it."
+        "expected_result": "A short list of signs that helped and signs that failed.",
+        "test": "You checked the real source for all four images.",
+        "safety": "Use public sample images. Do not label a person or their work without proof."
       },
-      "action_version": 2
+      "action_version": 12,
+      "key_takeaways": [
+        "The main topic is How To Spot AI Content.",
+        "The source says: People are tired of seeing endless amounts of AI-generated content since 2023, but those times are almost gone.",
+        "The source says: The AI video models have gotten so good that it’s almost impossible to tell AI from reality."
+      ]
     },
     {
       "id": "0nU4lQnnSz0",
@@ -91,9 +103,9 @@
       "source": "https://www.youtube.com/watch?v=0nU4lQnnSz0",
       "description": "Hyperagent is giving away $100 in bonus credits when you sign up for a paid plan. Claim yours here: https://www.hyperagent.com/techwithtim\" By the time I sat down to review a sponsorship deal, my AI agents had already researched the company, run a full safety audit, generated three video concepts, and wrapped it all into a presentation I could review in under two minutes. I didn't prompt them. I didn't check in. They just did it. In this video I walk you through the exact 4-agent team I built on Hyper Agent that now handles my entire sponsorship pipeline — and show you how to build it yourself. Want to LEARN how to build useful AI agents that actually get things done? Go here: https://aiagentbuilders.co/yt 🚀 Tools I Use Get 10% off with code techwithtim Openclaw setup: https://www.hostinger.com/techwithtim VPS setup: https://www.hostinger.com/techwithtim10 Wispr Flow (Best AI Dictation): https://ref.wisprflow.ai/TechWithTim-aug26 ⏳ Timestamps ⏳ 00:00 | Overview 00:57 | What I'm Automating 01:52 | My AI Agent Team 05:10 | Building an Agent From Scratch 08:34 | Connecting to Slack 09:46 | Chaining Agents 11:00 | Full Workflow 12:03 | Self Learning 14:02 | Analysis & Thoughts Hashtags #AIAgents #HyperAgent #AIAutomation UAE Media License Number: 3635141",
       "score": 70,
-      "summary": "Tech With Tim shared a lesson called I Replaced Myself With 4 AI Agents... It Actually Worked.",
-      "why_it_matters": "This lesson may help with automation and AI agents work.",
-      "try_this": "Plan one safe IT automation Time: 30 minutes. Step 1: Choose one repeated IT task. Step 2: Write the trigger, input, steps, and output. Step 3: Mark where a person must approve the result. Result: A one page automation plan. Test: Another technician understands the plan without help. Safety: Use sample data. Do not connect production systems.",
+      "summary": "Tech With Tim explains I Replaced Myself With 4 AI Agents... It Actually Worked. The source focuses on By the time I sat down to review a sponsorship deal, my AI agents had already researched the company, run a full safety audit, generated three video concepts.",
+      "why_it_matters": "The main topic is I Replaced Myself With 4 AI Agents... It Actually Worked.",
+      "try_this": "Hands on task. This task uses the method from \"I Replaced Myself With 4 AI Agents... It Actually Worked\": By the time I sat down to review a sponsorship deal, my AI agents had already researched the company, run a full safety audit. Test a four role agent team Time: 30 minutes. Step 1: Give one agent a made up company to research. Step 2: Ask a second agent to check facts, private data, access, and cost. Ask a third agent for three ideas. Step 3: Ask a fourth agent to put the results in one short review page. Result: One review page built from four clear agent roles. Test: The page shows the research, risk check, three ideas, and final review. Safety: Use a made up company. Do not let an agent contact anyone or spend money.",
       "topics": [
         "AI engineering",
         "Product building"
@@ -101,19 +113,25 @@
       "confidence": "Medium",
       "summary_mode": "source fallback",
       "practical_action": {
-        "work_area": "Automation and AI agents",
-        "title": "Plan one safe IT automation",
+        "action_type": "Hands on task",
+        "article_basis": "This task uses the method from \"I Replaced Myself With 4 AI Agents... It Actually Worked\": By the time I sat down to review a sponsorship deal, my AI agents had already researched the company, run a full safety audit.",
+        "title": "Test a four role agent team",
         "time_needed": "30 minutes",
         "steps": [
-          "Choose one repeated IT task.",
-          "Write the trigger, input, steps, and output.",
-          "Mark where a person must approve the result."
+          "Give one agent a made up company to research.",
+          "Ask a second agent to check facts, private data, access, and cost. Ask a third agent for three ideas.",
+          "Ask a fourth agent to put the results in one short review page."
         ],
-        "expected_result": "A one page automation plan.",
-        "test": "Another technician understands the plan without help.",
-        "safety": "Use sample data. Do not connect production systems."
+        "expected_result": "One review page built from four clear agent roles.",
+        "test": "The page shows the research, risk check, three ideas, and final review.",
+        "safety": "Use a made up company. Do not let an agent contact anyone or spend money."
       },
-      "action_version": 2
+      "action_version": 12,
+      "key_takeaways": [
+        "The main topic is I Replaced Myself With 4 AI Agents... It Actually Worked.",
+        "The source says: By the time I sat down to review a sponsorship deal, my AI agents had already researched the company.",
+        "The source says: In this video I walk you through the exact 4-agent team I built on Hyper Agent that now handles my entire sponsorship."
+      ]
     },
     {
       "id": "GTkGn8drbl4",
@@ -128,9 +146,9 @@
       "source": "https://www.youtube.com/watch?v=GTkGn8drbl4",
       "description": "",
       "score": 68,
-      "summary": "Liam Ottley shared a lesson called Office Hours: Answering Your AI-for-Business Questions (Free Q&A).",
-      "why_it_matters": "This lesson may help with automation and AI agents work.",
-      "try_this": "Plan one safe IT automation Time: 30 minutes. Step 1: Choose one repeated IT task. Step 2: Write the trigger, input, steps, and output. Step 3: Mark where a person must approve the result. Result: A one page automation plan. Test: Another technician understands the plan without help. Safety: Use sample data. Do not connect production systems.",
+      "summary": "Liam Ottley answers audience questions about using AI in a business. The video uses a question and answer format instead of one fixed lesson.",
+      "why_it_matters": "The topic is using AI in a business.",
+      "try_this": "Small experiment. This task uses the main idea from \"Office Hours: Answering Your AI-for-Business Questions (Free Q&A)\". Test one idea from Office Hours: Answering Your AI-for-Business Questions (Free Q&A) Time: 15 minutes. Step 1: Write what you expect to happen. Step 2: Open the source. Choose one claim you want to check. Step 3: Compare what happened with what you expected. Save one finding. Result: One small test showing whether the article idea helped. Test: You recorded the expected result, the real result, and one lesson. Safety: Use a small sample. Do not treat one test as final proof.",
       "topics": [
         "Agent systems",
         "AI business"
@@ -138,19 +156,25 @@
       "confidence": "Medium",
       "summary_mode": "source fallback",
       "practical_action": {
-        "work_area": "Automation and AI agents",
-        "title": "Plan one safe IT automation",
-        "time_needed": "30 minutes",
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the main idea from \"Office Hours: Answering Your AI-for-Business Questions (Free Q&A)\".",
+        "title": "Test one idea from Office Hours: Answering Your AI-for-Business Questions (Free Q&A)",
+        "time_needed": "15 minutes",
         "steps": [
-          "Choose one repeated IT task.",
-          "Write the trigger, input, steps, and output.",
-          "Mark where a person must approve the result."
+          "Write what you expect to happen.",
+          "Open the source. Choose one claim you want to check.",
+          "Compare what happened with what you expected. Save one finding."
         ],
-        "expected_result": "A one page automation plan.",
-        "test": "Another technician understands the plan without help.",
-        "safety": "Use sample data. Do not connect production systems."
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
       },
-      "action_version": 2
+      "action_version": 12,
+      "key_takeaways": [
+        "The topic is using AI in a business.",
+        "The video answers questions from the audience.",
+        "Each answer may use a different method."
+      ]
     },
     {
       "id": "sQwp9GrkGi4",
@@ -165,9 +189,9 @@
       "source": "https://www.youtube.com/watch?v=sQwp9GrkGi4",
       "description": "Outskill free three-hour AI tools workshop: https://links.outskill.com/PAKLSEP3 🔗 This video is sponsored by Outskill Download the ChatGPT desktop app: https://chatgpt.com/download/ All The Prompts (free - no email required): https://docs.google.com/document/d/1wpPuw8wCkB-KKsvtpoDrhYT_7aNF0cZfadcpp6Dh0Io/edit?usp=sharing 0:00 Intro 0:31 Get Started 2:24 Analyze Your Files 4:57 Outskill Workshop 8:16 Writing Skills 11:25 Vibe Coding 14:33 Live Voice 16:47 Pricing and Usage 18:10 Final Thoughts",
       "score": 67,
-      "summary": "Paul Lipsky shared a lesson called GPT-6 Astra + ChatGPT Work Changes Everything.",
-      "why_it_matters": "This lesson may help with automation and AI agents work.",
-      "try_this": "Plan one safe IT automation Time: 30 minutes. Step 1: Choose one repeated IT task. Step 2: Write the trigger, input, steps, and output. Step 3: Mark where a person must approve the result. Result: A one page automation plan. Test: Another technician understands the plan without help. Safety: Use sample data. Do not connect production systems.",
+      "summary": "Paul Lipsky reviews GPT-6 Astra and ChatGPT Work. The video covers file review, writing, coding, voice, price, and usage.",
+      "why_it_matters": "The source shows how the tools review files.",
+      "try_this": "Small experiment. This task uses the main idea from \"GPT-6 Astra + ChatGPT Work Changes Everything\". Test one feature shown in the source Time: 20 minutes. Step 1: Choose file review, writing, coding, or voice from the source. Step 2: Run one small test with a sample file or made up prompt. Step 3: Compare the result with your normal way of doing the same task. Result: One saved example showing where the feature helped or failed. Test: You used the same sample and goal for both results. Safety: Use sample content. Do not upload private files.",
       "topics": [
         "Agent systems",
         "AI business"
@@ -175,19 +199,25 @@
       "confidence": "Medium",
       "summary_mode": "source fallback",
       "practical_action": {
-        "work_area": "Automation and AI agents",
-        "title": "Plan one safe IT automation",
-        "time_needed": "30 minutes",
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the main idea from \"GPT-6 Astra + ChatGPT Work Changes Everything\".",
+        "title": "Test one feature shown in the source",
+        "time_needed": "20 minutes",
         "steps": [
-          "Choose one repeated IT task.",
-          "Write the trigger, input, steps, and output.",
-          "Mark where a person must approve the result."
+          "Choose file review, writing, coding, or voice from the source.",
+          "Run one small test with a sample file or made up prompt.",
+          "Compare the result with your normal way of doing the same task."
         ],
-        "expected_result": "A one page automation plan.",
-        "test": "Another technician understands the plan without help.",
-        "safety": "Use sample data. Do not connect production systems."
+        "expected_result": "One saved example showing where the feature helped or failed.",
+        "test": "You used the same sample and goal for both results.",
+        "safety": "Use sample content. Do not upload private files."
       },
-      "action_version": 2
+      "action_version": 12,
+      "key_takeaways": [
+        "The source shows how the tools review files.",
+        "It covers writing and coding tasks.",
+        "It also reviews voice, price, and usage."
+      ]
     },
     {
       "id": "CBHUn7DFhkQ",
@@ -202,9 +232,9 @@
       "source": "https://www.youtube.com/watch?v=CBHUn7DFhkQ",
       "description": "AI only creates leverage when it’s applied with strategy, systems, and execution. If you’re serious about using AI to build or scale a real business (not just experiment with tools), this video is part of a much bigger ecosystem. 👉 Build an AI-first business here: https://www.aifoundershq.com At AI Founders HQ, you’ll find: • Practical AI business education • Free + paid founder communities • Real frameworks for turning AI into leverage ______________________ CHAPTERS: _____________________________ ALL GOOGLE CERTIFICATIONS THAT MATTER TO MAKE MONEY (START FREE) ⭐ Google AI Prompt Essentials Course: https://imp.i384100.net/c/4753902/2807105/14726 ⭐ Google Data Analytics Certificate: https://imp.i384100.net/xkRyXv ⭐ Google Digital Marketing Certificate: https://imp.i384100.net/JzWJoE ⭐ Google IT Support Certificate: https://imp.i384100.net/g14D5A ⭐ Google Project Management Certificate: https://imp.i384100.net/oqBzJO ⭐ Google UX Design Certificate: https://imp.i384100.net/B01xky ⭐ Google Ads for Beginners: https://imp.i384100.net/PyWxeQ ⭐ Introduction to Generative AI: https://imp.i384100.net/eKbz3z ⭐ Google Cybersecurity Certificate: https://imp.i384100.net/3eLQ2B ⭐ Google Advanced Data Analytics Certificate: https://imp.i384100.net/Y90eXR ⭐ Google IT Automation with Python Certificate https://imp.i384100.net/9grkmy ⭐ Google Business Intelligence Certificate: https://imp.i384100.net/eKbz3j ⭐ Google Crash Course on Python: https://imp.i384100.net/DKJoYd ______________________ OTHER AI BUSINESS VIDEOS: ►► 99% Of People STILL Don't Know The Basics Of Prompting (ChatGPT, Gemini, Claude): https://youtu.be/T6iMHtEL9FU ►► World-Class Free AI Certifications You Can Turn Into Money Makers (Zero to Hero): https://youtu.be/gOTjsxh-yMg ►► How To Become a One Person Business In The AI Age: https://youtu.be/g5qzJVmg9vY ►► 10 Hot AI Business Ideas Most People Don't Know About (Yet): https://youtu.be/GUgUrwQzKgs ►► The BIGGEST Wealth Transfer in History is Happening RIGHT NOW (AI Revolution): https://youtu.be/24x0-Z5yZv4 ►► The N8N AI Agent Stack Every Business Needs (Badly): https://youtu.be/zT_iO9mPvZA ►► NotebookLM: This FREE Google AI Tool Is Making People Money, But... https://youtu.be/LlQFwlQ0kiI ►► This $1.3/Day AI Agent Could Launch Your First Online Business (Manus): https://youtu.be/yQHZNMRIERE ►► 5 High Value AI Agents Beginners Can Build And Sell: https://youtu.be/3ClbUmC2swM ►► 8 FREE AI Tools Everyone Should Use In Their Business: https://youtu.be/ZHQIp4mPR3I ►► 6 Real Skills You Need to Start an AI Automation Agency (Without Coding Experience): https://youtu.be/HH54xnN1pY8 ►► The ONLY 7 CRITICAL AI Skills to Build a 1-Person AI Business: https://youtu.be/NKFllff7XX0 ►► The One Skill That Makes You & Your Business AI-Proof (It’s Not Prompting): https://youtu.be/UE0-yZ7yaUk ►► This Is How To Learn AI To Make Yourself Irreplaceable: https://youtu.be/YxyQyf6bmks ►► Launch A Real App Using Only One AI Tool (+Monetization Guide): https://youtu.be/JqX-ItNEWSI ►► 5 Profitable Ways to Monetize Stunning AI Presentations: https://youtu.be/HyXL4IsvF4o ____________________ Disclaimer: The content shared in this video is for educational and informational purposes only, based on personal experience, research, and opinion. It is not intended as legal, financial, business, or professional advice. I am not a licensed attorney, CPA, or financial advisor. Always do your own due diligence before making decisions related to business, income, or investments. Any tools, platforms, or services mentioned may include affiliate links and may change over time. Please confirm availability, pricing, or features directly with the provider. Use official APIs and follow each platform’s Terms of Service. Obtain consent before messaging or recording, and comply with applicable laws (e.g., GDPR, CAN-SPAM, TCPA, and local rules). Results and outcomes discussed are not guaranteed and may vary depending on individual effort, context, and external factors. We make no guarantees regarding your specific execution speed, ability to implement these strategies, or any financial results.",
       "score": 66,
-      "summary": "AI Founders shared a lesson called Build Your Claude Command Center In 15 Minutes (No Code).",
-      "why_it_matters": "This lesson may help with automation and AI agents work.",
-      "try_this": "Plan one safe IT automation Time: 30 minutes. Step 1: Choose one repeated IT task. Step 2: Write the trigger, input, steps, and output. Step 3: Mark where a person must approve the result. Result: A one page automation plan. Test: Another technician understands the plan without help. Safety: Use sample data. Do not connect production systems.",
+      "summary": "AI Founders shows a Claude command center that uses no code. The source says the setup takes about 15 minutes.",
+      "why_it_matters": "The project puts Claude work in one command center.",
+      "try_this": "Hands on task. This task uses the method from \"Build Your Claude Command Center In 15 Minutes (No Code)\": AI only creates leverage when it’s applied with strategy, systems, and execution. Build the small command center from the source Time: 20 minutes. Step 1: Follow the source with a blank test workspace. Step 2: Add three sample tasks and one sample reference file. Step 3: Use the command center to find one task and its reference. Result: A small command center with sample work only. Test: You find the right task and reference without searching outside the command center. Safety: Use sample content. Do not connect work accounts or private files.",
       "topics": [
         "AI business",
         "Product building"
@@ -212,19 +242,25 @@
       "confidence": "Medium",
       "summary_mode": "source fallback",
       "practical_action": {
-        "work_area": "Automation and AI agents",
-        "title": "Plan one safe IT automation",
-        "time_needed": "30 minutes",
+        "action_type": "Hands on task",
+        "article_basis": "This task uses the method from \"Build Your Claude Command Center In 15 Minutes (No Code)\": AI only creates leverage when it’s applied with strategy, systems, and execution.",
+        "title": "Build the small command center from the source",
+        "time_needed": "20 minutes",
         "steps": [
-          "Choose one repeated IT task.",
-          "Write the trigger, input, steps, and output.",
-          "Mark where a person must approve the result."
+          "Follow the source with a blank test workspace.",
+          "Add three sample tasks and one sample reference file.",
+          "Use the command center to find one task and its reference."
         ],
-        "expected_result": "A one page automation plan.",
-        "test": "Another technician understands the plan without help.",
-        "safety": "Use sample data. Do not connect production systems."
+        "expected_result": "A small command center with sample work only.",
+        "test": "You find the right task and reference without searching outside the command center.",
+        "safety": "Use sample content. Do not connect work accounts or private files."
       },
-      "action_version": 2
+      "action_version": 12,
+      "key_takeaways": [
+        "The project puts Claude work in one command center.",
+        "The setup uses no code.",
+        "The source aims for a 15 minute setup."
+      ]
     },
     {
       "id": "3sqgtMXOUHE",
@@ -239,9 +275,9 @@
       "source": "https://www.youtube.com/shorts/3sqgtMXOUHE",
       "description": "Stacking up AI certifications won't get you hired. The move that actually works: start with one certification, then add one deployed project on top. The cert opens the door and helps you get past screening, and the project walks you through it because you have something that actually demonstrates the skills. What you want to avoid is becoming a certification collector who never builds anything, that combination of badges with no proof is exactly what hiring managers see through. #techwithtim #aiengineer #techjobs",
       "score": 66,
-      "summary": "Tech With Tim shared a lesson called Don't Just Collect AI Certifications — Do This Instead.",
-      "why_it_matters": "This lesson may help with IT operations work.",
-      "try_this": "Turn one lesson into an IT lab Time: 30 minutes. Step 1: Choose one skill from the source. Step 2: Build one small test using sample data or a test system. Step 3: Save the steps and the result as proof of the skill. Result: A small working lab with written proof. Test: Another technician follows the steps and gets the same result. Safety: Use a test system. Do not make a production change.",
+      "summary": "Tech With Tim explains Don't Just Collect AI Certifications — Do This Instead. The source focuses on Stacking up AI certifications won't get you hired.",
+      "why_it_matters": "The main topic is Don't Just Collect AI Certifications — Do This Instead.",
+      "try_this": "Hands on task. This task uses the method from \"Don't Just Collect AI Certifications — Do This Instead\": Stacking up AI certifications won't get you hired. Pair one lesson with one small project Time: 30 minutes. Step 1: Choose one lesson from a certification you already started. Step 2: Build one small sample that proves the lesson works. Step 3: Save the sample, result, and three steps needed to repeat it. Result: One small project that proves a skill instead of only naming a certificate. Test: Another person follows your three steps and gets the same result. Safety: Use sample data and a test account.",
       "topics": [
         "AI engineering",
         "Product building"
@@ -249,19 +285,25 @@
       "confidence": "Medium",
       "summary_mode": "source fallback",
       "practical_action": {
-        "work_area": "IT operations",
-        "title": "Turn one lesson into an IT lab",
+        "action_type": "Hands on task",
+        "article_basis": "This task uses the method from \"Don't Just Collect AI Certifications — Do This Instead\": Stacking up AI certifications won't get you hired.",
+        "title": "Pair one lesson with one small project",
         "time_needed": "30 minutes",
         "steps": [
-          "Choose one skill from the source.",
-          "Build one small test using sample data or a test system.",
-          "Save the steps and the result as proof of the skill."
+          "Choose one lesson from a certification you already started.",
+          "Build one small sample that proves the lesson works.",
+          "Save the sample, result, and three steps needed to repeat it."
         ],
-        "expected_result": "A small working lab with written proof.",
-        "test": "Another technician follows the steps and gets the same result.",
-        "safety": "Use a test system. Do not make a production change."
+        "expected_result": "One small project that proves a skill instead of only naming a certificate.",
+        "test": "Another person follows your three steps and gets the same result.",
+        "safety": "Use sample data and a test account."
       },
-      "action_version": 2
+      "action_version": 12,
+      "key_takeaways": [
+        "The main topic is Don't Just Collect AI Certifications — Do This Instead.",
+        "The source says: Stacking up AI certifications won't get you hired.",
+        "The source says: The move that actually works: start with one certification, then add one deployed project on top."
+      ]
     },
     {
       "id": "Jr-jyTL2MYI",
@@ -276,9 +318,9 @@
       "source": "https://www.youtube.com/watch?v=Jr-jyTL2MYI",
       "description": "➡️ Get the free resources mentioned in this video: https://c.benai.co/pticf-free ➡️ Join my AI Accelerator to get all my courses, skills & tech help: https://c.benai.co/pticf-accelerator ➡️ Work with my AI Agency: https://c.benai.co/pticf-agency Composio Full Video 📺 https://youtu.be/M_E460gRHIQ 🔗 My Linkedin: https://linkedin.com/in/benvansprundel/ 💻 Softwares I use (some of these are affiliate-links, thanks!): Wispr Flow: https://ref.wisprflow.ai/ben-van-sprundel n8n: https://n8n.partnerlinks.io/zr6ttnlrb8dw Relevance AI: https://relevanceai.com/?via=ben Make.com: https://www.make.com/en/register?pc=benai Apify: https://www.apify.com?fpr=benai Chapters: 00:00 – Intro 00:32 – Tip #1 05:45 – Tip #2 07:51 – Tip #3 11:32 – Tip #4 12:54 – Tip #5 15:21 – Tip #6 👋🏼 About me: I'm Ben. I built two $1M ARR AI businesses, and now I help professionals and business owners use AI better than 99% of people in their industry. And I (try to) show you exactly how. I believe anyone with domain expertise can use AI to transform the way they work and grow their business. You don't need to be technical. I make videos that cover: 1. How to stop feeling overwhelmed by AI and actually start implementing 2. AI automation tutorials you can follow along with, even if you're not technical 3. The strategies and systems that actually move the needle with AI",
       "score": 57,
-      "summary": "Ben AI shared a lesson called Paste This Into Claude, Never Hit a Token Limit Again.",
-      "why_it_matters": "This lesson may help with automation and AI agents work.",
-      "try_this": "Build a clean agent handoff Time: 20 minutes. Step 1: Choose one long IT task an agent handles. Step 2: Write the facts, work done, and next step the agent must save. Step 3: Start a new test chat with only the saved handoff. Result: A short handoff template for long agent tasks. Test: The new chat continues the task without missing a key fact. Safety: Use sample data. Remove names, passwords, and system secrets.",
+      "summary": "Ben AI shares a prompt for Claude. The prompt is meant to help a long task continue when a chat reaches its token limit.",
+      "why_it_matters": "The source gives you text to paste into Claude.",
+      "try_this": "Hands on task. This task uses the method from \"Paste This Into Claude, Never Hit a Token Limit Again\": The strategies and systems that actually move the needle with AI. Test the source prompt in a new chat Time: 20 minutes. Step 1: Copy the prompt from the source into a new test chat. Step 2: Give the chat a long sample task with several facts and steps. Step 3: Start a second chat with its saved handoff. Check which facts remain. Result: A saved handoff that carries the key facts into a new chat. Test: The second chat states the goal, work done, and next step correctly. Safety: Use made up facts. Do not paste private work data into the test.",
       "topics": [
         "Agent systems",
         "Automation"
@@ -286,19 +328,25 @@
       "confidence": "Medium",
       "summary_mode": "source fallback",
       "practical_action": {
-        "work_area": "Automation and AI agents",
-        "title": "Build a clean agent handoff",
+        "action_type": "Hands on task",
+        "article_basis": "This task uses the method from \"Paste This Into Claude, Never Hit a Token Limit Again\": The strategies and systems that actually move the needle with AI.",
+        "title": "Test the source prompt in a new chat",
         "time_needed": "20 minutes",
         "steps": [
-          "Choose one long IT task an agent handles.",
-          "Write the facts, work done, and next step the agent must save.",
-          "Start a new test chat with only the saved handoff."
+          "Copy the prompt from the source into a new test chat.",
+          "Give the chat a long sample task with several facts and steps.",
+          "Start a second chat with its saved handoff. Check which facts remain."
         ],
-        "expected_result": "A short handoff template for long agent tasks.",
-        "test": "The new chat continues the task without missing a key fact.",
-        "safety": "Use sample data. Remove names, passwords, and system secrets."
+        "expected_result": "A saved handoff that carries the key facts into a new chat.",
+        "test": "The second chat states the goal, work done, and next step correctly.",
+        "safety": "Use made up facts. Do not paste private work data into the test."
       },
-      "action_version": 2
+      "action_version": 12,
+      "key_takeaways": [
+        "The source gives you text to paste into Claude.",
+        "The goal is to save the key facts before the chat fills up.",
+        "A new chat should continue from the saved handoff."
+      ]
     },
     {
       "id": "68HH9HVFJDM",
@@ -313,9 +361,9 @@
       "source": "https://www.youtube.com/watch?v=68HH9HVFJDM",
       "description": "My playbook for growing a $1M AI agency: https://app.aiautomationsociety.ai/opaa-ads-optin My FREE resources: https://www.skool.com/ai-automation-society/about?el=ai-news-jacob-coxon&hcategory=youtube-videos&utm_campaign=free-group My Tools💻 FREE MONTH voice to text: https://get.glaido.com/nate Code NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting Dario's Essay: https://darioamodei.com/post/we-must-pace-the-frontier An Anthropic researcher put his personal estimate of AI extinction risk above 10% within the next decade. I walk through the September 8–13 AI safety debate, Anthropic’s misuse report, Dario Amodei’s plan to slow the race, and Trump’s response. I also share what I think those of us building with and teaching AI can do to help people understand the risks and use these tools responsibly. Sponsorship Inquiries: 📧 nate@smoothmedia.co Connect with me: https://www.linkedin.com/in/nateherkelman/ https://x.com/nateherk https://www.instagram.com/nateherk/ TIMESTAMPS 0:00 The AI Safety Warnings 1:02 How the Story Went Viral 3:17 Anthropic's AI Misuse Report 4:06 Dario on the AI Race 6:36 AI Progress and Agent Risks 7:26 Dario's Three-Step Safety Plan 8:33 Trump's Response 9:05 What We Can Do",
       "score": 55,
-      "summary": "Nate Herk shared a lesson called AI News in 10 mins: 10% chance AI kills all humans.",
-      "why_it_matters": "This lesson may help with automation and AI agents work.",
-      "try_this": "Add one human approval stop Time: 15 minutes. Step 1: Choose one planned AI or automation task. Step 2: Mark the step where a wrong result would cause harm. Step 3: Require a named person to approve the result at that step. Result: One safer workflow with a clear approval owner. Test: The workflow stops before any system or data change. Safety: Do not let an agent change a live system on its own.",
+      "summary": "Nate Herk explains AI News in 10 mins: 10% chance AI kills all humans. The source focuses on I also share what I think those of us building with and teaching AI can do to help people understand the risks and use these tools responsibly.",
+      "why_it_matters": "The main topic is AI News in 10 mins: 10% chance AI kills all humans.",
+      "try_this": "Small experiment. This task uses the method from \"AI News in 10 mins: 10% chance AI kills all humans\": I also share what I think those of us building with and teaching AI can do to help people understand the risks and use. Check one news claim from the source Time: 15 minutes. Step 1: Choose one claim from the source. Step 2: Find the report, study, or company post behind the claim. Step 3: Mark the claim as supported, unclear, or wrong. Save the source link. Result: One checked claim with a link to the original evidence. Test: The evidence comes from the group that made the report or announcement. Safety: Do not repeat a serious claim as fact until the evidence supports it.",
       "topics": [
         "Agent systems",
         "AI business"
@@ -323,19 +371,25 @@
       "confidence": "Medium",
       "summary_mode": "source fallback",
       "practical_action": {
-        "work_area": "Automation and AI agents",
-        "title": "Add one human approval stop",
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"AI News in 10 mins: 10% chance AI kills all humans\": I also share what I think those of us building with and teaching AI can do to help people understand the risks and use.",
+        "title": "Check one news claim from the source",
         "time_needed": "15 minutes",
         "steps": [
-          "Choose one planned AI or automation task.",
-          "Mark the step where a wrong result would cause harm.",
-          "Require a named person to approve the result at that step."
+          "Choose one claim from the source.",
+          "Find the report, study, or company post behind the claim.",
+          "Mark the claim as supported, unclear, or wrong. Save the source link."
         ],
-        "expected_result": "One safer workflow with a clear approval owner.",
-        "test": "The workflow stops before any system or data change.",
-        "safety": "Do not let an agent change a live system on its own."
+        "expected_result": "One checked claim with a link to the original evidence.",
+        "test": "The evidence comes from the group that made the report or announcement.",
+        "safety": "Do not repeat a serious claim as fact until the evidence supports it."
       },
-      "action_version": 2
+      "action_version": 12,
+      "key_takeaways": [
+        "The main topic is AI News in 10 mins: 10% chance AI kills all humans.",
+        "The source says: I also share what I think those of us building with and teaching AI can do to help people understand the risks.",
+        "The source says: I walk through the September 8–13 AI safety debate, Anthropic report about harmful use, a plan to slow AI work."
+      ]
     },
     {
       "id": "GmCbzlb091A",
@@ -350,9 +404,9 @@
       "source": "https://www.youtube.com/watch?v=GmCbzlb091A",
       "description": "🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about 💎 Get all course resources 100% free: https://skool.com/maker-zero/about ➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others. In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude. I also make videos about how to do all of that here on YouTube. It hasn't always been this way. My family immigrated from a Soviet bloc country (People's Republic of Bulgaria) in the 90s. They worked extremely hard, and we were broke for a very long time. I grew up wishing for more security, stability, and freedom over my own life. I don't have a programming degree, and never took formal education for IT or workflows. I learned it all myself from YouTube videos like you're watching now. As for my path: I started my first business at 19 in college. We threw events (mostly parties) at campus bars, and charged people for entry. That failed to provide me enough money to pay my bills, so at 21, I started another business, a door-to-door marketing agency. From there, every year, I would start several companies, over 10 in total. I did this in a variety of industries, like e-commerce, photography, videography, SaaS, credit repair, etc. Each grew slightly more profitable, until, at 25, I would start 1SecondCopy, a content writing company. A friend and I eventually scaled that to over $90,000/m. It was my first taste of financial independence, and the reason I'm here today. Since starting my journey, I've grown a fair bit of capital. To diversify my income, at 30, I began investing in other businesses and advising companies on how to grow in the AI era. These include SaaS businesses, like Clairvo, agencies like Dental Connect, and more. Collectively, the businesses that I own outright or are a part of generate over $10 million per year. This returns far more than the 5-10% you would get in the stock market, but also requires a lot of my active time. There's a tradeoff there, but I greatly prefer active investing, where I have control over the entities I'm a part of. It wasn't easy to get here. But I did in the end! For anyone on their own entrepreneurial journey: I wish you luck, happiness, and perseverance. You can make it! Summary ⤵️ This is kind of crazy, but I thought I'd share it with you guys anyway. I fed in a fruit fly brain to GPT-6 Astra and had it modify the brain such that it could do economically valuable tasks for me, like reply to my emails. Breakdown of how I did that here. Chapters",
       "score": 50,
-      "summary": "Nick Saraev shared a lesson called I Uploaded A Fruit Fly Brain To Reply To My Emails.",
-      "why_it_matters": "This lesson may help with automation and AI agents work.",
-      "try_this": "Plan a safe email triage flow Time: 20 minutes. Step 1: Write three types of IT email using sample text. Step 2: Give each type one route and one reply draft. Step 3: Add a person to approve every reply before sending. Result: A small email routing plan with three sample cases. Test: Each sample email reaches the correct route and reply draft. Safety: Use sample email. Do not send a message or use private data.",
+      "summary": "Nick Saraev tests a fruit fly brain model with GPT-6 Astra. The goal is to see whether the model can help reply to email.",
+      "why_it_matters": "The test uses a fruit fly brain model.",
+      "try_this": "Small experiment. This task uses the method from \"I Uploaded A Fruit Fly Brain To Reply To My Emails\": I fed in a fruit fly brain to GPT-6 Astra and had it modify the brain such that it could do useful tasks for. Compare a general agent with one small specialist Time: 20 minutes. Step 1: Write one made up email that needs a short reply. Step 2: Ask one general agent and one email reply agent to answer it. Step 3: Compare accuracy, tone, and missing facts. Save the better reply. Result: Two sample replies and one clear reason for the better choice. Test: Both agents received the same email and the same reply rules. Safety: Use a made up email. Do not send either reply.",
       "topics": [
         "Agent systems",
         "AI business"
@@ -360,19 +414,25 @@
       "confidence": "Medium",
       "summary_mode": "source fallback",
       "practical_action": {
-        "work_area": "Automation and AI agents",
-        "title": "Plan a safe email triage flow",
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Uploaded A Fruit Fly Brain To Reply To My Emails\": I fed in a fruit fly brain to GPT-6 Astra and had it modify the brain such that it could do useful tasks for.",
+        "title": "Compare a general agent with one small specialist",
         "time_needed": "20 minutes",
         "steps": [
-          "Write three types of IT email using sample text.",
-          "Give each type one route and one reply draft.",
-          "Add a person to approve every reply before sending."
+          "Write one made up email that needs a short reply.",
+          "Ask one general agent and one email reply agent to answer it.",
+          "Compare accuracy, tone, and missing facts. Save the better reply."
         ],
-        "expected_result": "A small email routing plan with three sample cases.",
-        "test": "Each sample email reaches the correct route and reply draft.",
-        "safety": "Use sample email. Do not send a message or use private data."
+        "expected_result": "Two sample replies and one clear reason for the better choice.",
+        "test": "Both agents received the same email and the same reply rules.",
+        "safety": "Use a made up email. Do not send either reply."
       },
-      "action_version": 2
+      "action_version": 12,
+      "key_takeaways": [
+        "The test uses a fruit fly brain model.",
+        "GPT-6 Astra changes the model for a useful task.",
+        "The example task is replying to email."
+      ]
     }
   ],
   "source_errors": []
