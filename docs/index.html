@@ -33,8 +33,26 @@
     </section>
 
     <section class="controls" aria-label="Brief filters">
-      <div class="filter-group" id="filters" role="group" aria-label="Filter by topic">
-        <button class="filter active" data-topic="all" type="button">All signals</button>
+      <div class="control-stack">
+        <div class="view-group" role="group" aria-label="Choose a brief">
+          <button class="view-button active" id="latestButton" type="button">Latest</button>
+          <button class="view-button" id="archiveButton" type="button" aria-expanded="false">Archive</button>
+          <label class="archive-picker" id="archivePicker" hidden>
+            <span>Brief date</span>
+            <select id="briefDate"><option value="">All saved briefs</option></select>
+          </label>
+          <label class="archive-picker" id="creatorPicker" hidden>
+            <span>Creator</span>
+            <select id="creatorFilter"><option value="">All creators</option></select>
+          </label>
+        </div>
+        <label class="search-box">
+          <span>Search all card text</span>
+          <input id="briefSearch" type="search" placeholder="Search SQL, agents, automation, or IT" autocomplete="off">
+        </label>
+        <div class="filter-group" id="filters" role="group" aria-label="Filter by topic">
+          <button class="filter active" data-topic="all" type="button">All signals</button>
+        </div>
       </div>
       <span class="result-count" id="resultCount"></span>
     </section>
@@ -52,7 +70,7 @@
 
   <footer>
     <span>Built for focused weekday review.</span>
-    <a href="https://app.notion.com/p/3db9c81e959c8158939bd1509176c93c" rel="noreferrer">Open Notion archive</a>
+    <span>Private notes stay in Notion.</span>
   </footer>
 
   <template id="emptyTemplate">
