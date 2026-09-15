@@ -34,4 +34,4 @@ In repository Settings, open Pages. Set the source to Deploy from a branch, choo
 
 ## Editorial controls
 
-Every card includes an original source URL and a practical ELI10 action for SQL, automation, AI agents, or IT operations. The selector limits each creator to two cards, removes duplicate video identifiers, favors recent content, and labels fallback summaries when no AI key exists.
+Every card includes a key paragraph, three takeaways, and a practical ELI10 task based on the source method. A source without a clear method gets a small experiment based on its main idea. The selector limits each creator to two cards, removes duplicate video identifiers, favors recent content, and labels fallback summaries when no AI key exists.
