@@ -29,7 +29,7 @@ class BriefTests(unittest.TestCase):
 
     def test_selection_deduplicates_and_limits_creator(self):
         now = dt.datetime(2026, 9, 14, 15, 0, tzinfo=dt.timezone.utc)
-        base = {"creator": "A", "focus": ["Agents"], "priority": 3, "published": "2026-09-14T12:00:00+00:00", "description": "x"}
+        base = {"creator": "A", "focus": ["Agents"], "priority": 3, "published": "2026-09-14T12:00:00+00:00", "description": "This source explains an agent test with clear sample data. It compares the first result with a checked result."}
         items = [{**base, "id": str(index), "title": str(index), "source": f"https://x/{index}"} for index in range(4)]
         selected = select_items(items, now, limit=10)
         self.assertEqual(len(selected), 2)
@@ -67,17 +67,17 @@ class BriefTests(unittest.TestCase):
             ["dd1bd249-dfcf-46d2-a51a-2797a070af0f", "f9ac323a-8fc0-4abe-9ff4-e92c389dbc33"],
         )
 
-    def test_generator_writes_practical_action_and_archive(self):
+    def test_generator_writes_article_summary_takeaways_and_action(self):
         now = dt.datetime(2026, 9, 15, 15, 0, tzinfo=dt.timezone.utc)
         item = {
             "id": "agent1",
             "creator": "Creator",
             "focus": ["Agent systems", "Automation"],
             "priority": 3,
-            "title": "Build an AI agent workflow",
+            "title": "Build an AI agent workflow with a planning loop",
             "published": "2026-09-15T14:00:00+00:00",
             "source": "https://example.com/agent1",
-            "description": "Build a safe agent for a repeated task.",
+            "description": "You'll learn how to plan the goal with a short brief, run the agent on a sample task, and review the result before the next step.",
         }
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -87,9 +87,16 @@ class BriefTests(unittest.TestCase):
             ), mock.patch.dict(os.environ, {"OPENAI_API_KEY": "", "NOTION_TOKEN": ""}):
                 brief = generate_brief.generate(now, force=True)
 
-            action = brief["items"][0]["practical_action"]
-            self.assertEqual(action["work_area"], "Automation and AI agents")
+            card = brief["items"][0]
+            action = card["practical_action"]
+            self.assertTrue(card["summary"])
+            self.assertEqual(len(card["key_takeaways"]), 3)
+            self.assertEqual(action["action_type"], "Hands on task")
+            self.assertIn("planning loop", action["article_basis"].lower())
             self.assertEqual(len(action["steps"]), 3)
+            self.assertIn("plan the goal", action["steps"][0].lower())
+            self.assertIn("run the agent", action["steps"][1].lower())
+            self.assertIn("review the result", action["steps"][2].lower())
             self.assertIn("minutes", action["time_needed"])
             self.assertTrue(action["expected_result"])
             self.assertTrue(action["test"])
@@ -99,41 +106,191 @@ class BriefTests(unittest.TestCase):
             self.assertEqual(archive["briefs"][0]["date"], "2026-09-15")
             self.assertEqual(archive["briefs"][0]["item_count"], 1)
             self.assertEqual(archive["items"][0]["brief_date"], "2026-09-15")
-            self.assertEqual(archive["items"][0]["practical_action"]["work_area"], "Automation and AI agents")
+            self.assertEqual(len(archive["items"][0]["key_takeaways"]), 3)
+            self.assertEqual(archive["items"][0]["practical_action"]["action_type"], "Hands on task")
 
-    def test_agent_work_has_priority_over_general_data_words(self):
+    def test_action_follows_the_article_instead_of_forcing_it_work(self):
         item = {
-            "title": "Build an AI agent that reads data",
-            "description": "Use an agent workflow to review sample data.",
-            "focus": ["Agent systems", "Automation"],
-        }
-        self.assertEqual(generate_brief.work_area(item), "Automation and AI agents")
-
-    def test_resume_lesson_creates_an_it_skill_proof(self):
-        item = {
-            "title": "Write a Better Resume in the AI Era",
-            "description": "Links about memory, email, and many other videos.",
-            "focus": ["Productivity", "AI education"],
+            "title": "Write a Better Resume with a proof table",
+            "description": "List each skill beside one result and one number that proves it.",
+            "focus": ["Careers", "AI education"],
         }
         action = generate_brief.practical_action(item)
-        self.assertEqual(action["title"], "Write proof of one IT skill")
-        self.assertEqual(action["work_area"], "IT operations")
+        self.assertEqual(action["action_type"], "Hands on task")
+        self.assertIn("resume", action["article_basis"].lower())
+        self.assertIn("one number that proves it", action["article_basis"].lower())
+        self.assertNotIn("IT skill", generate_brief.action_text(action))
 
-    def test_safety_news_creates_an_approval_review(self):
+    def test_non_actionable_article_creates_a_small_experiment(self):
         item = {
-            "title": "AI News: A chance AI kills all humans",
-            "description": "",
-            "focus": ["Agent systems"],
+            "title": "What AI may look like next year",
+            "description": "A discussion about several possible futures.",
+            "focus": ["AI news"],
         }
-        self.assertEqual(generate_brief.practical_action(item)["title"], "Add one human approval stop")
+        action = generate_brief.practical_action(item)
+        self.assertEqual(action["action_type"], "Small experiment")
+        self.assertIn("AI may look like next year", action["article_basis"])
 
-    def test_instead_of_agents_creates_a_workflow_choice(self):
+    def test_news_stays_a_small_experiment_when_description_has_action_words(self):
         item = {
-            "title": "What to Build Instead of AI Agents",
-            "description": "",
-            "focus": ["Agent systems"],
+            "title": "AI News in 10 Minutes",
+            "description": "The host explains recent safety reports and says people should use AI with care.",
+            "focus": ["AI news"],
         }
-        self.assertEqual(generate_brief.practical_action(item)["title"], "Choose a workflow or an agent")
+        action = generate_brief.practical_action(item)
+        self.assertEqual(action["action_type"], "Small experiment")
+        self.assertEqual(action["title"], "Check one news claim from the source")
+        self.assertIn("original evidence", action["expected_result"])
+
+    def test_spot_ai_article_gets_a_source_specific_experiment(self):
+        item = {
+            "title": "How To Spot AI Content",
+            "description": "AI video models are harder to tell from real video.",
+            "focus": ["AI video"],
+        }
+        action = generate_brief.practical_action(item)
+        self.assertEqual(action["action_type"], "Small experiment")
+        self.assertEqual(action["title"], "Compare real and AI made content")
+        self.assertIn("two real images", action["steps"][0])
+
+    def test_certification_article_builds_the_project_it_recommends(self):
+        item = {
+            "title": "Don't Just Collect AI Certifications, Do This Instead",
+            "description": "Start with one certification, then add one deployed project on top.",
+            "focus": ["Careers"],
+        }
+        action = generate_brief.practical_action(item)
+        self.assertEqual(action["title"], "Pair one lesson with one small project")
+        self.assertIn("proves the lesson works", action["steps"][1])
+
+    def test_ai_prompt_requires_an_article_based_task(self):
+        item = {
+            "creator": "Creator",
+            "title": "Use a prompt chain to compare product photos",
+            "description": "Create three prompts. Keep the best result.",
+            "source": "https://example.com/source",
+            "focus": ["Images"],
+        }
+        response = {
+            "output_text": json.dumps({
+                "summary": "This source explains a prompt chain for product photos.",
+                "key_takeaways": ["Use three prompts.", "Compare each result.", "Keep the best result."],
+                "why_it_matters": "The method makes prompt tests easier to compare.",
+                "practical_action": {
+                    "action_type": "Hands on task",
+                    "article_basis": "This task uses the three prompt comparison method.",
+                    "title": "Compare three photo prompts",
+                    "time_needed": "20 minutes",
+                    "steps": ["Write three prompts.", "Run each prompt.", "Keep the best result."],
+                    "expected_result": "Three results and one selected image.",
+                    "test": "The same rule was used to compare all three results.",
+                    "safety": "Use sample product data.",
+                },
+                "topics": ["Images", "Prompting"],
+                "confidence": "High",
+            })
+        }
+        with mock.patch.object(generate_brief, "request", return_value=json.dumps(response).encode()) as request_mock:
+            card = generate_brief.ai_card(item, "test-key")
+        prompt = request_mock.call_args.kwargs["body"]["input"]
+        self.assertIn("Adapt the source method into a hands on task", prompt)
+        self.assertIn("Do not force it into the reader's job", prompt)
+        self.assertEqual(card["practical_action"]["title"], "Compare three photo prompts")
+
+    def test_source_summary_skips_promotional_copy(self):
+        item = {
+            "creator": "Creator",
+            "title": "Build a four agent review team",
+            "description": (
+                "Sign up for a paid plan and get bonus credits. "
+                "The four agents research the company, check risk, make three ideas, and build one review deck. "
+                "Use code SAVE10 for a discount."
+            ),
+        }
+        content = generate_brief.article_content(item)
+        joined = " ".join([content["summary"], *content["key_takeaways"]]).lower()
+        self.assertIn("four agents research the company", joined)
+        self.assertNotIn("bonus credits", joined)
+        self.assertNotIn("discount", joined)
+
+    def test_selection_skips_a_card_without_enough_source_detail(self):
+        now = dt.datetime(2026, 9, 15, 15, 0, tzinfo=dt.timezone.utc)
+        item = {
+            "id": "empty", "creator": "Creator", "focus": ["AI"], "priority": 3,
+            "title": "Office Hours Q and A", "published": "2026-09-15T14:00:00+00:00",
+            "source": "https://example.com/empty", "description": "",
+        }
+        self.assertEqual(select_items([item], now), [])
+
+    def test_archive_index_keeps_a_historical_card_without_source_detail(self):
+        brief = {
+            "date": "2026-09-15", "editorial_summary": "Saved brief.",
+            "items": [{
+                "id": "empty", "creator": "Creator", "title": "Office Hours Q and A",
+                "published": "2026-09-15T14:00:00+00:00", "source": "https://example.com/empty",
+                "description": "", "focus": ["AI"],
+            }],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            data_dir = Path(directory)
+            (data_dir / "2026-09-15.json").write_text(json.dumps(brief), encoding="utf-8")
+            archive = generate_brief.update_archive(data_dir)
+        self.assertEqual(archive["briefs"][0]["item_count"], 1)
+        self.assertEqual(len(archive["items"]), 1)
+        self.assertTrue(archive["items"][0]["summary"])
+
+    def test_archive_uses_new_key_paragraph_without_rewriting_history(self):
+        brief = {
+            "date": "2026-09-15", "editorial_summary": "Saved brief.",
+            "items": [{
+                "id": "resume", "creator": "Creator", "title": "Write a Better Résumé",
+                "published": "2026-09-15T14:00:00+00:00", "source": "https://example.com/resume",
+                "description": "Make the résumé easy for hiring software to read. Add one measured result to each work example.",
+                "focus": ["Careers"], "summary": "Old one line summary.",
+            }],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            data_dir = Path(directory)
+            path = data_dir / "2026-09-15.json"
+            path.write_text(json.dumps(brief), encoding="utf-8")
+            archive = generate_brief.update_archive(data_dir)
+            saved = json.loads(path.read_text(encoding="utf-8"))
+        self.assertNotEqual(archive["items"][0]["summary"], "Old one line summary.")
+        self.assertEqual(saved, brief)
+
+    def test_fruit_fly_article_gets_an_accessible_agent_comparison(self):
+        item = {"title": "I Uploaded A Fruit Fly Brain To Reply To My Emails", "description": "", "focus": ["Agents"]}
+        action = generate_brief.practical_action(item)
+        self.assertEqual(action["title"], "Compare a general agent with one small specialist")
+        self.assertIn("made up email", action["steps"][0])
+
+    def test_known_title_has_three_grounded_takeaways(self):
+        item = {"creator": "Ben AI", "title": "Paste This Into Claude, Never Hit a Token Limit Again", "description": ""}
+        content = generate_brief.article_content(item)
+        self.assertEqual(len(content["key_takeaways"]), 3)
+        self.assertIn("saved handoff", content["key_takeaways"][2])
+
+    def test_office_hours_archive_card_has_useful_source_points(self):
+        item = {"creator": "Liam Ottley", "title": "Office Hours: Answering Your AI-for-Business Questions (Free Q&A)", "description": ""}
+        content = generate_brief.article_content(item)
+        self.assertIn("audience questions", content["summary"])
+        self.assertEqual(len(content["key_takeaways"]), 3)
+
+    def test_action_basis_rewrites_complex_source_terms(self):
+        item = {
+            "title": "Write a Better Résumé",
+            "description": "Make an #ATS-friendly résumé without keyword stuffing. Add one measured result to each work example.",
+            "focus": ["Careers"],
+        }
+        basis = generate_brief.practical_action(item)["article_basis"]
+        self.assertNotIn("ATS-friendly", basis)
+        self.assertNotIn("keyword stuffing", basis)
+
+    def test_chatgpt_work_article_gets_a_feature_test(self):
+        item = {"title": "GPT-6 Astra + ChatGPT Work Changes Everything", "description": "", "focus": ["AI"]}
+        action = generate_brief.practical_action(item)
+        self.assertEqual(action["title"], "Test one feature shown in the source")
+        self.assertIn("file review", action["steps"][0])
 
     def test_dashboard_search_matches_practical_action(self):
         app = Path(__file__).resolve().parents[1] / "docs" / "app.js"
@@ -151,7 +308,7 @@ if (filterItems(items, { date: '2026-09-14', topic: 'Coding' }).length !== 1) pr
         result = subprocess.run(["node", "-e", script, str(app)], capture_output=True, text=True)
         self.assertEqual(result.returncode, 0, result.stderr)
 
-    def test_archive_upgrades_old_cards_with_a_practical_action(self):
+    def test_archive_does_not_rewrite_a_historical_brief(self):
         old_brief = {
             "date": "2026-09-14",
             "editorial_summary": "Old brief.",
@@ -170,11 +327,9 @@ if (filterItems(items, { date: '2026-09-14', topic: 'Coding' }).length !== 1) pr
             dated_file.write_text(json.dumps(old_brief), encoding="utf-8")
             generate_brief.update_archive(data_dir)
             saved = json.loads(dated_file.read_text(encoding="utf-8"))
-        action = saved["items"][0]["practical_action"]
-        self.assertEqual(action["title"], "Build a clean agent handoff")
-        self.assertNotEqual(saved["items"][0]["try_this"], "Old generic text.")
+        self.assertEqual(saved, old_brief)
 
-    def test_archive_rewrites_old_fallback_summary_in_eli10(self):
+    def test_archive_upgrades_old_cards_to_article_based_content(self):
         old_brief = {
             "date": "2026-09-14",
             "editorial_summary": "Old brief.",
@@ -200,10 +355,28 @@ if (filterItems(items, { date: '2026-09-14', topic: 'Coding' }).length !== 1) pr
         }
         generate_brief.upgrade_brief_actions(old_brief)
         item = old_brief["items"][0]
-        self.assertEqual(item["summary"], "Creator shared a lesson called Build a safe agent.")
+        self.assertTrue(item["summary"])
         self.assertNotIn("http", item["summary"])
-        self.assertEqual(item["why_it_matters"], "This lesson may help with automation and AI agents work.")
-        self.assertEqual(item["practical_action"]["title"], "Plan one safe IT automation")
+        self.assertEqual(len(item["key_takeaways"]), 3)
+        self.assertIn(item["practical_action"]["action_type"], {"Hands on task", "Small experiment"})
+        self.assertIn("Build a safe agent", item["practical_action"]["article_basis"])
+
+    def test_dashboard_places_summary_and_takeaways_under_title(self):
+        app = Path(__file__).resolve().parents[1] / "docs" / "app.js"
+        script = """
+const { cardMarkup } = require(process.argv[1]);
+const html = cardMarkup({
+  creator: 'Creator', title: 'Source title', published: '2026-09-15T14:00:00Z',
+  summary: 'Key paragraph.', key_takeaways: ['One.', 'Two.', 'Three.'], topics: ['AI'], source: 'https://example.com',
+  practical_action: { action_type: 'Hands on task', article_basis: 'Source method.', title: 'Try it', time_needed: '10 minutes', steps: ['A.', 'B.', 'C.'], expected_result: 'Result.', test: 'Test.', safety: 'Safety.' }
+}, 0);
+const positions = ['Source title', 'Key paragraph.', 'Three takeaways', 'Try this'].map(value => html.indexOf(value));
+if (positions.some(value => value < 0)) process.exit(1);
+if (!positions.every((value, index) => index === 0 || positions[index - 1] < value)) process.exit(2);
+if ((html.match(/<li>/g) || []).length !== 6) process.exit(3);
+"""
+        result = subprocess.run(["node", "-e", script, str(app)], capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
 
     def test_archive_only_lists_existing_dated_files(self):
         data_dir = Path(__file__).resolve().parents[1] / "docs" / "data"
