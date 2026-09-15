@@ -41,8 +41,11 @@ function matchesSearch(item, query) {
     item.title,
     item.summary,
     item.why_it_matters,
+    ...(item.key_takeaways || []),
     ...(item.topics || item.focus || []),
     action.work_area,
+    action.action_type,
+    action.article_basis,
     action.title,
     action.time_needed,
     ...(action.steps || []),
@@ -68,7 +71,8 @@ function actionMarkup(item) {
   if (!action) return "";
   return `
     <div class="practical-action">
-      <div class="action-heading"><strong>Practical action</strong><span>${safe(action.time_needed)}</span></div>
+      <div class="action-heading"><strong>Try this</strong><span>${safe(action.time_needed)}</span></div>
+      <p class="action-basis">${safe(action.article_basis)}</p>
       <h3>${safe(action.title)}</h3>
       <ol>${action.steps.map(step => `<li>${safe(step)}</li>`).join("")}</ol>
       <p><b>Result:</b> ${safe(action.expected_result)}</p>
@@ -87,8 +91,11 @@ function cardMarkup(item, index) {
       </div>
       <h2>${safe(item.title)}</h2>
       <p class="card-summary">${safe(item.summary)}</p>
+      <div class="key-takeaways">
+        <strong>Three takeaways</strong>
+        <ul>${(item.key_takeaways || []).map(takeaway => `<li>${safe(takeaway)}</li>`).join("")}</ul>
+      </div>
       <div class="card-insight">
-        <div><strong>Why it matters</strong><p>${safe(item.why_it_matters)}</p></div>
         ${actionMarkup(item)}
       </div>
       <div class="card-footer">
@@ -224,7 +231,7 @@ function setupControls() {
   });
 }
 
-if (typeof module !== "undefined") module.exports = { filterItems, matchesSearch };
+if (typeof module !== "undefined") module.exports = { cardMarkup, filterItems, matchesSearch };
 
 if (typeof window !== "undefined" && typeof document !== "undefined") {
   window.addEventListener("scroll", () => {
