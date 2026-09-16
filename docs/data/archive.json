@@ -1,6 +1,11 @@
 {
   "briefs": [
     {
+      "date": "2026-09-16",
+      "editorial_summary": "10 high signal items from 8 creators.",
+      "item_count": 10
+    },
+    {
       "date": "2026-09-15",
       "editorial_summary": "10 high signal items from 9 creators.",
       "item_count": 10
@@ -12,6 +17,336 @@
     }
   ],
   "items": [
+    {
+      "brief_date": "2026-09-16",
+      "creator": "Tech With Tim",
+      "title": "Cursor Costs $20. This AI Agent Costs $1,000,000.",
+      "published": "2026-09-16T13:00:25+00:00",
+      "source": "https://www.youtube.com/watch?v=8u3vB6kPdgY",
+      "score": 94,
+      "summary": "Tech With Tim explains Cursor Costs $20. This AI Agent Costs $1,000,000. The source focuses on So why would anyone build an AI coding agent that costs $1,000,000?.",
+      "why_it_matters": "The main topic is Cursor Costs $20. This AI Agent Costs $1,000,000.",
+      "key_takeaways": [
+        "The main topic is Cursor Costs $20. This AI Agent Costs $1,000,000.",
+        "The source says: So why would anyone build an AI coding agent that costs $1,000,000?.",
+        "The source says: By the end, you’ll see why building an AI coding agent at this scale requires a very different approach."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Cursor Costs $20. This AI Agent Costs $1,000,000\": So why would anyone build an AI coding agent that costs $1,000,000?.",
+        "title": "Test one idea from Cursor Costs $20. This AI Agent Costs $1,000,000",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: So why would anyone build an AI coding agent that costs $1,000,000?.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-16",
+      "creator": "Paul Lipsky",
+      "title": "7 Mind Blowing Use Cases for Grok Bot",
+      "published": "2026-09-16T13:00:00+00:00",
+      "source": "https://www.youtube.com/watch?v=kXfHQbyMjkc",
+      "score": 91,
+      "summary": "Paul Lipsky explains 7 Mind Blowing Use Cases for Grok Bot. The source focuses on Get started today with Grok Bot: SpaceXAIPartner I built seven Grok Bot teammates to handle home maintenance, family appointments, recurring bookings, workouts, free trials, bargain hunting.",
+      "why_it_matters": "The main topic is 7 Mind Blowing Use Cases for Grok Bot.",
+      "key_takeaways": [
+        "The main topic is 7 Mind Blowing Use Cases for Grok Bot.",
+        "The source says: Get started today with Grok Bot: SpaceXAIPartner I built seven Grok Bot teammates to handle home maintenance, family appointments, recurring bookings, workouts.",
+        "The source says: Grok Bot has completed so many things for me."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"7 Mind Blowing Use Cases for Grok Bot\": Get started today with Grok Bot: SpaceXAIPartner I built seven Grok Bot teammates to handle home maintenance, family appointments, recurring bookings, workouts, free trials.",
+        "title": "Test one idea from 7 Mind Blowing Use Cases for Grok Bot",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Get started today with Grok Bot: SpaceXAIPartner I built seven Grok Bot teammates to handle home maintenance, family appointments, recurring bookings, workouts, free trials, bargain hunting, and weekend plans.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-16",
+      "creator": "Tech With Tim",
+      "title": "How I'd Learn Python From Scratch",
+      "published": "2026-09-16T11:58:15+00:00",
+      "source": "https://www.youtube.com/shorts/2_bqKTeg5n0",
+      "score": 90,
+      "summary": "Tech With Tim explains How I'd Learn Python From Scratch. The source focuses on How would I learn Python from scratch in 2026 with no coding, no experience, and no degree?.",
+      "why_it_matters": "The main topic is How I'd Learn Python From Scratch.",
+      "key_takeaways": [
+        "The main topic is How I'd Learn Python From Scratch.",
+        "The source says: How would I learn Python from scratch in 2026 with no coding, no experience, and no degree?.",
+        "The source says: That's the combination that makes Python worth the most right now."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"How I'd Learn Python From Scratch\": How would I learn Python from scratch in 2026 with no coding, no experience, and no degree?.",
+        "title": "Test one idea from How I'd Learn Python From Scratch",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: How would I learn Python from scratch in 2026 with no coding, no experience, and no degree?.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-16",
+      "creator": "Nick Saraev",
+      "title": "The 100% Free Way To Use AI Agents Just Dropped (Ads)",
+      "published": "2026-09-15T23:52:40+00:00",
+      "source": "https://www.youtube.com/watch?v=IJS08TVGut0",
+      "score": 86,
+      "summary": "Nick Saraev explains The 100% Free Way To Use AI Agents Just Dropped (Ads). The source focuses on Summary ⤵️ Here's a simple way to use AI agents 100% free with no subscription and no credit card required.",
+      "why_it_matters": "The main topic is The 100% Free Way To Use AI Agents Just Dropped (Ads).",
+      "key_takeaways": [
+        "The main topic is The 100% Free Way To Use AI Agents Just Dropped (Ads).",
+        "The source says: Summary ⤵️ Here's a simple way to use AI agents 100% free with no subscription and no credit card required.",
+        "The source says: In plain English: I help people build systems that generate leads, close deals, and scale businesses."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"The 100% Free Way To Use AI Agents Just Dropped (Ads)\": Summary ⤵️ Here's a simple way to use AI agents 100% free with no subscription and no credit card required.",
+        "title": "Test one idea from The 100% Free Way To Use AI Agents Just Dropped (Ads)",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Summary ⤵️ Here's a simple way to use AI agents 100% free with no subscription and no credit card required.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-16",
+      "creator": "Nate Herk",
+      "title": "Grok Bot Manages My Inbox (and has its own)",
+      "published": "2026-09-16T00:12:08+00:00",
+      "source": "https://www.youtube.com/watch?v=ff7om2bBLKM",
+      "score": 80,
+      "summary": "Nate Herk explains Grok Bot Manages My Inbox (and has its own). The source focuses on Find your first automation clients with Clay: FREE AI OS Kit: My Tools💻 FREE MONTH voice to text: Code NATEHERK for 10% off VPS (annual plan).",
+      "why_it_matters": "The main topic is Grok Bot Manages My Inbox (and has its own).",
+      "key_takeaways": [
+        "The main topic is Grok Bot Manages My Inbox (and has its own).",
+        "The source says: Find your first automation clients with Clay: FREE AI OS Kit: My Tools💻 FREE MONTH voice to text.",
+        "The source says: You’ll see how to set up an inbox manager, connect AgentMail, trigger a bot with a webhook."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Grok Bot Manages My Inbox (and has its own)\": Find your first automation clients with Clay: FREE AI OS Kit: My Tools💻 FREE MONTH voice to text.",
+        "title": "Test one idea from Grok Bot Manages My Inbox (and has its own)",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Find your first automation clients with Clay: FREE AI OS Kit: My Tools💻 FREE MONTH voice to text: Code NATEHERK for 10% off VPS (annual plan): In this video.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-16",
+      "creator": "Jeff Su",
+      "title": "Write a Killer Résumé in the AI Era: 5 New Rules!",
+      "published": "2026-09-15T13:00:20+00:00",
+      "source": "https://www.youtube.com/watch?v=N1Fm4JYae1I",
+      "score": 60,
+      "summary": "Jeff Su explains Write a Killer Résumé in the AI Era: 5 New Rules. The source focuses on You'll learn how to make a résumé that hiring software can read, tailor your experience to a job description without repeating key words too often.",
+      "why_it_matters": "The main topic is Write a Killer Résumé in the AI Era: 5 New Rules.",
+      "key_takeaways": [
+        "The main topic is Write a Killer Résumé in the AI Era: 5 New Rules.",
+        "The source says: You'll learn how to make a résumé that hiring software can read.",
+        "The source says: I break down research covering more than 4,000 hiring managers and nearly 2 million applications to show which résumé tips matter when."
+      ],
+      "topics": [
+        "Productivity",
+        "AI education"
+      ],
+      "practical_action": {
+        "action_type": "Hands on task",
+        "article_basis": "This task uses the method from \"Write a Killer Résumé in the AI Era: 5 New Rules\": You'll learn how to make a résumé that hiring software can read.",
+        "title": "Apply the source rules to one résumé entry",
+        "time_needed": "20 minutes",
+        "steps": [
+          "Choose one job listing and one matching résumé entry.",
+          "Rewrite the entry with one clear action and one measured result.",
+          "Check that the wording is true and easy for hiring software to read."
+        ],
+        "expected_result": "One clear résumé entry that matches the source rules.",
+        "test": "The entry names your action, result, and a true number when one exists.",
+        "safety": "Do not add a skill, result, or number you cannot prove."
+      }
+    },
+    {
+      "brief_date": "2026-09-16",
+      "creator": "René Remsik",
+      "title": "How To Spot AI Content",
+      "published": "2026-09-15T13:11:00+00:00",
+      "source": "https://www.youtube.com/shorts/riD9x8H9G3Y",
+      "score": 55,
+      "summary": "René Remsik explains How To Spot AI Content. The source focuses on People are tired of seeing endless amounts of AI-generated content since 2023, but those times are almost gone.",
+      "why_it_matters": "The main topic is How To Spot AI Content.",
+      "key_takeaways": [
+        "The main topic is How To Spot AI Content.",
+        "The source says: People are tired of seeing endless amounts of AI-generated content since 2023, but those times are almost gone.",
+        "The source says: The AI video models have gotten so good that it’s almost impossible to tell AI from reality."
+      ],
+      "topics": [
+        "AI education",
+        "Productivity"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"How To Spot AI Content\": People are tired of seeing endless amounts of AI-generated content since 2023, but those times are almost gone.",
+        "title": "Compare real and AI made content",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Choose two real images and two AI made images.",
+          "Write the signs you used to judge each image.",
+          "Check each source. Count how many choices were right."
+        ],
+        "expected_result": "A short list of signs that helped and signs that failed.",
+        "test": "You checked the real source for all four images.",
+        "safety": "Use public sample images. Do not label a person or their work without proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-16",
+      "creator": "Liam Ottley",
+      "title": "Office Hours: Answering Your AI-for-Business Questions (Free Q&A)",
+      "published": "2026-09-14T15:42:51+00:00",
+      "source": "https://www.youtube.com/watch?v=GTkGn8drbl4",
+      "score": 44,
+      "summary": "Liam Ottley answers audience questions about using AI in a business. The video uses a question and answer format instead of one fixed lesson.",
+      "why_it_matters": "The topic is using AI in a business.",
+      "key_takeaways": [
+        "The topic is using AI in a business.",
+        "The video answers questions from the audience.",
+        "Each answer may use a different method."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the main idea from \"Office Hours: Answering Your AI-for-Business Questions (Free Q&A)\".",
+        "title": "Test one idea from Office Hours: Answering Your AI-for-Business Questions (Free Q&A)",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Open the source. Choose one claim you want to check.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-16",
+      "creator": "Paul Lipsky",
+      "title": "GPT-6 Astra + ChatGPT Work Changes Everything",
+      "published": "2026-09-14T13:00:21+00:00",
+      "source": "https://www.youtube.com/watch?v=sQwp9GrkGi4",
+      "score": 43,
+      "summary": "Paul Lipsky reviews GPT-6 Astra and ChatGPT Work. The video covers file review, writing, coding, voice, price, and usage.",
+      "why_it_matters": "The source shows how the tools review files.",
+      "key_takeaways": [
+        "The source shows how the tools review files.",
+        "It covers writing and coding tasks.",
+        "It also reviews voice, price, and usage."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the main idea from \"GPT-6 Astra + ChatGPT Work Changes Everything\".",
+        "title": "Test one feature shown in the source",
+        "time_needed": "20 minutes",
+        "steps": [
+          "Choose file review, writing, coding, or voice from the source.",
+          "Run one small test with a sample file or made up prompt.",
+          "Compare the result with your normal way of doing the same task."
+        ],
+        "expected_result": "One saved example showing where the feature helped or failed.",
+        "test": "You used the same sample and goal for both results.",
+        "safety": "Use sample content. Do not upload private files."
+      }
+    },
+    {
+      "brief_date": "2026-09-16",
+      "creator": "AI Founders",
+      "title": "Build Your Claude Command Center In 15 Minutes (No Code)",
+      "published": "2026-09-14T16:00:30+00:00",
+      "source": "https://www.youtube.com/watch?v=CBHUn7DFhkQ",
+      "score": 42,
+      "summary": "AI Founders shows a Claude command center that uses no code. The source says the setup takes about 15 minutes.",
+      "why_it_matters": "The project puts Claude work in one command center.",
+      "key_takeaways": [
+        "The project puts Claude work in one command center.",
+        "The setup uses no code.",
+        "The source aims for a 15 minute setup."
+      ],
+      "topics": [
+        "AI business",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Hands on task",
+        "article_basis": "This task uses the method from \"Build Your Claude Command Center In 15 Minutes (No Code)\": AI only creates leverage when it’s applied with strategy, systems, and execution.",
+        "title": "Build the small command center from the source",
+        "time_needed": "20 minutes",
+        "steps": [
+          "Follow the source with a blank test workspace.",
+          "Add three sample tasks and one sample reference file.",
+          "Use the command center to find one task and its reference."
+        ],
+        "expected_result": "A small command center with sample work only.",
+        "test": "You find the right task and reference without searching outside the command center.",
+        "safety": "Use sample content. Do not connect work accounts or private files."
+      }
+    },
     {
       "brief_date": "2026-09-15",
       "creator": "Jeff Su",
