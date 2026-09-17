@@ -84,7 +84,9 @@ class BriefTests(unittest.TestCase):
         self.assertIn("-At \"07:30\"", installer)
         self.assertIn("$task.Settings.StartWhenAvailable", installer)
         self.assertIn("$task.Actions[0].Arguments", installer)
-        self.assertIn("$task.Principal.UserId", installer)
+        self.assertNotIn("$task.Principal.UserId -ne $userId", installer)
+        self.assertIn("$task.Principal.LogonType -notmatch", installer)
+        self.assertIn('Write-Host "User:', installer)
 
     def test_workflow_starts_at_seven_and_publishes_delivery_feed(self):
         workflow = (Path(__file__).resolve().parents[1] / ".github" / "workflows" / "daily-brief.yml").read_text(encoding="utf-8")

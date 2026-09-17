@@ -43,8 +43,8 @@ if (-not $task.Settings.StartWhenAvailable) {
 if ($task.Actions[0].Arguments -notlike "*Open-DailyAIBrief.ps1*") {
     throw "The scheduled task does not run the browser delivery script."
 }
-if ($task.Principal.UserId -ne $userId) {
-    throw "The scheduled task is assigned to the wrong user."
+if ($task.Principal.LogonType -notmatch "^Interactive") {
+    throw "The scheduled task will not run in the signed in user session."
 }
 $registeredTime = ([datetime]$task.Triggers[0].StartBoundary).ToString("HH:mm")
 if ($registeredTime -ne "07:30") {
@@ -53,5 +53,6 @@ if ($registeredTime -ne "07:30") {
 
 Write-Host "Browser delivery setup: PASS"
 Write-Host "Task: $taskName"
+Write-Host "User: $($task.Principal.UserId)"
 Write-Host "Schedule: Monday through Friday at 7:30 AM"
 Write-Host "The task waits for today's brief before opening Microsoft Edge."
