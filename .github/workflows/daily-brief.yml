@@ -47,6 +47,16 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Test PowerShell syntax
+        shell: powershell
+        run: |
+          $files = @(".\delivery\Open-DailyAIBrief.ps1", ".\delivery\Install-DailyAIBriefBrowserTask.ps1")
+          foreach ($file in $files) {
+            $tokens = $null
+            $errors = $null
+            [System.Management.Automation.Language.Parser]::ParseFile($file, [ref]$tokens, [ref]$errors) | Out-Null
+            if ($errors.Count -gt 0) { throw "$file has a PowerShell syntax error: $($errors[0].Message)" }
+          }
       - name: Test Microsoft Edge detection
         shell: powershell
         run: |

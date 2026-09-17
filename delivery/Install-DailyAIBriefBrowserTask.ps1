@@ -8,6 +8,12 @@ New-Item -ItemType Directory -Path $installDir -Force | Out-Null
 Copy-Item -Path $sourceScript -Destination $targetScript -Force
 Remove-Item -Path (Join-Path $env:TEMP "Open-DailyAIBrief-Debug.ps1") -Force -ErrorAction SilentlyContinue
 
+$existingTask = Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue
+if ($existingTask -and $existingTask.State -eq "Running") {
+    Stop-ScheduledTask -TaskName $taskName
+    Start-Sleep -Seconds 1
+}
+
 $action = New-ScheduledTaskAction `
     -Execute "powershell.exe" `
     -Argument "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$targetScript`""
@@ -52,7 +58,43 @@ if ($registeredTime -ne "07:30") {
     throw "The scheduled task start time is not 7:30 AM."
 }
 
+function Invoke-DeliveryCheck {
+    param([string]$Arguments)
+    $argumentText = "-NoProfile -ExecutionPolicy Bypass -File `"$targetScript`" $Arguments"
+    $process = Start-Process -FilePath "powershell.exe" -ArgumentList $argumentText -Wait -PassThru -NoNewWindow
+    return $process.ExitCode
+}
+
+$browserCheck = Invoke-DeliveryCheck "-CheckBrowser"
+if ($browserCheck -ne 0) {
+    throw "Microsoft Edge detection failed."
+}
+
+$dateCheck = Invoke-DeliveryCheck "-NoOpen -MaxMinutes 0 -PollSeconds 0"
+if ($dateCheck -ne 0) {
+    throw "Today's brief is not available for the browser launch test."
+}
+
+$deliveryLog = Join-Path $installDir "delivery.log"
+Remove-Item -Path $deliveryLog -Force -ErrorAction SilentlyContinue
+Start-ScheduledTask -TaskName $taskName
+
+$browserConfirmed = $false
+for ($attempt = 0; $attempt -lt 15; $attempt++) {
+    Start-Sleep -Seconds 1
+    if (Test-Path $deliveryLog) {
+        $browserConfirmed = Select-String -Path $deliveryLog -SimpleMatch "Microsoft Edge started." -Quiet
+        if ($browserConfirmed) {
+            break
+        }
+    }
+}
+if (-not $browserConfirmed) {
+    throw "The scheduled task started, but Microsoft Edge launch was not confirmed."
+}
+
 Write-Host "Browser delivery setup: PASS"
+Write-Host "Browser launch test: PASS"
 Write-Host "Task: $taskName"
 Write-Host "User: $($task.Principal.UserId)"
 Write-Host "Schedule: Monday through Friday at 7:30 AM"
