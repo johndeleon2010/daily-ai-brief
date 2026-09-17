@@ -10,7 +10,8 @@ param(
 $ErrorActionPreference = "Stop"
 $dataUrl = "https://johndeleon2010.github.io/daily-ai-brief/data/latest.json"
 $dashboardUrl = "https://johndeleon2010.github.io/daily-ai-brief/"
-$installDir = Join-Path $env:LOCALAPPDATA "DailyAIBrief"
+$dataRoot = if ($env:LOCALAPPDATA) { $env:LOCALAPPDATA } else { [System.IO.Path]::GetTempPath() }
+$installDir = Join-Path $dataRoot "DailyAIBrief"
 $logPath = Join-Path $installDir "delivery.log"
 $today = if ($ExpectedDate) { $ExpectedDate } else { Get-Date -Format "yyyy-MM-dd" }
 $deadline = (Get-Date).AddMinutes($MaxMinutes)
