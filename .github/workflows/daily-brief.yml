@@ -43,9 +43,33 @@ jobs:
           set -e
           test "$code" -eq 1
 
+  browser-delivery-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test Microsoft Edge detection
+        shell: powershell
+        run: |
+          powershell.exe -NoProfile -File .\delivery\Open-DailyAIBrief.ps1 -CheckBrowser
+          if ($LASTEXITCODE -ne 0) { throw "Microsoft Edge detection failed." }
+      - name: Test browser delivery date guard
+        shell: powershell
+        run: |
+          powershell.exe -NoProfile -File .\delivery\Open-DailyAIBrief.ps1 -DataPath tests\fixtures\latest-current.json -ExpectedDate 2026-09-17 -NoOpen -MaxMinutes 0 -PollSeconds 0
+          if ($LASTEXITCODE -ne 0) { throw "Current brief fixture failed." }
+          $stale = Start-Process -FilePath powershell.exe -ArgumentList @("-NoProfile", "-File", ".\delivery\Open-DailyAIBrief.ps1", "-DataPath", "tests\fixtures\latest-stale.json", "-ExpectedDate", "2026-09-17", "-NoOpen", "-MaxMinutes", "0", "-PollSeconds", "0") -Wait -PassThru -NoNewWindow
+          if ($stale.ExitCode -ne 1) { throw "Stale brief fixture did not fail as expected." }
+      - name: Test live browser delivery download
+        shell: powershell
+        run: |
+          $stamp = [DateTimeOffset]::UtcNow.ToUnixTimeSeconds()
+          $brief = Invoke-RestMethod -Uri ("https://johndeleon2010.github.io/daily-ai-brief/data/latest.json?stamp=" + $stamp) -Headers @{ "Cache-Control" = "no-cache" }
+          powershell.exe -NoProfile -File .\delivery\Open-DailyAIBrief.ps1 -ExpectedDate ([string]$brief.date) -NoOpen -MaxMinutes 0 -PollSeconds 0
+          if ($LASTEXITCODE -ne 0) { throw "Live browser delivery download failed." }
+
   publish:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-    needs: test
+    needs: [test, browser-delivery-windows]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
