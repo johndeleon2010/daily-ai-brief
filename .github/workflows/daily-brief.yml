@@ -3,13 +3,21 @@ name: Daily AI Brief
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 14 * * 1-5"
-    - cron: "30 15 * * 1-5"
+    - cron: "0 14 * * 1-5"
+    - cron: "0 15 * * 1-5"
+  pull_request:
+    paths:
+      - "src/**"
+      - "tests/**"
+      - "delivery/**"
+      - "creators.json"
+      - ".github/workflows/daily-brief.yml"
   push:
     branches: [main]
     paths:
       - "src/**"
       - "tests/**"
+      - "delivery/**"
       - "creators.json"
       - ".github/workflows/daily-brief.yml"
 
@@ -25,9 +33,18 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -m unittest discover -s tests -v
+      - name: Test browser delivery date guard
+        shell: bash
+        run: |
+          pwsh -NoProfile -File delivery/Open-DailyAIBrief.ps1 -DataPath tests/fixtures/latest-current.json -ExpectedDate 2026-09-17 -NoOpen -MaxMinutes 0 -PollSeconds 0
+          set +e
+          pwsh -NoProfile -File delivery/Open-DailyAIBrief.ps1 -DataPath tests/fixtures/latest-stale.json -ExpectedDate 2026-09-17 -NoOpen -MaxMinutes 0 -PollSeconds 0
+          code=$?
+          set -e
+          test "$code" -eq 1
 
   publish:
-    if: github.event_name != 'push'
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     needs: test
     runs-on: ubuntu-latest
     steps:
@@ -58,6 +75,6 @@ jobs:
         run: |
           git config user.name "daily-ai-brief-bot"
           git config user.email "daily-ai-brief-bot@users.noreply.github.com"
-          git add docs/data
+          git add docs/data docs/feed.xml
           git diff --cached --quiet || git commit -m "Publish daily AI brief"
           git push

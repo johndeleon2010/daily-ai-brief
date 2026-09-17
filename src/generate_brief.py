@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import email.utils
 import hashlib
 import html
 import json
@@ -571,6 +572,23 @@ def archive_dashboard_url(date: str) -> str:
     return f"https://johndeleon2010.github.io/daily-ai-brief/?date={date}"
 
 
+def delivery_feed(brief: dict) -> str:
+    link = archive_dashboard_url(brief["date"])
+    generated = parse_timestamp(brief["generated_at"]).astimezone(dt.timezone.utc)
+    rss = ET.Element("rss", {"version": "2.0"})
+    channel = ET.SubElement(rss, "channel")
+    ET.SubElement(channel, "title").text = "Daily AI Brief"
+    ET.SubElement(channel, "link").text = "https://johndeleon2010.github.io/daily-ai-brief/"
+    ET.SubElement(channel, "description").text = "A weekday briefing about practical AI ideas."
+    item = ET.SubElement(channel, "item")
+    ET.SubElement(item, "title").text = f"Daily AI Brief {brief['date']}"
+    ET.SubElement(item, "link").text = link
+    ET.SubElement(item, "guid", {"isPermaLink": "true"}).text = link
+    ET.SubElement(item, "pubDate").text = email.utils.format_datetime(generated, usegmt=True)
+    ET.SubElement(item, "description").text = brief["editorial_summary"]
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(rss, encoding="unicode") + "\n"
+
+
 def upgrade_brief_actions(brief: dict) -> bool:
     changed = False
     for item in brief.get("items", []):
@@ -747,6 +765,7 @@ def generate(now: dt.datetime, force: bool = False) -> dict:
     (data_dir / "latest.json").write_text(rendered, encoding="utf-8")
     (data_dir / f"{local_date}.json").write_text(rendered, encoding="utf-8")
     update_archive(data_dir)
+    (ROOT / "docs" / "feed.xml").write_text(delivery_feed(brief), encoding="utf-8")
     token = os.getenv("NOTION_TOKEN", "")
     if token:
         publish_to_notion(brief, token)
