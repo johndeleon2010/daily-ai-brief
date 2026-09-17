@@ -94,6 +94,10 @@ class BriefTests(unittest.TestCase):
         self.assertIn("$task.Principal.LogonType -notmatch", installer)
         self.assertIn('Write-Host "User:', installer)
         self.assertIn('Open-DailyAIBrief-Debug.ps1', installer)
+        self.assertIn('Stop-ScheduledTask', installer)
+        self.assertIn('Start-ScheduledTask', installer)
+        self.assertIn('Microsoft Edge started.', installer)
+        self.assertIn('Browser launch test: PASS', installer)
 
     def test_workflow_starts_at_seven_and_publishes_delivery_feed(self):
         workflow = (Path(__file__).resolve().parents[1] / ".github" / "workflows" / "daily-brief.yml").read_text(encoding="utf-8")
@@ -106,6 +110,7 @@ class BriefTests(unittest.TestCase):
         self.assertIn("browser-delivery-windows:", workflow)
         self.assertIn("runs-on: windows-latest", workflow)
         self.assertIn("Test live browser delivery download", workflow)
+        self.assertIn("Test PowerShell syntax", workflow)
 
     def test_empty_notion_variables_use_default_data_sources(self):
         src = Path(__file__).resolve().parents[1] / "src"
