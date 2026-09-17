@@ -4,14 +4,27 @@ Weekday briefing pipeline and lightweight GitHub Pages card dashboard for select
 
 ## Schedule
 
-GitHub Actions checks at 7:30 AM in `America/Los_Angeles`, Monday through Friday. Two UTC schedules handle daylight saving time, and a local time gate prevents duplicate runs.
+GitHub Actions checks at 7:00 AM in `America/Los_Angeles`, Monday through Friday. Two UTC schedules handle daylight saving time, and a local time gate prevents duplicate runs. The earlier start leaves time for delivery near 7:30 AM when GitHub queues a scheduled run.
 
 ## Outputs
 
 * `docs/data/latest.json` for the unlisted dashboard
 * `docs/data/YYYY-MM-DD.json` for history
 * `docs/data/archive.json` for the searchable dashboard archive
+* `docs/feed.xml` for delivery through Power Automate
 * Notion content and daily archive records when `NOTION_TOKEN` is configured
+
+## Browser delivery
+
+Download the `delivery` folder to a Windows computer. Run `Install-BrowserPopup.cmd` while signed in as the person who should receive the brief. The scheduled task checks the live data every five minutes after 7:30 AM on weekdays. Microsoft Edge opens only after the published date matches the current date.
+
+## Email delivery
+
+Create a Power Automate cloud flow with the RSS trigger named `When a feed item is published`.
+
+Feed URL: `https://johndeleon2010.github.io/daily-ai-brief/feed.xml`
+
+Add the Office 365 Outlook action named `Send an email (V2)`. Use the RSS title for the subject, the RSS summary for the message, and the primary feed link for the dashboard button. This keeps Outlook credentials out of GitHub.
 
 ## Required repository secrets
 

@@ -5,6 +5,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from unittest import mock
 
@@ -21,6 +22,23 @@ FEED = b'''<?xml version="1.0" encoding="UTF-8"?>
 
 
 class BriefTests(unittest.TestCase):
+    def test_delivery_feed_contains_dated_brief_link(self):
+        brief = {
+            "date": "2026-09-17",
+            "generated_at": "2026-09-17T14:05:00+00:00",
+            "editorial_summary": "10 high signal items from 8 creators.",
+            "items": [{}] * 10,
+        }
+        root = ET.fromstring(generate_brief.delivery_feed(brief))
+        item = root.find("./channel/item")
+        self.assertIsNotNone(item)
+        self.assertEqual(item.findtext("title"), "Daily AI Brief 2026-09-17")
+        self.assertEqual(
+            item.findtext("link"),
+            "https://johndeleon2010.github.io/daily-ai-brief/?date=2026-09-17",
+        )
+        self.assertIn("10 high signal items", item.findtext("description"))
+
     def test_parse_feed_preserves_source(self):
         creator = {"name": "Creator", "focus": ["Agents"], "priority": 3}
         item = parse_feed(FEED, creator)[0]
@@ -51,6 +69,29 @@ class BriefTests(unittest.TestCase):
     def test_public_dashboard_does_not_expose_private_notion_link(self):
         index = (Path(__file__).resolve().parents[1] / "docs" / "index.html").read_text(encoding="utf-8")
         self.assertNotIn("app.notion.com", index)
+
+    def test_browser_delivery_waits_for_todays_brief_and_runs_interactively(self):
+        root = Path(__file__).resolve().parents[1]
+        opener = (root / "delivery" / "Open-DailyAIBrief.ps1").read_text(encoding="utf-8")
+        installer = (root / "delivery" / "Install-DailyAIBriefBrowserTask.ps1").read_text(encoding="utf-8")
+        self.assertIn("data/latest.json", opener)
+        self.assertIn("$brief.date -eq $today", opener)
+        self.assertIn("Start-Process", opener)
+        self.assertIn("[string]$DataPath", opener)
+        self.assertIn("[switch]$NoOpen", opener)
+        self.assertIn("-StartWhenAvailable", installer)
+        self.assertIn("-LogonType Interactive", installer)
+        self.assertIn("-At \"07:30\"", installer)
+        self.assertIn("$task.Settings.StartWhenAvailable", installer)
+        self.assertIn("$task.Actions[0].Arguments", installer)
+        self.assertIn("$task.Principal.UserId", installer)
+
+    def test_workflow_starts_at_seven_and_publishes_delivery_feed(self):
+        workflow = (Path(__file__).resolve().parents[1] / ".github" / "workflows" / "daily-brief.yml").read_text(encoding="utf-8")
+        self.assertIn('cron: "0 14 * * 1-5"', workflow)
+        self.assertIn('cron: "0 15 * * 1-5"', workflow)
+        self.assertNotIn('cron: "30 14 * * 1-5"', workflow)
+        self.assertIn("git add docs/data docs/feed.xml", workflow)
 
     def test_empty_notion_variables_use_default_data_sources(self):
         src = Path(__file__).resolve().parents[1] / "src"
@@ -108,6 +149,8 @@ class BriefTests(unittest.TestCase):
             self.assertEqual(archive["items"][0]["brief_date"], "2026-09-15")
             self.assertEqual(len(archive["items"][0]["key_takeaways"]), 3)
             self.assertEqual(archive["items"][0]["practical_action"]["action_type"], "Hands on task")
+            feed = ET.parse(root / "docs" / "feed.xml").getroot()
+            self.assertEqual(feed.findtext("./channel/item/title"), "Daily AI Brief 2026-09-15")
 
     def test_action_follows_the_article_instead_of_forcing_it_work(self):
         item = {
