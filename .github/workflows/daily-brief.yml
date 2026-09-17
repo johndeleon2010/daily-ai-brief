@@ -57,8 +57,8 @@ jobs:
         run: |
           powershell.exe -NoProfile -File .\delivery\Open-DailyAIBrief.ps1 -DataPath tests\fixtures\latest-current.json -ExpectedDate 2026-09-17 -NoOpen -MaxMinutes 0 -PollSeconds 0
           if ($LASTEXITCODE -ne 0) { throw "Current brief fixture failed." }
-          powershell.exe -NoProfile -File .\delivery\Open-DailyAIBrief.ps1 -DataPath tests\fixtures\latest-stale.json -ExpectedDate 2026-09-17 -NoOpen -MaxMinutes 0 -PollSeconds 0
-          if ($LASTEXITCODE -ne 1) { throw "Stale brief fixture did not fail as expected." }
+          $stale = Start-Process -FilePath powershell.exe -ArgumentList @("-NoProfile", "-File", ".\delivery\Open-DailyAIBrief.ps1", "-DataPath", "tests\fixtures\latest-stale.json", "-ExpectedDate", "2026-09-17", "-NoOpen", "-MaxMinutes", "0", "-PollSeconds", "0") -Wait -PassThru -NoNewWindow
+          if ($stale.ExitCode -ne 1) { throw "Stale brief fixture did not fail as expected." }
       - name: Test live browser delivery download
         shell: powershell
         run: |
