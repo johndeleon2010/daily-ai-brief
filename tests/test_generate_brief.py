@@ -88,10 +88,12 @@ class BriefTests(unittest.TestCase):
 
     def test_workflow_starts_at_seven_and_publishes_delivery_feed(self):
         workflow = (Path(__file__).resolve().parents[1] / ".github" / "workflows" / "daily-brief.yml").read_text(encoding="utf-8")
+        self.assertIn("pull_request:", workflow)
         self.assertIn('cron: "0 14 * * 1-5"', workflow)
         self.assertIn('cron: "0 15 * * 1-5"', workflow)
         self.assertNotIn('cron: "30 14 * * 1-5"', workflow)
         self.assertIn("git add docs/data docs/feed.xml", workflow)
+        self.assertIn("github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'", workflow)
 
     def test_empty_notion_variables_use_default_data_sources(self):
         src = Path(__file__).resolve().parents[1] / "src"

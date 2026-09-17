@@ -5,6 +5,13 @@ on:
   schedule:
     - cron: "0 14 * * 1-5"
     - cron: "0 15 * * 1-5"
+  pull_request:
+    paths:
+      - "src/**"
+      - "tests/**"
+      - "delivery/**"
+      - "creators.json"
+      - ".github/workflows/daily-brief.yml"
   push:
     branches: [main]
     paths:
@@ -37,7 +44,7 @@ jobs:
           test "$code" -eq 1
 
   publish:
-    if: github.event_name != 'push'
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     needs: test
     runs-on: ubuntu-latest
     steps:
