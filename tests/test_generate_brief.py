@@ -76,6 +76,12 @@ class BriefTests(unittest.TestCase):
         installer = (root / "delivery" / "Install-DailyAIBriefBrowserTask.ps1").read_text(encoding="utf-8")
         self.assertIn("data/latest.json", opener)
         self.assertIn("$brief.date -eq $today", opener)
+        self.assertIn('$requestUrl = $dataUrl + "?stamp=" + $stamp', opener)
+        self.assertIn('Brief date check: FAILED. Last check:', opener)
+        self.assertIn('delivery.log', opener)
+        self.assertIn('Microsoft\\Edge\\Application\\msedge.exe', opener)
+        self.assertIn('[switch]$CheckBrowser', opener)
+        self.assertIn('Microsoft Edge check: PASS', opener)
         self.assertIn("Start-Process", opener)
         self.assertIn("[string]$DataPath", opener)
         self.assertIn("[switch]$NoOpen", opener)
@@ -87,6 +93,7 @@ class BriefTests(unittest.TestCase):
         self.assertNotIn("$task.Principal.UserId -ne $userId", installer)
         self.assertIn("$task.Principal.LogonType -notmatch", installer)
         self.assertIn('Write-Host "User:', installer)
+        self.assertIn('Open-DailyAIBrief-Debug.ps1', installer)
 
     def test_workflow_starts_at_seven_and_publishes_delivery_feed(self):
         workflow = (Path(__file__).resolve().parents[1] / ".github" / "workflows" / "daily-brief.yml").read_text(encoding="utf-8")
@@ -96,6 +103,9 @@ class BriefTests(unittest.TestCase):
         self.assertNotIn('cron: "30 14 * * 1-5"', workflow)
         self.assertIn("git add docs/data docs/feed.xml", workflow)
         self.assertIn("github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'", workflow)
+        self.assertIn("browser-delivery-windows:", workflow)
+        self.assertIn("runs-on: windows-latest", workflow)
+        self.assertIn("Test live browser delivery download", workflow)
 
     def test_empty_notion_variables_use_default_data_sources(self):
         src = Path(__file__).resolve().parents[1] / "src"

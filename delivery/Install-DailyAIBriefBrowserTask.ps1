@@ -6,6 +6,7 @@ $targetScript = Join-Path $installDir "Open-DailyAIBrief.ps1"
 
 New-Item -ItemType Directory -Path $installDir -Force | Out-Null
 Copy-Item -Path $sourceScript -Destination $targetScript -Force
+Remove-Item -Path (Join-Path $env:TEMP "Open-DailyAIBrief-Debug.ps1") -Force -ErrorAction SilentlyContinue
 
 $action = New-ScheduledTaskAction `
     -Execute "powershell.exe" `
