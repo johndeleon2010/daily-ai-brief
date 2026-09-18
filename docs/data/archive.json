@@ -1,6 +1,11 @@
 {
   "briefs": [
     {
+      "date": "2026-09-18",
+      "editorial_summary": "7 high signal items from 4 creators.",
+      "item_count": 7
+    },
+    {
       "date": "2026-09-17",
       "editorial_summary": "10 high signal items from 8 creators.",
       "item_count": 10
@@ -22,6 +27,237 @@
     }
   ],
   "items": [
+    {
+      "brief_date": "2026-09-18",
+      "creator": "Nate Herk",
+      "title": "Anthropic’s CEO: How to Build a 1 Person Business with Claude",
+      "published": "2026-09-18T13:01:25+00:00",
+      "source": "https://www.youtube.com/watch?v=QDsenEcAJIk",
+      "score": 94,
+      "summary": "Nate Herk explains Anthropic’s CEO: How to Build a 1 Person Business with Claude. The source focuses on That's why I'm breaking down Anthropic’s CEO vision on how to build a 1 person business with Claude.",
+      "why_it_matters": "The main topic is Anthropic’s CEO: How to Build a 1 Person Business with Claude.",
+      "key_takeaways": [
+        "The main topic is Anthropic’s CEO: How to Build a 1 Person Business with Claude.",
+        "The source says: That's why I'm breaking down Anthropic’s CEO vision on how to build a 1 person business with Claude.",
+        "The source says: So what does Claude actually build?."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Anthropic’s CEO: How to Build a 1 Person Business with Claude\": That's why I'm breaking down Anthropic’s CEO vision on how to build a 1 person business with Claude.",
+        "title": "Test one idea from Anthropic’s CEO: How to Build a 1 Person Business with Claude",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: That's why I'm breaking down Anthropic’s CEO vision on how to build a 1 person business with Claude.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-18",
+      "creator": "Nate Herk",
+      "title": "Run Your Entire Cold Outreach From One Tool",
+      "published": "2026-09-18T13:45:31+00:00",
+      "source": "https://www.youtube.com/shorts/TIYCa6hOx1Q",
+      "score": 91,
+      "summary": "Nate Herk explains Run Your Entire Cold Outreach From One Tool. The source focuses on Run your entire cold outreach system from one tool.",
+      "why_it_matters": "The main topic is Run Your Entire Cold Outreach From One Tool.",
+      "key_takeaways": [
+        "The main topic is Run Your Entire Cold Outreach From One Tool.",
+        "The source says: Run your entire cold outreach system from one tool.",
+        "The source says: Clay finds the companies, the right person, writes the copy, and now with Sequencer 2.0 it warms the domain and sends too."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Run Your Entire Cold Outreach From One Tool\": Run your entire cold outreach system from one tool.",
+        "title": "Test one idea from Run Your Entire Cold Outreach From One Tool",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Run your entire cold outreach system from one tool.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-18",
+      "creator": "Paul Lipsky",
+      "title": "So Much AI News: New ChatGPT Tools, NotebookLM Updates, Big Claude Changes, Grok Bot Live, + More!",
+      "published": "2026-09-18T13:00:31+00:00",
+      "source": "https://www.youtube.com/watch?v=SsHZaH2ml_U",
+      "score": 91,
+      "summary": "Paul Lipsky explains So Much AI News: New ChatGPT Tools, NotebookLM Updates, Big Claude Changes, Grok Bot Live, + More. The source focuses on Here's what matters from this busy week in AI.",
+      "why_it_matters": "The main topic is So Much AI News: New ChatGPT Tools, NotebookLM Updates, Big Claude Changes, Grok Bot Live, + More.",
+      "key_takeaways": [
+        "The main topic is So Much AI News: New ChatGPT Tools, NotebookLM Updates, Big Claude Changes, Grok Bot Live, + More.",
+        "The source says: Here's what matters from this busy week in AI.",
+        "Test the idea on a small example before using it more widely."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"So Much AI News: New ChatGPT Tools, NotebookLM Updates, Big Claude Changes, Grok Bot Live, + More\": Here's what matters from this busy week in AI.",
+        "title": "Check one news claim from the source",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Choose one claim from the source.",
+          "Find the report, study, or company post behind the claim.",
+          "Mark the claim as supported, unclear, or wrong. Save the source link."
+        ],
+        "expected_result": "One checked claim with a link to the original evidence.",
+        "test": "The evidence comes from the group that made the report or announcement.",
+        "safety": "Do not repeat a serious claim as fact until the evidence supports it."
+      }
+    },
+    {
+      "brief_date": "2026-09-18",
+      "creator": "Tech With Tim",
+      "title": "Python Is Still No 1",
+      "published": "2026-09-18T12:00:10+00:00",
+      "source": "https://www.youtube.com/shorts/FGC8-V-UkJs",
+      "score": 90,
+      "summary": "Tech With Tim explains Python Is Still No 1. The source focuses on Is Python still worth learning in 2026?.",
+      "why_it_matters": "The main topic is Python Is Still No 1.",
+      "key_takeaways": [
+        "The main topic is Python Is Still No 1.",
+        "The source says: Is Python still worth learning in 2026?.",
+        "The source says: What's changed is what employers expect around it."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Python Is Still No 1\": Is Python still worth learning in 2026?.",
+        "title": "Test one idea from Python Is Still No 1",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Is Python still worth learning in 2026?.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-18",
+      "creator": "Tech With Tim",
+      "title": "Top 7 AI Agent Tools That Actually Work",
+      "published": "2026-09-17T17:18:54+00:00",
+      "source": "https://www.youtube.com/watch?v=84-sHkG4AQU",
+      "score": 76,
+      "summary": "Tech With Tim explains Top 7 AI Agent Tools That Actually Work. The source focuses on The difference between a toy and something that does real work is the tools you connect to it.",
+      "why_it_matters": "The main topic is Top 7 AI Agent Tools That Actually Work.",
+      "key_takeaways": [
+        "The main topic is Top 7 AI Agent Tools That Actually Work.",
+        "The source says: The difference between a toy and something that does real work is the tools you connect to it.",
+        "The source says: Get started with Browser Use and get $30 in FREE credits!."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Top 7 AI Agent Tools That Actually Work\": The difference between a toy and something that does real work is the tools you connect to it.",
+        "title": "Test one idea from Top 7 AI Agent Tools That Actually Work",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: The difference between a toy and something that does real work is the tools you connect to it.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-18",
+      "creator": "Nick Saraev",
+      "title": "I Found a Way To Use AI Agents Like Codex Completely For FREE",
+      "published": "2026-09-15T23:52:40+00:00",
+      "source": "https://www.youtube.com/watch?v=IJS08TVGut0",
+      "score": 45,
+      "summary": "Nick Saraev explains I Found a Way To Use AI Agents Like Codex Completely For FREE. The source focuses on Summary ⤵️ Here's a simple way to use AI agents 100% free with no subscription and no credit card required.",
+      "why_it_matters": "The main topic is I Found a Way To Use AI Agents Like Codex Completely For FREE.",
+      "key_takeaways": [
+        "The main topic is I Found a Way To Use AI Agents Like Codex Completely For FREE.",
+        "The source says: Summary ⤵️ Here's a simple way to use AI agents 100% free with no subscription and no credit card required.",
+        "The source says: In plain English: I help people build systems that generate leads, close deals, and scale businesses."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Found a Way To Use AI Agents Like Codex Completely For FREE\": Summary ⤵️ Here's a simple way to use AI agents 100% free with no subscription and no credit card required.",
+        "title": "Test one idea from I Found a Way To Use AI Agents Like Codex Completely For FREE",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Summary ⤵️ Here's a simple way to use AI agents 100% free with no subscription and no credit card required.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-18",
+      "creator": "Paul Lipsky",
+      "title": "7 Mind Blowing Use Cases for Grok Bot",
+      "published": "2026-09-16T13:00:00+00:00",
+      "source": "https://www.youtube.com/watch?v=kXfHQbyMjkc",
+      "score": 43,
+      "summary": "Paul Lipsky explains 7 Mind Blowing Use Cases for Grok Bot. The source focuses on Get started today with Grok Bot: SpaceXAIPartner I built seven Grok Bot teammates to handle home maintenance, family appointments, recurring bookings, workouts, free trials, bargain hunting.",
+      "why_it_matters": "The main topic is 7 Mind Blowing Use Cases for Grok Bot.",
+      "key_takeaways": [
+        "The main topic is 7 Mind Blowing Use Cases for Grok Bot.",
+        "The source says: Get started today with Grok Bot: SpaceXAIPartner I built seven Grok Bot teammates to handle home maintenance, family appointments, recurring bookings, workouts.",
+        "The source says: Grok Bot has completed so many things for me."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"7 Mind Blowing Use Cases for Grok Bot\": Get started today with Grok Bot: SpaceXAIPartner I built seven Grok Bot teammates to handle home maintenance, family appointments, recurring bookings, workouts, free trials.",
+        "title": "Test one idea from 7 Mind Blowing Use Cases for Grok Bot",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Get started today with Grok Bot: SpaceXAIPartner I built seven Grok Bot teammates to handle home maintenance, family appointments, recurring bookings, workouts, free trials, bargain hunting, and weekend plans.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
     {
       "brief_date": "2026-09-17",
       "creator": "Tech With Tim",
