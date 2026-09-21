@@ -1,6 +1,11 @@
 {
   "briefs": [
     {
+      "date": "2026-09-21",
+      "editorial_summary": "7 high signal items from 5 creators.",
+      "item_count": 7
+    },
+    {
       "date": "2026-09-18",
       "editorial_summary": "7 high signal items from 4 creators.",
       "item_count": 7
@@ -27,6 +32,237 @@
     }
   ],
   "items": [
+    {
+      "brief_date": "2026-09-21",
+      "creator": "Nate Herk",
+      "title": "Build & Sell with Codex (5+ Hour Course)",
+      "published": "2026-09-21T12:31:48+00:00",
+      "source": "https://www.youtube.com/watch?v=X-pbJWKmwi0",
+      "score": 95,
+      "summary": "Nate Herk explains Build & Sell with Codex (5+ Hour Course). The source focuses on We'll use GPT-6 Astra to build your AI operating system and second brain, create reusable skills, make websites and branded deliverables, and generate and edit videos.",
+      "why_it_matters": "The main topic is Build & Sell with Codex (5+ Hour Course).",
+      "key_takeaways": [
+        "The main topic is Build & Sell with Codex (5+ Hour Course).",
+        "The source says: We'll use GPT-6 Astra to build your AI operating system and second brain, create reusable skills, make websites and branded deliverables.",
+        "The source says: I'll also cover browser use, voice mode, hosting automations, Codex vs."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Build & Sell with Codex (5+ Hour Course)\": We'll use GPT-6 Astra to build your AI operating system and second brain, create reusable skills, make websites and branded deliverables.",
+        "title": "Test one idea from Build & Sell with Codex (5+ Hour Course)",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: We'll use GPT-6 Astra to build your AI operating system and second brain, create reusable skills, make websites and branded deliverables, and generate and edit videos.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-21",
+      "creator": "Tech With Tim",
+      "title": "Momentum Beats Mastery",
+      "published": "2026-09-21T12:00:00+00:00",
+      "source": "https://www.youtube.com/shorts/e8i9pp5-y4k",
+      "score": 90,
+      "summary": "Tech With Tim explains Momentum Beats Mastery. The source focuses on Don't wait until you feel 100% comfortable to move to the next phase, because you'll never feel fully ready.",
+      "why_it_matters": "The main topic is Momentum Beats Mastery.",
+      "key_takeaways": [
+        "The main topic is Momentum Beats Mastery.",
+        "The source says: Don't wait until you feel 100% comfortable to move to the next phase, because you'll never feel fully ready.",
+        "The source says: Just finish the track, get through the plan, build the projects, and move on."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Momentum Beats Mastery\": Don't wait until you feel 100% comfortable to move to the next phase, because you'll never feel fully ready.",
+        "title": "Test one idea from Momentum Beats Mastery",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Don't wait until you feel 100% comfortable to move to the next phase, because you'll never feel fully ready.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-21",
+      "creator": "Liam Ottley",
+      "title": "I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days)",
+      "published": "2026-09-21T01:18:57+00:00",
+      "source": "https://www.youtube.com/watch?v=IXDYEF22CG8",
+      "score": 83,
+      "summary": "Liam Ottley explains I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days). The source focuses on 25 of his accountants spend more than half of every working week filling in working papers by hand, over 20 hours a week each.",
+      "why_it_matters": "The main topic is I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days).",
+      "key_takeaways": [
+        "The main topic is I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days).",
+        "The source says: 25 of his accountants spend more than half of every working week filling in working papers by hand.",
+        "The source says: WATCH NEXT: I Rebuilt This $1,000,000 Business (in 5 Days)."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days)\": 25 of his accountants spend more than half of every working week filling in working papers by hand, over 20 hours a week each.",
+        "title": "Test one idea from I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days)",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: 25 of his accountants spend more than half of every working week filling in working papers by hand, over 20 hours a week each, and with the whole industry racing to put AI first.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-21",
+      "creator": "Nick Saraev",
+      "title": "I Love AI, But GPT-6-Astra Terrifies Me",
+      "published": "2026-09-20T12:00:25+00:00",
+      "source": "https://www.youtube.com/watch?v=DtfwNoL7Ndw",
+      "score": 74,
+      "summary": "Nick Saraev explains I Love AI, But GPT-6-Astra Terrifies Me. The source focuses on In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+      "why_it_matters": "The main topic is I Love AI, But GPT-6-Astra Terrifies Me.",
+      "key_takeaways": [
+        "The main topic is I Love AI, But GPT-6-Astra Terrifies Me.",
+        "The source says: In plain English: I help people build systems that generate leads, close deals, and scale businesses.",
+        "The source says: I run LeftClick, an AI growth agency."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Love AI, But GPT-6-Astra Terrifies Me\": In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+        "title": "Test one idea from I Love AI, But GPT-6-Astra Terrifies Me",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-21",
+      "creator": "Tech With Tim",
+      "title": "Stop Passively Watching Tutorials",
+      "published": "2026-09-20T12:00:31+00:00",
+      "source": "https://www.youtube.com/shorts/Ge47OxX5vAI",
+      "score": 66,
+      "summary": "Tech With Tim explains Stop Passively Watching Tutorials. The source focuses on If it doesn't, find something outside of it to actually practice with, because doing beats watching every time.",
+      "why_it_matters": "The main topic is Stop Passively Watching Tutorials.",
+      "key_takeaways": [
+        "The main topic is Stop Passively Watching Tutorials.",
+        "The source says: If it doesn't, find something outside of it to actually practice with, because doing beats watching every time.",
+        "The source says: Passive consumption, just watching or reading, has terrible retention."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Stop Passively Watching Tutorials\": If it doesn't, find something outside of it to actually practice with, because doing beats watching every time.",
+        "title": "Test one idea from Stop Passively Watching Tutorials",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: If it doesn't, find something outside of it to actually practice with, because doing beats watching every time.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-21",
+      "creator": "Nate Herk",
+      "title": "I Tested Jev on 12 Real Use Cases. My Honest Thoughts.",
+      "published": "2026-09-19T17:25:09+00:00",
+      "source": "https://www.youtube.com/watch?v=ymgH8jS6Wb8",
+      "score": 51,
+      "summary": "Nate Herk explains I Tested Jev on 12 Real Use Cases. My Honest Thoughts. The source focuses on In this video, I test it across 12 real use cases, compare its speed and cost with traditional models.",
+      "why_it_matters": "The main topic is I Tested Jev on 12 Real Use Cases. My Honest Thoughts.",
+      "key_takeaways": [
+        "The main topic is I Tested Jev on 12 Real Use Cases. My Honest Thoughts.",
+        "The source says: In this video, I test it across 12 real use cases, compare its speed and cost with traditional models.",
+        "The source says: You'll see where Jev fits, where it does not, and how to evaluate it before adding it to a production automation."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Tested Jev on 12 Real Use Cases. My Honest Thoughts\": In this video, I test it across 12 real use cases, compare its speed and cost with traditional models.",
+        "title": "Test one idea from I Tested Jev on 12 Real Use Cases. My Honest Thoughts",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: In this video, I test it across 12 real use cases, compare its speed and cost with traditional models, and show live builds including an X feed classifier and a real-time paper-trading prototype.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-21",
+      "creator": "René Remsik",
+      "title": "AI for music clips ⭐️",
+      "published": "2026-09-19T08:58:26+00:00",
+      "source": "https://www.youtube.com/shorts/OQLy9ym4X10",
+      "score": 27,
+      "summary": "René Remsik explains AI for music clips ⭐️. The source focuses on Comment “art” if you want me to DM you a tutorial with prompts 🫶 Disclaimer: I’m not claiming AI is replacing artists or anything.",
+      "why_it_matters": "The main topic is AI for music clips ⭐️.",
+      "key_takeaways": [
+        "The main topic is AI for music clips ⭐️.",
+        "The source says: Comment “art” if you want me to DM you a tutorial with prompts 🫶 Disclaimer.",
+        "The source says: Just a cheaper and more effective way to create cool videos, images, websites, etc."
+      ],
+      "topics": [
+        "AI education",
+        "Productivity"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"AI for music clips ⭐️\": Comment “art” if you want me to DM you a tutorial with prompts 🫶 Disclaimer: I’m not claiming AI is replacing artists or anything.",
+        "title": "Test one idea from AI for music clips ⭐️",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Comment “art” if you want me to DM you a tutorial with prompts 🫶 Disclaimer: I’m not claiming AI is replacing artists or anything.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
     {
       "brief_date": "2026-09-18",
       "creator": "Nate Herk",
