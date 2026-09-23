@@ -1,6 +1,11 @@
 {
   "briefs": [
     {
+      "date": "2026-09-23",
+      "editorial_summary": "9 high signal items from 6 creators.",
+      "item_count": 9
+    },
+    {
       "date": "2026-09-22",
       "editorial_summary": "4 high signal items from 3 creators.",
       "item_count": 4
@@ -37,6 +42,303 @@
     }
   ],
   "items": [
+    {
+      "brief_date": "2026-09-23",
+      "creator": "Tech With Tim",
+      "title": "How to Build AI Agents in Python - 3 Ways",
+      "published": "2026-09-23T13:30:32+00:00",
+      "source": "https://www.youtube.com/watch?v=-RTgK6qX6A8",
+      "score": 94,
+      "summary": "Tech With Tim explains How to Build AI Agents in Python - 3 Ways. The source focuses on In a previous video I showed you how to build agents completely from scratch in Python — this one is the level up.",
+      "why_it_matters": "The main topic is How to Build AI Agents in Python - 3 Ways.",
+      "key_takeaways": [
+        "The main topic is How to Build AI Agents in Python - 3 Ways.",
+        "The source says: In a previous video I showed you how to build agents completely from scratch in Python — this one is the level.",
+        "The source says: Download the code from this video here: Everyone talks about \"AI agents."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Hands on task",
+        "article_basis": "This task uses the method from \"How to Build AI Agents in Python - 3 Ways\": In a previous video I showed you how to build agents completely from scratch in Python — this one is the level up.",
+        "title": "Try the method from How to Build AI Agents in Python - 3 Ways",
+        "time_needed": "20 minutes",
+        "steps": [
+          "Building something that can actually explore a codebase.",
+          "Run commands on its own.",
+          "Use my code TECHWITHTIM to get 25% off your first payment for boot.dev."
+        ],
+        "expected_result": "One small result made with the article method.",
+        "test": "Your steps match the source, and you saved one clear result.",
+        "safety": "Use a small sample. Stop before the test affects people, money, accounts, or live systems."
+      }
+    },
+    {
+      "brief_date": "2026-09-23",
+      "creator": "DeepLearning.AI",
+      "title": "Building AI Assistants with On-Device Memory",
+      "published": "2026-09-23T13:30:05+00:00",
+      "source": "https://www.youtube.com/watch?v=uRGHx-1CqBQ",
+      "score": 94,
+      "summary": "DeepLearning.AI explains Building AI Assistants with On-Device Memory. The source focuses on In our new short course, Building AI Assistants with On-Device Memory, built in partnership with Qdrant and taught by Dylan Couzon, Developer Experience Engineer at Qdrant.",
+      "why_it_matters": "The main topic is Building AI Assistants with On-Device Memory.",
+      "key_takeaways": [
+        "The main topic is Building AI Assistants with On-Device Memory.",
+        "The source says: In our new short course, Building AI Assistants with On-Device Memory, built in partnership with Qdrant and taught by Dylan Couzon.",
+        "The source says: - Run the on-device AI assistant on a local machine, including Mac, Windows, and Linux."
+      ],
+      "topics": [
+        "AI engineering",
+        "AI education"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Building AI Assistants with On-Device Memory\": In our new short course, Building AI Assistants with On-Device Memory, built in partnership with Qdrant and taught by Dylan Couzon.",
+        "title": "Test one idea from Building AI Assistants with On-Device Memory",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: In our new short course, Building AI Assistants with On-Device Memory, built in partnership with Qdrant and taught by Dylan Couzon, Developer Experience Engineer at Qdrant, you'll learn to store and search an assistant's memories locally.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-23",
+      "creator": "Tech With Tim",
+      "title": "Where the Junior Dev Jobs Went",
+      "published": "2026-09-23T12:00:04+00:00",
+      "source": "https://www.youtube.com/shorts/z6jbk0On37A",
+      "score": 90,
+      "summary": "Tech With Tim explains Where the Junior Dev Jobs Went. The source focuses on Why are junior developers struggling right now?.",
+      "why_it_matters": "The main topic is Where the Junior Dev Jobs Went.",
+      "key_takeaways": [
+        "The main topic is Where the Junior Dev Jobs Went.",
+        "The source says: Why are junior developers struggling right now?.",
+        "The source says: The jobs didn't disappear, they moved."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Where the Junior Dev Jobs Went\": Why are junior developers struggling right now?.",
+        "title": "Test one idea from Where the Junior Dev Jobs Went",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Why are junior developers struggling right now?.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-23",
+      "creator": "Nate Herk",
+      "title": "I Tested Opus 5.5 vs. GPT-6 Sol on 10 Real Use Cases",
+      "published": "2026-09-23T04:15:57+00:00",
+      "source": "https://www.youtube.com/watch?v=eF3yeJuifoQ",
+      "score": 86,
+      "summary": "Nate Herk explains I Tested Opus 5.5 vs. GPT-6 Sol on 10 Real Use Cases. The source focuses on You'll see where I preferred Opus, where Sol won, and how I'd think about using them together.",
+      "why_it_matters": "The main topic is I Tested Opus 5.5 vs. GPT-6 Sol on 10 Real Use Cases.",
+      "key_takeaways": [
+        "The main topic is I Tested Opus 5.5 vs. GPT-6 Sol on 10 Real Use Cases.",
+        "The source says: You'll see where I preferred Opus, where Sol won, and how I'd think about using them together.",
+        "The source says: I walk through the outputs, how long they took, and what they cost."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Tested Opus 5.5 vs. GPT-6 Sol on 10 Real Use Cases\": You'll see where I preferred Opus, where Sol won, and how I'd think about using them together.",
+        "title": "Test one idea from I Tested Opus 5.5 vs. GPT-6 Sol on 10 Real Use Cases",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: You'll see where I preferred Opus, where Sol won, and how I'd think about using them together.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-23",
+      "creator": "DeepLearning.AI",
+      "title": "Full Course: Spec-Driven Development with Coding Agents",
+      "published": "2026-09-22T19:32:17+00:00",
+      "source": "https://www.youtube.com/watch?v=hy8UstR2NEg",
+      "score": 75,
+      "summary": "DeepLearning.AI explains Full Course: Spec-Driven Development with Coding Agents. The source focuses on Spec-driven development is the disciplined alternative: write a clear markdown spec defining what to build, and let your coding agent implement it.",
+      "why_it_matters": "The main topic is Full Course: Spec-Driven Development with Coding Agents.",
+      "key_takeaways": [
+        "The main topic is Full Course: Spec-Driven Development with Coding Agents.",
+        "The source says: Spec-driven development is the disciplined alternative: write a clear markdown spec defining what to build, and let your coding agent implement it.",
+        "The source says: Vibe coding is fast, but it often produces code that doesn't match what you asked for."
+      ],
+      "topics": [
+        "AI engineering",
+        "AI education"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Full Course: Spec-Driven Development with Coding Agents\": Spec-driven development is the disciplined alternative: write a clear markdown spec defining what to build, and let your coding agent implement it.",
+        "title": "Test one idea from Full Course: Spec-Driven Development with Coding Agents",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Spec-driven development is the disciplined alternative: write a clear markdown spec defining what to build, and let your coding agent implement it.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-23",
+      "creator": "Paul Lipsky",
+      "title": "GPT-6 Sol Is Here (50% Cheaper!)",
+      "published": "2026-09-22T19:01:53+00:00",
+      "source": "https://www.youtube.com/watch?v=lPNgeaF2Nk4",
+      "score": 72,
+      "summary": "Paul Lipsky explains GPT-6 Sol Is Here (50% Cheaper!). The source focuses on GPT-6 Sol and Luna are here!.",
+      "why_it_matters": "The main topic is GPT-6 Sol Is Here (50% Cheaper!).",
+      "key_takeaways": [
+        "The main topic is GPT-6 Sol Is Here (50% Cheaper!).",
+        "The source says: GPT-6 Sol and Luna are here!.",
+        "The source says: Find out what OpenAI is promising when it comes to these new models."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"GPT-6 Sol Is Here (50% Cheaper!)\": GPT-6 Sol and Luna are here!.",
+        "title": "Test one idea from GPT-6 Sol Is Here (50% Cheaper!)",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: GPT-6 Sol and Luna are here!.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-23",
+      "creator": "René Remsik",
+      "title": "New Cat Discovered",
+      "published": "2026-09-22T18:10:06+00:00",
+      "source": "https://www.youtube.com/shorts/ZSYb4TxbXbw",
+      "score": 61,
+      "summary": "René Remsik explains New Cat Discovered. The source focuses on Scientists just discovered a new wild cat species and the internet is going insane 🐈 Meet the Tilcayo tiger cat newly!.",
+      "why_it_matters": "The main topic is New Cat Discovered.",
+      "key_takeaways": [
+        "The main topic is New Cat Discovered.",
+        "The source says: Scientists just discovered a new wild cat species and the internet is going insane 🐈 Meet the Tilcayo tiger cat newly!.",
+        "The source says: When I saw a viral video by @fatiihh.shn of his cat."
+      ],
+      "topics": [
+        "AI education",
+        "Productivity"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"New Cat Discovered\": Scientists just discovered a new wild cat species and the internet is going insane 🐈 Meet the Tilcayo tiger cat newly!.",
+        "title": "Test one idea from New Cat Discovered",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Scientists just discovered a new wild cat species and the internet is going insane 🐈 Meet the Tilcayo tiger cat newly!.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-23",
+      "creator": "Nate Herk",
+      "title": "Build & Sell with Codex (5+ Hour Course)",
+      "published": "2026-09-21T12:31:48+00:00",
+      "source": "https://www.youtube.com/watch?v=X-pbJWKmwi0",
+      "score": 47,
+      "summary": "Nate Herk explains Build & Sell with Codex (5+ Hour Course). The source focuses on We'll use GPT-6 Astra to build your AI operating system and second brain, create reusable skills, make websites and branded deliverables, and generate and edit videos.",
+      "why_it_matters": "The main topic is Build & Sell with Codex (5+ Hour Course).",
+      "key_takeaways": [
+        "The main topic is Build & Sell with Codex (5+ Hour Course).",
+        "The source says: We'll use GPT-6 Astra to build your AI operating system and second brain, create reusable skills, make websites and branded deliverables.",
+        "The source says: I'll also cover browser use, voice mode, hosting automations, Codex vs."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Build & Sell with Codex (5+ Hour Course)\": We'll use GPT-6 Astra to build your AI operating system and second brain, create reusable skills, make websites and branded deliverables.",
+        "title": "Test one idea from Build & Sell with Codex (5+ Hour Course)",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: We'll use GPT-6 Astra to build your AI operating system and second brain, create reusable skills, make websites and branded deliverables, and generate and edit videos.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-23",
+      "creator": "Liam Ottley",
+      "title": "I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days)",
+      "published": "2026-09-21T01:18:57+00:00",
+      "source": "https://www.youtube.com/watch?v=IXDYEF22CG8",
+      "score": 40,
+      "summary": "Liam Ottley explains I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days). The source focuses on 25 of his accountants spend more than half of every working week filling in working papers by hand, over 20 hours a week each.",
+      "why_it_matters": "The main topic is I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days).",
+      "key_takeaways": [
+        "The main topic is I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days).",
+        "The source says: 25 of his accountants spend more than half of every working week filling in working papers by hand.",
+        "The source says: WATCH NEXT: I Rebuilt This $1,000,000 Business (in 5 Days)."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days)\": 25 of his accountants spend more than half of every working week filling in working papers by hand, over 20 hours a week each.",
+        "title": "Test one idea from I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days)",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: 25 of his accountants spend more than half of every working week filling in working papers by hand, over 20 hours a week each, and with the whole industry racing to put AI first.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
     {
       "brief_date": "2026-09-22",
       "creator": "Tech With Tim",
