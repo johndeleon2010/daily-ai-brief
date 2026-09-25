@@ -1,6 +1,11 @@
 {
   "briefs": [
     {
+      "date": "2026-09-25",
+      "editorial_summary": "10 high signal items from 6 creators.",
+      "item_count": 10
+    },
+    {
       "date": "2026-09-24",
       "editorial_summary": "9 high signal items from 5 creators.",
       "item_count": 9
@@ -47,6 +52,336 @@
     }
   ],
   "items": [
+    {
+      "brief_date": "2026-09-25",
+      "creator": "Nick Saraev",
+      "title": "I Spent $31,141 On Claude Code To Learn This",
+      "published": "2026-09-25T06:42:57+00:00",
+      "source": "https://www.youtube.com/watch?v=45K3zHckCnQ",
+      "score": 93,
+      "summary": "Nick Saraev explains I Spent $31,141 On Claude Code To Learn This. The source focuses on Summary ⤵️ Here are some practical tips on Claude Code that I've learned after spending $31,141 and over 1,000 hours working with AI models.",
+      "why_it_matters": "The main topic is I Spent $31,141 On Claude Code To Learn This.",
+      "key_takeaways": [
+        "The main topic is I Spent $31,141 On Claude Code To Learn This.",
+        "The source says: Summary ⤵️ Here are some practical tips on Claude Code that I've learned after spending $31,141 and over 1.",
+        "The source says: In plain English: I help people build systems that generate leads, close deals, and scale businesses."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Spent $31,141 On Claude Code To Learn This\": Summary ⤵️ Here are some practical tips on Claude Code that I've learned after spending $31,141 and over 1,000 hours working with AI models.",
+        "title": "Test one idea from I Spent $31,141 On Claude Code To Learn This",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Summary ⤵️ Here are some practical tips on Claude Code that I've learned after spending $31,141 and over 1,000 hours working with AI models.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-25",
+      "creator": "Paul Lipsky",
+      "title": "Big AI News: Opus 5.5 vs GPT-6 Sol, NotebookLM Updates, Muse Charm & More!",
+      "published": "2026-09-25T13:00:31+00:00",
+      "source": "https://www.youtube.com/watch?v=Q6uuvZmb0t8",
+      "score": 91,
+      "summary": "Paul Lipsky explains Big AI News: Opus 5.5 vs GPT-6 Sol, NotebookLM Updates, Muse Charm & More. The source focuses on Opus 5.5 and GPT-6 Sol arrived on the same day, so I tested both on real writing, design, and video-editing work.",
+      "why_it_matters": "The main topic is Big AI News: Opus 5.5 vs GPT-6 Sol, NotebookLM Updates, Muse Charm & More.",
+      "key_takeaways": [
+        "The main topic is Big AI News: Opus 5.5 vs GPT-6 Sol, NotebookLM Updates, Muse Charm & More.",
+        "The source says: Opus 5.5 and GPT-6 Sol arrived on the same day, so I tested both on real writing, design, and video-editing work.",
+        "The source says: This week's AI news also covers Gemini Notebook, Grok 4.7 and Grok Bot, Meta Muse, Muse Charm, and new ChatGPT features."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Big AI News: Opus 5.5 vs GPT-6 Sol, NotebookLM Updates, Muse Charm & More\": Opus 5.5 and GPT-6 Sol arrived on the same day, so I tested both on real writing, design, and video-editing work.",
+        "title": "Check one news claim from the source",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Choose one claim from the source.",
+          "Find the report, study, or company post behind the claim.",
+          "Mark the claim as supported, unclear, or wrong. Save the source link."
+        ],
+        "expected_result": "One checked claim with a link to the original evidence.",
+        "test": "The evidence comes from the group that made the report or announcement.",
+        "safety": "Do not repeat a serious claim as fact until the evidence supports it."
+      }
+    },
+    {
+      "brief_date": "2026-09-25",
+      "creator": "Tech With Tim",
+      "title": "Reading Code Beats Writing It",
+      "published": "2026-09-25T12:00:02+00:00",
+      "source": "https://www.youtube.com/shorts/3hbE8ga-0A0",
+      "score": 90,
+      "summary": "Tech With Tim explains Reading Code Beats Writing It. The source focuses on Which matters more now, writing code or reading it?.",
+      "why_it_matters": "The main topic is Reading Code Beats Writing It.",
+      "key_takeaways": [
+        "The main topic is Reading Code Beats Writing It.",
+        "The source says: Which matters more now, writing code or reading it?.",
+        "The source says: When AI generates this much code, the bottleneck stops being how fast you type and becomes how fast you can review."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Reading Code Beats Writing It\": Which matters more now, writing code or reading it?.",
+        "title": "Test one idea from Reading Code Beats Writing It",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Which matters more now, writing code or reading it?.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-25",
+      "creator": "Nate Herk",
+      "title": "I Had Opus 5.5 Build me the Same App at Every Effort Level",
+      "published": "2026-09-24T20:35:45+00:00",
+      "source": "https://www.youtube.com/watch?v=QCkHIyEPIYo",
+      "score": 78,
+      "summary": "Nate Herk explains I Had Opus 5.5 Build me the Same App at Every Effort Level. The source focuses on The most expensive run was not the best, and I break down which effort level I'd actually use for a complex creative build like this.",
+      "why_it_matters": "The main topic is I Had Opus 5.5 Build me the Same App at Every Effort Level.",
+      "key_takeaways": [
+        "The main topic is I Had Opus 5.5 Build me the Same App at Every Effort Level.",
+        "The source says: The most expensive run was not the best.",
+        "The source says: I compare every output, along with the runtime, estimated API-equivalent cost, token use, verification checks, and questions asked."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Had Opus 5.5 Build me the Same App at Every Effort Level\": The most expensive run was not the best, and I break down which effort level I'd actually use for a complex creative build like.",
+        "title": "Test one idea from I Had Opus 5.5 Build me the Same App at Every Effort Level",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: The most expensive run was not the best, and I break down which effort level I'd actually use for a complex creative build like this.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-25",
+      "creator": "Tech With Tim",
+      "title": "MCP Servers Explained & Built",
+      "published": "2026-09-24T13:00:34+00:00",
+      "source": "https://www.youtube.com/watch?v=He8tUwLzLnU",
+      "score": 70,
+      "summary": "Tech With Tim explains MCP Servers Explained & Built. The source focuses on In this video, I break down MCP servers from the ground up and then build one from scratch.",
+      "why_it_matters": "The main topic is MCP Servers Explained & Built.",
+      "key_takeaways": [
+        "The main topic is MCP Servers Explained & Built.",
+        "The source says: In this video, I break down MCP servers from the ground up and then build one from scratch.",
+        "The source says: We’ll cover what MCP is, how local and remote servers differ, how access control works."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"MCP Servers Explained & Built\": In this video, I break down MCP servers from the ground up and then build one from scratch.",
+        "title": "Test one idea from MCP Servers Explained & Built",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: In this video, I break down MCP servers from the ground up and then build one from scratch.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-25",
+      "creator": "Nate Herk",
+      "title": "I Tested Opus 5.5 vs. GPT-6 Astra on 12 Real Use Cases",
+      "published": "2026-09-23T23:33:40+00:00",
+      "source": "https://www.youtube.com/watch?v=GmLcJVzkxPA",
+      "score": 57,
+      "summary": "Nate Herk explains I Tested Opus 5.5 vs. GPT-6 Astra on 12 Real Use Cases. The source focuses on FREE Scrollcraft Website Design Skill: My FREE AI OS Course: My Tools💻 FREE MONTH voice to text: Code NATEHERK for 10% off VPS (annual plan).",
+      "why_it_matters": "The main topic is I Tested Opus 5.5 vs. GPT-6 Astra on 12 Real Use Cases.",
+      "key_takeaways": [
+        "The main topic is I Tested Opus 5.5 vs. GPT-6 Astra on 12 Real Use Cases.",
+        "The source says: FREE Scrollcraft Website Design Skill: My FREE AI OS Course: My Tools💻 FREE MONTH voice to text.",
+        "The source says: You'll see where I preferred Opus, where Astra won, and what I'd use each one for based on these experiments."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Tested Opus 5.5 vs. GPT-6 Astra on 12 Real Use Cases\": FREE Scrollcraft Website Design Skill: My FREE AI OS Course: My Tools💻 FREE MONTH voice to text.",
+        "title": "Test one idea from I Tested Opus 5.5 vs. GPT-6 Astra on 12 Real Use Cases",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: FREE Scrollcraft Website Design Skill: My FREE AI OS Course: My Tools💻 FREE MONTH voice to text: Code NATEHERK for 10% off VPS (annual plan).",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-25",
+      "creator": "René Remsik",
+      "title": "How to Use AI Agents in YOUR Telegram (Mira AI Guide)",
+      "published": "2026-09-24T10:42:05+00:00",
+      "source": "https://www.youtube.com/watch?v=GbI_Ku1ouVM",
+      "score": 54,
+      "summary": "René Remsik explains How to Use AI Agents in YOUR Telegram (Mira AI Guide). The source focuses on Instead of doing everything yourself with AI, you tell Mira your goal and it figures things out on its own.",
+      "why_it_matters": "The main topic is How to Use AI Agents in YOUR Telegram (Mira AI Guide).",
+      "key_takeaways": [
+        "The main topic is How to Use AI Agents in YOUR Telegram (Mira AI Guide).",
+        "The source says: Instead of doing everything yourself with AI, you tell Mira your goal and it figures things out on its own.",
+        "The source says: You can set up recurring tasks like Bitcoin price alerts or daily news updates, access multiple LLMs, image, video."
+      ],
+      "topics": [
+        "AI education",
+        "Productivity"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"How to Use AI Agents in YOUR Telegram (Mira AI Guide)\": Instead of doing everything yourself with AI, you tell Mira your goal and it figures things out on its own.",
+        "title": "Test one idea from How to Use AI Agents in YOUR Telegram (Mira AI Guide)",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Instead of doing everything yourself with AI, you tell Mira your goal and it figures things out on its own.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-25",
+      "creator": "DeepLearning.AI",
+      "title": "Building AI Assistants with On-Device Memory",
+      "published": "2026-09-23T13:30:05+00:00",
+      "source": "https://www.youtube.com/watch?v=uRGHx-1CqBQ",
+      "score": 46,
+      "summary": "DeepLearning.AI explains Building AI Assistants with On-Device Memory. The source focuses on In our new short course, Building AI Assistants with On-Device Memory, built in partnership with Qdrant and taught by Dylan Couzon, Developer Experience Engineer at Qdrant.",
+      "why_it_matters": "The main topic is Building AI Assistants with On-Device Memory.",
+      "key_takeaways": [
+        "The main topic is Building AI Assistants with On-Device Memory.",
+        "The source says: In our new short course, Building AI Assistants with On-Device Memory, built in partnership with Qdrant and taught by Dylan Couzon.",
+        "The source says: - Run the on-device AI assistant on a local machine, including Mac, Windows, and Linux."
+      ],
+      "topics": [
+        "AI engineering",
+        "AI education"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Building AI Assistants with On-Device Memory\": In our new short course, Building AI Assistants with On-Device Memory, built in partnership with Qdrant and taught by Dylan Couzon.",
+        "title": "Test one idea from Building AI Assistants with On-Device Memory",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: In our new short course, Building AI Assistants with On-Device Memory, built in partnership with Qdrant and taught by Dylan Couzon, Developer Experience Engineer at Qdrant, you'll learn to store and search an assistant's memories locally.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-25",
+      "creator": "DeepLearning.AI",
+      "title": "Full Course: Spec-Driven Development with Coding Agents",
+      "published": "2026-09-22T19:32:17+00:00",
+      "source": "https://www.youtube.com/watch?v=hy8UstR2NEg",
+      "score": 38,
+      "summary": "DeepLearning.AI explains Full Course: Spec-Driven Development with Coding Agents. The source focuses on Spec-driven development is the disciplined alternative: write a clear markdown spec defining what to build, and let your coding agent implement it.",
+      "why_it_matters": "The main topic is Full Course: Spec-Driven Development with Coding Agents.",
+      "key_takeaways": [
+        "The main topic is Full Course: Spec-Driven Development with Coding Agents.",
+        "The source says: Spec-driven development is the disciplined alternative: write a clear markdown spec defining what to build, and let your coding agent implement it.",
+        "The source says: Vibe coding is fast, but it often produces code that doesn't match what you asked for."
+      ],
+      "topics": [
+        "AI engineering",
+        "AI education"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Full Course: Spec-Driven Development with Coding Agents\": Spec-driven development is the disciplined alternative: write a clear markdown spec defining what to build, and let your coding agent implement it.",
+        "title": "Test one idea from Full Course: Spec-Driven Development with Coding Agents",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Spec-driven development is the disciplined alternative: write a clear markdown spec defining what to build, and let your coding agent implement it.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-25",
+      "creator": "Paul Lipsky",
+      "title": "GPT-6 Sol Is Here (50% Cheaper!)",
+      "published": "2026-09-22T19:01:53+00:00",
+      "source": "https://www.youtube.com/watch?v=lPNgeaF2Nk4",
+      "score": 36,
+      "summary": "Paul Lipsky explains GPT-6 Sol Is Here (50% Cheaper!). The source focuses on GPT-6 Sol and Luna are here!.",
+      "why_it_matters": "The main topic is GPT-6 Sol Is Here (50% Cheaper!).",
+      "key_takeaways": [
+        "The main topic is GPT-6 Sol Is Here (50% Cheaper!).",
+        "The source says: GPT-6 Sol and Luna are here!.",
+        "The source says: Find out what OpenAI is promising when it comes to these new models."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"GPT-6 Sol Is Here (50% Cheaper!)\": GPT-6 Sol and Luna are here!.",
+        "title": "Test one idea from GPT-6 Sol Is Here (50% Cheaper!)",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: GPT-6 Sol and Luna are here!.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
     {
       "brief_date": "2026-09-24",
       "creator": "Tech With Tim",
