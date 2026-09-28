@@ -1,6 +1,11 @@
 {
   "briefs": [
     {
+      "date": "2026-09-28",
+      "editorial_summary": "7 high signal items from 5 creators.",
+      "item_count": 7
+    },
+    {
       "date": "2026-09-25",
       "editorial_summary": "10 high signal items from 6 creators.",
       "item_count": 10
@@ -52,6 +57,237 @@
     }
   ],
   "items": [
+    {
+      "brief_date": "2026-09-28",
+      "creator": "Tech With Tim",
+      "title": "Building a Real App with Claude Code (Start to Finish)",
+      "published": "2026-09-28T12:29:51+00:00",
+      "source": "https://www.youtube.com/watch?v=misjUj4Q_ho",
+      "score": 95,
+      "summary": "Tech With Tim explains Building a Real App with Claude Code (Start to Finish). The source focuses on I’ll show you how I actually approach building a real application with Claude Code, from planning and implementation to getting the different pieces working together.",
+      "why_it_matters": "The main topic is Building a Real App with Claude Code (Start to Finish).",
+      "key_takeaways": [
+        "The main topic is Building a Real App with Claude Code (Start to Finish).",
+        "The source says: I’ll show you how I actually approach building a real application with Claude Code.",
+        "The source says: Get started with ImageKit for free: I'm a software engineer with 10+ years of experience."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Building a Real App with Claude Code (Start to Finish)\": I’ll show you how I actually approach building a real application with Claude Code.",
+        "title": "Test one idea from Building a Real App with Claude Code (Start to Finish)",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: I’ll show you how I actually approach building a real application with Claude Code, from planning and implementation to getting the different pieces working together.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-28",
+      "creator": "Nate Herk",
+      "title": "I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened",
+      "published": "2026-09-28T12:37:15+00:00",
+      "source": "https://www.youtube.com/watch?v=eg_1NXDcoPk",
+      "score": 94,
+      "summary": "Nate Herk explains I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened. The source focuses on You'll see how I set up the routines and agent handoffs, why I had to hand the actual trades to a Grok Bot.",
+      "why_it_matters": "The main topic is I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened.",
+      "key_takeaways": [
+        "The main topic is I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened.",
+        "The source says: You'll see how I set up the routines and agent handoffs.",
+        "The source says: I check in at the end of every trading day with the actual numbers."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened\": You'll see how I set up the routines and agent handoffs, why I had to hand the actual trades to a Grok Bot.",
+        "title": "Test one idea from I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: You'll see how I set up the routines and agent handoffs, why I had to hand the actual trades to a Grok Bot, and how I changed the strategy when the agent was trading too cautiously.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-28",
+      "creator": "Tech With Tim",
+      "title": "Every Company Wants This AI Skill",
+      "published": "2026-09-28T13:47:35+00:00",
+      "source": "https://www.youtube.com/shorts/s5E6pwMBgNg",
+      "score": 92,
+      "summary": "Tech With Tim explains Every Company Wants This AI Skill. The source focuses on Every company wants this, and almost no one can do it well yet because it's so new.",
+      "why_it_matters": "The main topic is Every Company Wants This AI Skill.",
+      "key_takeaways": [
+        "The main topic is Every Company Wants This AI Skill.",
+        "The source says: Every company wants this, and almost no one can do it well yet because it's so new.",
+        "The source says: The real opportunity is shipping AI as the feature: apps that call language models through APIs."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Every Company Wants This AI Skill\": Every company wants this, and almost no one can do it well yet because it's so new.",
+        "title": "Test one idea from Every Company Wants This AI Skill",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Every company wants this, and almost no one can do it well yet because it's so new.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-28",
+      "creator": "Paul Lipsky",
+      "title": "Opus 5.5 Edited This Video",
+      "published": "2026-09-28T13:00:35+00:00",
+      "source": "https://www.youtube.com/watch?v=AW3Uku__BBE",
+      "score": 91,
+      "summary": "Paul Lipsky explains Opus 5.5 Edited This Video. The source focuses on Claude Opus 5.5 now handles nearly my entire YouTube editing workflow, including silence removal, bad takes, layouts, zooms, highlights, motion graphics, and even screen recordings.",
+      "why_it_matters": "The main topic is Opus 5.5 Edited This Video.",
+      "key_takeaways": [
+        "The main topic is Opus 5.5 Edited This Video.",
+        "The source says: Claude Opus 5.5 now handles nearly my entire YouTube editing workflow, including silence removal, bad takes, layouts, zooms, highlights, motion graphics.",
+        "The source says: I’ll show you the full setup, and what still needs a final human polish."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Opus 5.5 Edited This Video\": Claude Opus 5.5 now handles nearly my entire YouTube editing workflow, including silence removal, bad takes, layouts, zooms, highlights, motion graphics.",
+        "title": "Test one idea from Opus 5.5 Edited This Video",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Claude Opus 5.5 now handles nearly my entire YouTube editing workflow, including silence removal, bad takes, layouts, zooms, highlights, motion graphics, and even screen recordings.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-28",
+      "creator": "Nate Herk",
+      "title": "No, Seriously. Claude Code is Starting To Get Dangerous",
+      "published": "2026-09-27T20:38:25+00:00",
+      "source": "https://www.youtube.com/watch?v=Ktnwygcnd8U",
+      "score": 78,
+      "summary": "Nate Herk explains No, Seriously. Claude Code is Starting To Get Dangerous. The source focuses on In this video, I break down Anthropic’s model shutdown and share my predictions for AI education, cybersecurity, and government regulation.",
+      "why_it_matters": "The main topic is No, Seriously. Claude Code is Starting To Get Dangerous.",
+      "key_takeaways": [
+        "The main topic is No, Seriously. Claude Code is Starting To Get Dangerous.",
+        "The source says: In this video, I break down Anthropic’s model shutdown and share my predictions for AI education, cybersecurity, and government regulation.",
+        "The source says: I also walk through three skills that matter as AI improves: finding the real business problem, controlling what your agents can access."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"No, Seriously. Claude Code is Starting To Get Dangerous\": In this video, I break down Anthropic’s model shutdown and share my predictions for AI education, cybersecurity, and government regulation.",
+        "title": "Test one idea from No, Seriously. Claude Code is Starting To Get Dangerous",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: In this video, I break down Anthropic’s model shutdown and share my predictions for AI education, cybersecurity, and government regulation.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-28",
+      "creator": "Nick Saraev",
+      "title": "Stop Listening To AI News",
+      "published": "2026-09-27T14:00:13+00:00",
+      "source": "https://www.youtube.com/watch?v=x55Fj_syFcI",
+      "score": 76,
+      "summary": "Nick Saraev explains Stop Listening To AI News. The source focuses on In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+      "why_it_matters": "The main topic is Stop Listening To AI News.",
+      "key_takeaways": [
+        "The main topic is Stop Listening To AI News.",
+        "The source says: In plain English: I help people build systems that generate leads, close deals, and scale businesses.",
+        "The source says: I run LeftClick, an AI growth agency."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Stop Listening To AI News\": In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+        "title": "Check one news claim from the source",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Choose one claim from the source.",
+          "Find the report, study, or company post behind the claim.",
+          "Mark the claim as supported, unclear, or wrong. Save the source link."
+        ],
+        "expected_result": "One checked claim with a link to the original evidence.",
+        "test": "The evidence comes from the group that made the report or announcement.",
+        "safety": "Do not repeat a serious claim as fact until the evidence supports it."
+      }
+    },
+    {
+      "brief_date": "2026-09-28",
+      "creator": "Liam Ottley",
+      "title": "Claude Claude + Higgsfield = Insane $10K Websites",
+      "published": "2026-09-25T18:50:07+00:00",
+      "source": "https://www.youtube.com/watch?v=1P5xtV-Kf0o",
+      "score": 39,
+      "summary": "Liam Ottley explains Claude Claude + Higgsfield = Insane $10K Websites. The source focuses on I explain why strong copy and custom media matter most, and show how I used Higgsfield (via MCP inside Claude Code) to outpaint portrait photos into widescreen assets.",
+      "why_it_matters": "The main topic is Claude Claude + Higgsfield = Insane $10K Websites.",
+      "key_takeaways": [
+        "The main topic is Claude Claude + Higgsfield = Insane $10K Websites.",
+        "The source says: I explain why strong copy and custom media matter most.",
+        "The source says: Check out Higgsfield AI: 👉🏻 Want an AI Makeover for YOUR Business?."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Claude Claude + Higgsfield = Insane $10K Websites\": I explain why strong copy and custom media matter most.",
+        "title": "Test one idea from Claude Claude + Higgsfield = Insane $10K Websites",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: I explain why strong copy and custom media matter most, and show how I used Higgsfield (via MCP inside Claude Code) to outpaint portrait photos into widescreen assets and turn stills into polished moving clips for.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
     {
       "brief_date": "2026-09-25",
       "creator": "Nick Saraev",
