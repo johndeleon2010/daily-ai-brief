@@ -1,6 +1,11 @@
 {
   "briefs": [
     {
+      "date": "2026-09-29",
+      "editorial_summary": "9 high signal items from 7 creators.",
+      "item_count": 9
+    },
+    {
       "date": "2026-09-28",
       "editorial_summary": "7 high signal items from 5 creators.",
       "item_count": 7
@@ -57,6 +62,303 @@
     }
   ],
   "items": [
+    {
+      "brief_date": "2026-09-29",
+      "creator": "Tech With Tim",
+      "title": "Why You NEED This New Python Tool",
+      "published": "2026-09-29T13:00:38+00:00",
+      "source": "https://www.youtube.com/watch?v=lFA-zuZRG4Q",
+      "score": 94,
+      "summary": "Tech With Tim explains Why You NEED This New Python Tool. The source focuses on In this video I show you Pyrefly, Meta's new static type checker for Python.",
+      "why_it_matters": "The main topic is Why You NEED This New Python Tool.",
+      "key_takeaways": [
+        "The main topic is Why You NEED This New Python Tool.",
+        "The source says: In this video I show you Pyrefly, Meta's new static type checker for Python.",
+        "The source says: I'll show you exactly why Python lets these bugs slip through, why type hints alone don't save you."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Why You NEED This New Python Tool\": In this video I show you Pyrefly, Meta's new static type checker for Python.",
+        "title": "Test one idea from Why You NEED This New Python Tool",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: In this video I show you Pyrefly, Meta's new static type checker for Python.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-29",
+      "creator": "Tech With Tim",
+      "title": "The AI Skills That Sit on Top of Coding",
+      "published": "2026-09-29T12:00:32+00:00",
+      "source": "https://www.youtube.com/shorts/EpHVYqaqw_o",
+      "score": 90,
+      "summary": "Tech With Tim explains The AI Skills That Sit on Top of Coding. The source focuses on If you can already code, the AI layer is just a set of learnable skills on top of what you have: calling model APIs properly, prompt engineering.",
+      "why_it_matters": "The main topic is The AI Skills That Sit on Top of Coding.",
+      "key_takeaways": [
+        "The main topic is The AI Skills That Sit on Top of Coding.",
+        "The source says: If you can already code, the AI layer is just a set of learnable skills on top of what you have.",
+        "The source says: Do you need a PhD or heavy math to become an AI engineer?."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"The AI Skills That Sit on Top of Coding\": If you can already code, the AI layer is just a set of learnable skills on top of what you have.",
+        "title": "Test one idea from The AI Skills That Sit on Top of Coding",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: If you can already code, the AI layer is just a set of learnable skills on top of what you have: calling model APIs properly, prompt engineering, structured outputs, using vector databases.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-29",
+      "creator": "Jeff Su",
+      "title": "Stop Organizing Files Yourself.",
+      "published": "2026-09-29T13:00:30+00:00",
+      "source": "https://www.youtube.com/watch?v=peP_o66u-vM",
+      "score": 85,
+      "summary": "Jeff Su explains Stop Organizing Files Yourself. The source focuses on In this video, I show you how to give AI a file management rulebook so it can name and organize your files using the folder structure and preferences.",
+      "why_it_matters": "The main topic is Stop Organizing Files Yourself.",
+      "key_takeaways": [
+        "The main topic is Stop Organizing Files Yourself.",
+        "The source says: In this video, I show you how to give AI a file management rulebook so it can name and organize your files.",
+        "The source says: Specifically, you’ll see my exact setup in ChatGPT Work (applicable to both Claude and Gemini Spark) and how to create a system."
+      ],
+      "topics": [
+        "Productivity",
+        "AI education"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Stop Organizing Files Yourself\": In this video, I show you how to give AI a file management rulebook so it can name and organize your files using the.",
+        "title": "Test one idea from Stop Organizing Files Yourself",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: In this video, I show you how to give AI a file management rulebook so it can name and organize your files using the folder structure and preferences that make sense to you.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-29",
+      "creator": "DeepLearning.AI",
+      "title": "The Data Engineering Professional Certificate is now on DeepLearning.AI",
+      "published": "2026-09-29T05:51:45+00:00",
+      "source": "https://www.youtube.com/watch?v=yUyfHQBXSzs",
+      "score": 85,
+      "summary": "DeepLearning.AI explains The Data Engineering Professional Certificate is now on DeepLearning.AI. The source focuses on Our Data Engineering Professional Certificate, a 4-course program, is now available on DeepLearning.AI, and it's built to make you job-ready for data engineering.",
+      "why_it_matters": "The main topic is The Data Engineering Professional Certificate is now on DeepLearning.AI.",
+      "key_takeaways": [
+        "The main topic is The Data Engineering Professional Certificate is now on DeepLearning.AI.",
+        "The source says: Our Data Engineering Professional Certificate, a 4-course program, is now available on DeepLearning.AI.",
+        "The source says: You'll learn foundational data engineering skills while implementing modern data architectures using open-source tools."
+      ],
+      "topics": [
+        "AI engineering",
+        "AI education"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"The Data Engineering Professional Certificate is now on DeepLearning.AI\": Our Data Engineering Professional Certificate, a 4-course program, is now available on DeepLearning.AI, and it's built to make you job-ready for data engineering.",
+        "title": "Test one idea from The Data Engineering Professional Certificate is now on DeepLearning.AI",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Our Data Engineering Professional Certificate, a 4-course program, is now available on DeepLearning.AI, and it's built to make you job-ready for data engineering.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-29",
+      "creator": "Nate Herk",
+      "title": "I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know.",
+      "published": "2026-09-29T00:14:17+00:00",
+      "source": "https://www.youtube.com/watch?v=7eo-11K2e3c",
+      "score": 83,
+      "summary": "Nate Herk explains I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know. The source focuses on We compare the outputs, speed, and cost to see where Sonnet gets the job done and where Opus is worth the extra spend.",
+      "why_it_matters": "The main topic is I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know.",
+      "key_takeaways": [
+        "The main topic is I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know.",
+        "The source says: We compare the outputs, speed, and cost to see where Sonnet gets the job done and where Opus is worth the extra.",
+        "The source says: I also show how clear prompts and reusable skills change which model I'd choose."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know\": We compare the outputs, speed, and cost to see where Sonnet gets the job done and where Opus is worth the extra spend.",
+        "title": "Test one idea from I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: We compare the outputs, speed, and cost to see where Sonnet gets the job done and where Opus is worth the extra spend.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-29",
+      "creator": "Nate Herk",
+      "title": "I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened",
+      "published": "2026-09-28T12:37:15+00:00",
+      "source": "https://www.youtube.com/watch?v=eg_1NXDcoPk",
+      "score": 70,
+      "summary": "Nate Herk explains I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened. The source focuses on You'll see how I set up the routines and agent handoffs, why I had to hand the actual trades to a Grok Bot.",
+      "why_it_matters": "The main topic is I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened.",
+      "key_takeaways": [
+        "The main topic is I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened.",
+        "The source says: You'll see how I set up the routines and agent handoffs.",
+        "The source says: I check in at the end of every trading day with the actual numbers."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened\": You'll see how I set up the routines and agent handoffs, why I had to hand the actual trades to a Grok Bot.",
+        "title": "Test one idea from I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: You'll see how I set up the routines and agent handoffs, why I had to hand the actual trades to a Grok Bot, and how I changed the strategy when the agent was trading too cautiously.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-29",
+      "creator": "AI Founders",
+      "title": "I Gave ChatGPT And Claude The Same 10 Jobs. Here's Who I’d Hire.",
+      "published": "2026-09-28T17:30:18+00:00",
+      "source": "https://www.youtube.com/watch?v=hoppLwJFKdU",
+      "score": 68,
+      "summary": "AI Founders explains I Gave ChatGPT And Claude The Same 10 Jobs. Here's Who I’d Hire. The source focuses on AI only creates leverage when it’s applied with strategy, systems, and execution.",
+      "why_it_matters": "The main topic is I Gave ChatGPT And Claude The Same 10 Jobs. Here's Who I’d Hire.",
+      "key_takeaways": [
+        "The main topic is I Gave ChatGPT And Claude The Same 10 Jobs. Here's Who I’d Hire.",
+        "The source says: AI only creates leverage when it’s applied with strategy, systems, and execution.",
+        "The source says: Please confirm availability, pricing, or features directly with the provider."
+      ],
+      "topics": [
+        "AI business",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Gave ChatGPT And Claude The Same 10 Jobs. Here's Who I’d Hire\": AI only creates leverage when it’s applied with strategy, systems, and execution.",
+        "title": "Test one idea from I Gave ChatGPT And Claude The Same 10 Jobs. Here's Who I’d Hire",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: AI only creates leverage when it’s applied with strategy, systems, and execution.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-29",
+      "creator": "Paul Lipsky",
+      "title": "Opus 5.5 Is The Best Video Editor I've Ever Used",
+      "published": "2026-09-28T13:00:35+00:00",
+      "source": "https://www.youtube.com/watch?v=AW3Uku__BBE",
+      "score": 67,
+      "summary": "Paul Lipsky explains Opus 5.5 Is The Best Video Editor I've Ever Used. The source focuses on Claude Opus 5.5 now handles nearly my entire YouTube editing workflow, including silence removal, bad takes, layouts, zooms, highlights, motion graphics, and even screen recordings.",
+      "why_it_matters": "The main topic is Opus 5.5 Is The Best Video Editor I've Ever Used.",
+      "key_takeaways": [
+        "The main topic is Opus 5.5 Is The Best Video Editor I've Ever Used.",
+        "The source says: Claude Opus 5.5 now handles nearly my entire YouTube editing workflow, including silence removal, bad takes, layouts, zooms, highlights, motion graphics.",
+        "The source says: I’ll show you the full setup, and what still needs a final human polish."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Opus 5.5 Is The Best Video Editor I've Ever Used\": Claude Opus 5.5 now handles nearly my entire YouTube editing workflow, including silence removal, bad takes, layouts, zooms, highlights, motion graphics.",
+        "title": "Test one idea from Opus 5.5 Is The Best Video Editor I've Ever Used",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Claude Opus 5.5 now handles nearly my entire YouTube editing workflow, including silence removal, bad takes, layouts, zooms, highlights, motion graphics, and even screen recordings.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-09-29",
+      "creator": "Nick Saraev",
+      "title": "Why You Should Stop Listening To AI News",
+      "published": "2026-09-27T14:00:13+00:00",
+      "source": "https://www.youtube.com/watch?v=x55Fj_syFcI",
+      "score": 52,
+      "summary": "Nick Saraev explains Why You Should Stop Listening To AI News. The source focuses on In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+      "why_it_matters": "The main topic is Why You Should Stop Listening To AI News.",
+      "key_takeaways": [
+        "The main topic is Why You Should Stop Listening To AI News.",
+        "The source says: In plain English: I help people build systems that generate leads, close deals, and scale businesses.",
+        "The source says: I learned it all myself from YouTube videos like you're watching now."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Why You Should Stop Listening To AI News\": In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+        "title": "Check one news claim from the source",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Choose one claim from the source.",
+          "Find the report, study, or company post behind the claim.",
+          "Mark the claim as supported, unclear, or wrong. Save the source link."
+        ],
+        "expected_result": "One checked claim with a link to the original evidence.",
+        "test": "The evidence comes from the group that made the report or announcement.",
+        "safety": "Do not repeat a serious claim as fact until the evidence supports it."
+      }
+    },
     {
       "brief_date": "2026-09-28",
       "creator": "Tech With Tim",
