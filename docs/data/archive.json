@@ -1,6 +1,11 @@
 {
   "briefs": [
     {
+      "date": "2026-10-01",
+      "editorial_summary": "10 high signal items from 6 creators.",
+      "item_count": 10
+    },
+    {
       "date": "2026-09-30",
       "editorial_summary": "10 high signal items from 7 creators.",
       "item_count": 10
@@ -67,6 +72,336 @@
     }
   ],
   "items": [
+    {
+      "brief_date": "2026-10-01",
+      "creator": "Tech With Tim",
+      "title": "The Highest Leverage AI Career Move",
+      "published": "2026-10-01T12:00:08+00:00",
+      "source": "https://www.youtube.com/shorts/1iC4b4d4-Zc",
+      "score": 90,
+      "summary": "Tech With Tim explains The Highest Leverage AI Career Move. The source focuses on The highest-leverage move isn't job hunting, it's becoming the AI person on your team.",
+      "why_it_matters": "The main topic is The Highest Leverage AI Career Move.",
+      "key_takeaways": [
+        "The main topic is The Highest Leverage AI Career Move.",
+        "The source says: The highest-leverage move isn't job hunting, it's becoming the AI person on your team.",
+        "The source says: An internal move into AI is almost always easier than landing a cold outside hire."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"The Highest Leverage AI Career Move\": The highest-leverage move isn't job hunting, it's becoming the AI person on your team.",
+        "title": "Test one idea from The Highest Leverage AI Career Move",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: The highest-leverage move isn't job hunting, it's becoming the AI person on your team.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-01",
+      "creator": "Nick Saraev",
+      "title": "GPT-6-Astra on The New ULTRAFAST $500 Plan Is Scary...",
+      "published": "2026-09-30T21:57:55+00:00",
+      "source": "https://www.youtube.com/watch?v=KtMMRcEj1sk",
+      "score": 84,
+      "summary": "Nick Saraev explains GPT-6-Astra on The New ULTRAFAST $500 Plan Is Scary. The source focuses on In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+      "why_it_matters": "The main topic is GPT-6-Astra on The New ULTRAFAST $500 Plan Is Scary.",
+      "key_takeaways": [
+        "The main topic is GPT-6-Astra on The New ULTRAFAST $500 Plan Is Scary.",
+        "The source says: In plain English: I help people build systems that generate leads, close deals, and scale businesses.",
+        "The source says: 🔥 Join Maker School & get customer 1 guaranteed: 💎 Get all course resources 100% free."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"GPT-6-Astra on The New ULTRAFAST $500 Plan Is Scary\": In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+        "title": "Test one idea from GPT-6-Astra on The New ULTRAFAST $500 Plan Is Scary",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-01",
+      "creator": "Nate Herk",
+      "title": "I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.",
+      "published": "2026-09-30T18:24:50+00:00",
+      "source": "https://www.youtube.com/watch?v=BvvfZKKz4Yo",
+      "score": 76,
+      "summary": "Nate Herk explains I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know. The source focuses on I also share which one I'd choose, who I'd recommend Muse to, and where I think personal AI agents are headed.",
+      "why_it_matters": "The main topic is I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.",
+      "key_takeaways": [
+        "The main topic is I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.",
+        "The source says: I also share which one I'd choose, who I'd recommend Muse to, and where I think personal AI agents are headed.",
+        "The source says: You'll see how they fit into Codex, Slack, WhatsApp, and everyday work, along with the bugs and limitations I ran into."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know\": I also share which one I'd choose, who I'd recommend Muse to, and where I think personal AI agents are headed.",
+        "title": "Test one idea from I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: I also share which one I'd choose, who I'd recommend Muse to, and where I think personal AI agents are headed.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-01",
+      "creator": "Tech With Tim",
+      "title": "The Only Guide You Need for Local AI Hardware",
+      "published": "2026-09-30T13:00:29+00:00",
+      "source": "https://www.youtube.com/watch?v=x6siPRkPAeQ",
+      "score": 70,
+      "summary": "Tech With Tim explains The Only Guide You Need for Local AI Hardware. The source focuses on Mac or PC for running AI models locally — I own both, plus Nvidia's DGX Spark.",
+      "why_it_matters": "The main topic is The Only Guide You Need for Local AI Hardware.",
+      "key_takeaways": [
+        "The main topic is The Only Guide You Need for Local AI Hardware.",
+        "The source says: Mac or PC for running AI models locally — I own both, plus Nvidia's DGX Spark.",
+        "The source says: 🎙️ Get the Memoket Gem for $179 with code TECHWITHTIM (10% off) Official: Amazon."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"The Only Guide You Need for Local AI Hardware\": Mac or PC for running AI models locally — I own both, plus Nvidia's DGX Spark.",
+        "title": "Test one idea from The Only Guide You Need for Local AI Hardware",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Mac or PC for running AI models locally — I own both, plus Nvidia's DGX Spark, and in this video I'm using real benchmark numbers to finally settle the debate.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-01",
+      "creator": "René Remsik",
+      "title": "Insane Camera Effects With AI",
+      "published": "2026-09-30T17:52:19+00:00",
+      "source": "https://www.youtube.com/shorts/9ewBGO-Lnwc",
+      "score": 60,
+      "summary": "René Remsik explains Insane Camera Effects With AI. The source focuses on If you want your own camera angles, ask Artlist’s AI agent to write you one.",
+      "why_it_matters": "The main topic is Insane Camera Effects With AI.",
+      "key_takeaways": [
+        "The main topic is Insane Camera Effects With AI.",
+        "The source says: If you want your own camera angles, ask Artlist’s AI agent to write you one.",
+        "The source says: Go to @artlist_io and choose from one of their camera presets for easy generation."
+      ],
+      "topics": [
+        "AI education",
+        "Productivity"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Insane Camera Effects With AI\": If you want your own camera angles, ask Artlist’s AI agent to write you one.",
+        "title": "Test one idea from Insane Camera Effects With AI",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: If you want your own camera angles, ask Artlist’s AI agent to write you one.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-01",
+      "creator": "Jeff Su",
+      "title": "Microsoft’s plan to win the AI race, explained",
+      "published": "2026-09-30T13:00:01+00:00",
+      "source": "https://www.youtube.com/shorts/VXuN2iMwzqI",
+      "score": 56,
+      "summary": "Jeff Su explains Microsoft’s plan to win the AI race, explained. The source focuses on Get my free Cowork Toolkit: Microsoft’s strategy for the new Copilot comes down to model choice and company context.",
+      "why_it_matters": "The main topic is Microsoft’s plan to win the AI race, explained.",
+      "key_takeaways": [
+        "The main topic is Microsoft’s plan to win the AI race, explained.",
+        "The source says: Get my free Cowork Toolkit: Microsoft’s strategy for the new Copilot comes down to model choice and company context.",
+        "The source says: The goal is AI built for entire companies."
+      ],
+      "topics": [
+        "Productivity",
+        "AI education"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Microsoft’s plan to win the AI race, explained\": Get my free Cowork Toolkit: Microsoft’s strategy for the new Copilot comes down to model choice and company context.",
+        "title": "Test one idea from Microsoft’s plan to win the AI race, explained",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Get my free Cowork Toolkit: Microsoft’s strategy for the new Copilot comes down to model choice and company context.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-01",
+      "creator": "René Remsik",
+      "title": "Life with AI Agents",
+      "published": "2026-09-30T08:21:16+00:00",
+      "source": "https://www.youtube.com/shorts/zOtzQEclpuc",
+      "score": 51,
+      "summary": "René Remsik explains Life with AI Agents. The source focuses on Life with AI agents 🤌 comment “grok” to try it for free It’s here.",
+      "why_it_matters": "The main topic is Life with AI Agents.",
+      "key_takeaways": [
+        "The main topic is Life with AI Agents.",
+        "The source says: Life with AI agents 🤌 comment “grok” to try it for free It’s here.",
+        "The source says: AI agents are finally useful, easy to set up, and affordable."
+      ],
+      "topics": [
+        "AI education",
+        "Productivity"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Life with AI Agents\": Life with AI agents 🤌 comment “grok” to try it for free It’s here.",
+        "title": "Test one idea from Life with AI Agents",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Life with AI agents 🤌 comment “grok” to try it for free It’s here.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-01",
+      "creator": "Nate Herk",
+      "title": "Claude Can Now Run Your Entire Email Platform",
+      "published": "2026-09-29T19:00:14+00:00",
+      "source": "https://www.youtube.com/shorts/iafsAWrB8GQ",
+      "score": 48,
+      "summary": "Nate Herk explains Claude Can Now Run Your Entire Email Platform. The source focuses on AI used to just give email advice.",
+      "why_it_matters": "The main topic is Claude Can Now Run Your Entire Email Platform.",
+      "key_takeaways": [
+        "The main topic is Claude Can Now Run Your Entire Email Platform.",
+        "The source says: AI used to just give email advice.",
+        "The source says: Omnisend runs on Claude and ChatGPT."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Claude Can Now Run Your Entire Email Platform\": AI used to just give email advice.",
+        "title": "Test one idea from Claude Can Now Run Your Entire Email Platform",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: AI used to just give email advice.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-01",
+      "creator": "Jeff Su",
+      "title": "Stop Organizing Files Yourself.",
+      "published": "2026-09-29T13:00:30+00:00",
+      "source": "https://www.youtube.com/watch?v=peP_o66u-vM",
+      "score": 38,
+      "summary": "Jeff Su explains Stop Organizing Files Yourself. The source focuses on In this video, I show you how to give AI a file management rulebook so it can name and organize your files using the folder structure and preferences.",
+      "why_it_matters": "The main topic is Stop Organizing Files Yourself.",
+      "key_takeaways": [
+        "The main topic is Stop Organizing Files Yourself.",
+        "The source says: In this video, I show you how to give AI a file management rulebook so it can name and organize your files.",
+        "The source says: Specifically, you’ll see my exact setup in ChatGPT Work (applicable to both Claude and Gemini Spark) and how to create a system."
+      ],
+      "topics": [
+        "Productivity",
+        "AI education"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Stop Organizing Files Yourself\": In this video, I show you how to give AI a file management rulebook so it can name and organize your files using the.",
+        "title": "Test one idea from Stop Organizing Files Yourself",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: In this video, I show you how to give AI a file management rulebook so it can name and organize your files using the folder structure and preferences that make sense to you.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-01",
+      "creator": "DeepLearning.AI",
+      "title": "The Data Engineering Professional Certificate is now on DeepLearning.AI",
+      "published": "2026-09-29T05:51:45+00:00",
+      "source": "https://www.youtube.com/watch?v=yUyfHQBXSzs",
+      "score": 38,
+      "summary": "DeepLearning.AI explains The Data Engineering Professional Certificate is now on DeepLearning.AI. The source focuses on Our Data Engineering Professional Certificate, a 4-course program, is now available on DeepLearning.AI, and it's built to make you job-ready for data engineering.",
+      "why_it_matters": "The main topic is The Data Engineering Professional Certificate is now on DeepLearning.AI.",
+      "key_takeaways": [
+        "The main topic is The Data Engineering Professional Certificate is now on DeepLearning.AI.",
+        "The source says: Our Data Engineering Professional Certificate, a 4-course program, is now available on DeepLearning.AI.",
+        "The source says: You'll learn foundational data engineering skills while implementing modern data architectures using open-source tools."
+      ],
+      "topics": [
+        "AI engineering",
+        "AI education"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"The Data Engineering Professional Certificate is now on DeepLearning.AI\": Our Data Engineering Professional Certificate, a 4-course program, is now available on DeepLearning.AI, and it's built to make you job-ready for data engineering.",
+        "title": "Test one idea from The Data Engineering Professional Certificate is now on DeepLearning.AI",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Our Data Engineering Professional Certificate, a 4-course program, is now available on DeepLearning.AI, and it's built to make you job-ready for data engineering.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
     {
       "brief_date": "2026-09-30",
       "creator": "Tech With Tim",
