@@ -1,6 +1,11 @@
 {
   "briefs": [
     {
+      "date": "2026-10-02",
+      "editorial_summary": "10 high signal items from 7 creators.",
+      "item_count": 10
+    },
+    {
       "date": "2026-10-01",
       "editorial_summary": "10 high signal items from 6 creators.",
       "item_count": 10
@@ -72,6 +77,336 @@
     }
   ],
   "items": [
+    {
+      "brief_date": "2026-10-02",
+      "creator": "Paul Lipsky",
+      "title": "Huge AI News Week: ChatGPT Dots, Gemini 4 Argon, 6.1 Sol, Sonnet 5.5, & A Whole Lot More",
+      "published": "2026-10-02T13:00:39+00:00",
+      "source": "https://www.youtube.com/watch?v=MS5VMqyuwjU",
+      "score": 91,
+      "summary": "Paul Lipsky explains Huge AI News Week: ChatGPT Dots, Gemini 4 Argon, 6.1 Sol, Sonnet 5.5, & A Whole Lot More. The source focuses on OpenAI DevDay brought ChatGPT Dots, ChatGPT Space, GPT-6.1 Sol, a new Pro plan, and more.",
+      "why_it_matters": "The main topic is Huge AI News Week: ChatGPT Dots, Gemini 4 Argon, 6.1 Sol, Sonnet 5.5, & A Whole Lot More.",
+      "key_takeaways": [
+        "The main topic is Huge AI News Week: ChatGPT Dots, Gemini 4 Argon, 6.1 Sol, Sonnet 5.5, & A Whole Lot More.",
+        "The source says: OpenAI DevDay brought ChatGPT Dots, ChatGPT Space, GPT-6.1 Sol, a new Pro plan, and more.",
+        "The source says: I also break down Gemini 4 Argon, Claude Sonnet 5.5, Gemini Skills, the latest Gemini Notebook changes, Meta Muse, and Manus Q."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Huge AI News Week: ChatGPT Dots, Gemini 4 Argon, 6.1 Sol, Sonnet 5.5, & A Whole Lot More\": OpenAI DevDay brought ChatGPT Dots, ChatGPT Space, GPT-6.1 Sol, a new Pro plan, and more.",
+        "title": "Check one news claim from the source",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Choose one claim from the source.",
+          "Find the report, study, or company post behind the claim.",
+          "Mark the claim as supported, unclear, or wrong. Save the source link."
+        ],
+        "expected_result": "One checked claim with a link to the original evidence.",
+        "test": "The evidence comes from the group that made the report or announcement.",
+        "safety": "Do not repeat a serious claim as fact until the evidence supports it."
+      }
+    },
+    {
+      "brief_date": "2026-10-02",
+      "creator": "Tech With Tim",
+      "title": "LeetCode Isn't the Whole Game Anymore",
+      "published": "2026-10-02T12:00:20+00:00",
+      "source": "https://www.youtube.com/shorts/iKYtddHwkvE",
+      "score": 91,
+      "summary": "Tech With Tim explains LeetCode Isn't the Whole Game Anymore. The source focuses on Should you still grind LeetCode to land a software job?.",
+      "why_it_matters": "The main topic is LeetCode Isn't the Whole Game Anymore.",
+      "key_takeaways": [
+        "The main topic is LeetCode Isn't the Whole Game Anymore.",
+        "The source says: Should you still grind LeetCode to land a software job?.",
+        "The source says: Do a little, but algorithms alone are the old game."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"LeetCode Isn't the Whole Game Anymore\": Should you still grind LeetCode to land a software job?.",
+        "title": "Test one idea from LeetCode Isn't the Whole Game Anymore",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Should you still grind LeetCode to land a software job?.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-02",
+      "creator": "Tech With Tim",
+      "title": "The Highest Leverage AI Career Move",
+      "published": "2026-10-01T12:00:08+00:00",
+      "source": "https://www.youtube.com/shorts/1iC4b4d4-Zc",
+      "score": 66,
+      "summary": "Tech With Tim explains The Highest Leverage AI Career Move. The source focuses on The highest-leverage move isn't job hunting, it's becoming the AI person on your team.",
+      "why_it_matters": "The main topic is The Highest Leverage AI Career Move.",
+      "key_takeaways": [
+        "The main topic is The Highest Leverage AI Career Move.",
+        "The source says: The highest-leverage move isn't job hunting, it's becoming the AI person on your team.",
+        "The source says: An internal move into AI is almost always easier than landing a cold outside hire."
+      ],
+      "topics": [
+        "AI engineering",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"The Highest Leverage AI Career Move\": The highest-leverage move isn't job hunting, it's becoming the AI person on your team.",
+        "title": "Test one idea from The Highest Leverage AI Career Move",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: The highest-leverage move isn't job hunting, it's becoming the AI person on your team.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-02",
+      "creator": "AI Founders",
+      "title": "You’re Not Behind on AI. You’re Just Missing This",
+      "published": "2026-10-01T14:52:45+00:00",
+      "source": "https://www.youtube.com/watch?v=wEkeoqKvOLM",
+      "score": 65,
+      "summary": "AI Founders explains You’re Not Behind on AI. You’re Just Missing This. The source focuses on Or otherwise hire us to build AI solutions that help you dominate your niche.",
+      "why_it_matters": "The main topic is You’re Not Behind on AI. You’re Just Missing This.",
+      "key_takeaways": [
+        "The main topic is You’re Not Behind on AI. You’re Just Missing This.",
+        "The source says: Or otherwise hire us to build AI solutions that help you dominate your niche.",
+        "The source says: 🚀 Here’s what you get: ✅ Our Unique 90-Day System & 4-Pillar AI Business Mastery Course (Value: $1."
+      ],
+      "topics": [
+        "AI business",
+        "Product building"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"You’re Not Behind on AI. You’re Just Missing This\": Or otherwise hire us to build AI solutions that help you dominate your niche.",
+        "title": "Test one idea from You’re Not Behind on AI. You’re Just Missing This",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Or otherwise hire us to build AI solutions that help you dominate your niche.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-02",
+      "creator": "René Remsik",
+      "title": "CCTV to AI Cinematic Video",
+      "published": "2026-10-01T17:01:12+00:00",
+      "source": "https://www.youtube.com/shorts/YvI8kskI_UU",
+      "score": 61,
+      "summary": "René Remsik explains CCTV to AI Cinematic Video. The source focuses on I recreated a CCTV video with just 1 prompt.",
+      "why_it_matters": "The main topic is CCTV to AI Cinematic Video.",
+      "key_takeaways": [
+        "The main topic is CCTV to AI Cinematic Video.",
+        "The source says: I recreated a CCTV video with just 1 prompt.",
+        "The source says: bobcat caughtoncamera AIvideo Seedance CCTV AIfilm northcarolina wildlife."
+      ],
+      "topics": [
+        "AI education",
+        "Productivity"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"CCTV to AI Cinematic Video\": I recreated a CCTV video with just 1 prompt.",
+        "title": "Test one idea from CCTV to AI Cinematic Video",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: I recreated a CCTV video with just 1 prompt.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-02",
+      "creator": "Nick Saraev",
+      "title": "GPT-6-Astra on The New ULTRAFAST $500 Plan Is Scary...",
+      "published": "2026-09-30T21:57:55+00:00",
+      "source": "https://www.youtube.com/watch?v=KtMMRcEj1sk",
+      "score": 60,
+      "summary": "Nick Saraev explains GPT-6-Astra on The New ULTRAFAST $500 Plan Is Scary. The source focuses on In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+      "why_it_matters": "The main topic is GPT-6-Astra on The New ULTRAFAST $500 Plan Is Scary.",
+      "key_takeaways": [
+        "The main topic is GPT-6-Astra on The New ULTRAFAST $500 Plan Is Scary.",
+        "The source says: In plain English: I help people build systems that generate leads, close deals, and scale businesses.",
+        "The source says: 🔥 Join Maker School & get customer 1 guaranteed: 💎 Get all course resources 100% free."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"GPT-6-Astra on The New ULTRAFAST $500 Plan Is Scary\": In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+        "title": "Test one idea from GPT-6-Astra on The New ULTRAFAST $500 Plan Is Scary",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-02",
+      "creator": "Nate Herk",
+      "title": "I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.",
+      "published": "2026-09-30T18:24:50+00:00",
+      "source": "https://www.youtube.com/watch?v=BvvfZKKz4Yo",
+      "score": 52,
+      "summary": "Nate Herk explains I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know. The source focuses on I also share which one I'd choose, who I'd recommend Muse to, and where I think personal AI agents are headed.",
+      "why_it_matters": "The main topic is I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.",
+      "key_takeaways": [
+        "The main topic is I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.",
+        "The source says: I also share which one I'd choose, who I'd recommend Muse to, and where I think personal AI agents are headed.",
+        "The source says: You'll see how they fit into Codex, Slack, WhatsApp, and everyday work, along with the bugs and limitations I ran into."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know\": I also share which one I'd choose, who I'd recommend Muse to, and where I think personal AI agents are headed.",
+        "title": "Test one idea from I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: I also share which one I'd choose, who I'd recommend Muse to, and where I think personal AI agents are headed.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-02",
+      "creator": "René Remsik",
+      "title": "Insane Camera Effects With AI",
+      "published": "2026-09-30T17:52:19+00:00",
+      "source": "https://www.youtube.com/shorts/9ewBGO-Lnwc",
+      "score": 36,
+      "summary": "René Remsik explains Insane Camera Effects With AI. The source focuses on If you want your own camera angles, ask Artlist’s AI agent to write you one.",
+      "why_it_matters": "The main topic is Insane Camera Effects With AI.",
+      "key_takeaways": [
+        "The main topic is Insane Camera Effects With AI.",
+        "The source says: If you want your own camera angles, ask Artlist’s AI agent to write you one.",
+        "The source says: Go to @artlist_io and choose from one of their camera presets for easy generation."
+      ],
+      "topics": [
+        "AI education",
+        "Productivity"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Insane Camera Effects With AI\": If you want your own camera angles, ask Artlist’s AI agent to write you one.",
+        "title": "Test one idea from Insane Camera Effects With AI",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: If you want your own camera angles, ask Artlist’s AI agent to write you one.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-02",
+      "creator": "Nate Herk",
+      "title": "Claude Can Now Run Your Entire Email Platform",
+      "published": "2026-09-29T19:00:14+00:00",
+      "source": "https://www.youtube.com/shorts/iafsAWrB8GQ",
+      "score": 36,
+      "summary": "Nate Herk explains Claude Can Now Run Your Entire Email Platform. The source focuses on AI used to just give email advice.",
+      "why_it_matters": "The main topic is Claude Can Now Run Your Entire Email Platform.",
+      "key_takeaways": [
+        "The main topic is Claude Can Now Run Your Entire Email Platform.",
+        "The source says: AI used to just give email advice.",
+        "The source says: Omnisend runs on Claude and ChatGPT."
+      ],
+      "topics": [
+        "Agent systems",
+        "AI business"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Claude Can Now Run Your Entire Email Platform\": AI used to just give email advice.",
+        "title": "Test one idea from Claude Can Now Run Your Entire Email Platform",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: AI used to just give email advice.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
+    {
+      "brief_date": "2026-10-02",
+      "creator": "Jeff Su",
+      "title": "Microsoft’s plan to win the AI race, explained",
+      "published": "2026-09-30T13:00:01+00:00",
+      "source": "https://www.youtube.com/shorts/VXuN2iMwzqI",
+      "score": 32,
+      "summary": "Jeff Su explains Microsoft’s plan to win the AI race, explained. The source focuses on Get my free Cowork Toolkit: Microsoft’s strategy for the new Copilot comes down to model choice and company context.",
+      "why_it_matters": "The main topic is Microsoft’s plan to win the AI race, explained.",
+      "key_takeaways": [
+        "The main topic is Microsoft’s plan to win the AI race, explained.",
+        "The source says: Get my free Cowork Toolkit: Microsoft’s strategy for the new Copilot comes down to model choice and company context.",
+        "The source says: The goal is AI built for entire companies."
+      ],
+      "topics": [
+        "Productivity",
+        "AI education"
+      ],
+      "practical_action": {
+        "action_type": "Small experiment",
+        "article_basis": "This task uses the method from \"Microsoft’s plan to win the AI race, explained\": Get my free Cowork Toolkit: Microsoft’s strategy for the new Copilot comes down to model choice and company context.",
+        "title": "Test one idea from Microsoft’s plan to win the AI race, explained",
+        "time_needed": "15 minutes",
+        "steps": [
+          "Write what you expect to happen.",
+          "Test this source idea with a small example: Get my free Cowork Toolkit: Microsoft’s strategy for the new Copilot comes down to model choice and company context.",
+          "Compare what happened with what you expected. Save one finding."
+        ],
+        "expected_result": "One small test showing whether the article idea helped.",
+        "test": "You recorded the expected result, the real result, and one lesson.",
+        "safety": "Use a small sample. Do not treat one test as final proof."
+      }
+    },
     {
       "brief_date": "2026-10-01",
       "creator": "Tech With Tim",
